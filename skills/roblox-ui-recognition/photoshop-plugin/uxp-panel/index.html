@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>FigmaPS2Roblox v3.0</title>
+  <style>
+    :root {
+      --bg: #1e1e2e;
+      --surface: #313244;
+      --surface2: #45475a;
+      --border: #585b70;
+      --text: #cdd6f4;
+      --muted: #6c7086;
+      --blue: #89b4fa;
+      --green: #a6e3a1;
+      --red: #f38ba8;
+      --yellow: #f9e2af;
+      --purple: #cba6f7;
+      --orange: #fab387;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 12px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    .header {
+      padding: 10px 14px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .header-icon {
+      width: 26px; height: 26px;
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+    .header-info { flex: 1; min-width: 0; }
+    .header-title { font-weight: 700; font-size: 12px; }
+    .header-sub { font-size: 10px; color: var(--muted); }
+    .score-badge {
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .score-a { background: rgba(166,227,161,.2); color: var(--green); }
+    .score-b { background: rgba(137,180,250,.2); color: var(--blue); }
+    .score-c { background: rgba(249,226,175,.2); color: var(--yellow); }
+    .score-d { background: rgba(250,179,135,.2); color: var(--orange); }
+    .score-f { background: rgba(243,139,168,.2); color: var(--red); }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 2px;
+      padding: 6px 14px 0;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .tab {
+      padding: 5px 12px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 11px;
+      border-radius: 6px 6px 0 0;
+      transition: color .15s, background .15s;
+    }
+    .tab:hover { color: var(--text); background: var(--surface2); }
+    .tab.active { color: var(--blue); background: var(--bg); border-bottom: 2px solid var(--blue); }
+
+    /* ── Content ── */
+    .content { flex: 1; overflow: auto; padding: 12px; }
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    /* ── Cards ── */
+    .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+    }
+    .card-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 4px; }
+    .card-value { font-size: 15px; font-weight: 700; }
+
+    /* ── Fields ── */
+    .field { margin-bottom: 10px; }
+    .field label { display: block; font-size: 11px; color: var(--text); margin-bottom: 4px; font-weight: 600; }
+    .field input, .field select, .field textarea {
+      width: 100%;
+      padding: 7px 10px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      color: var(--text);
+      font-size: 11px;
+      font-family: inherit;
+    }
+    .field textarea { resize: vertical; min-height: 60px; }
+    .field input:focus, .field select:focus, .field textarea:focus {
+      outline: none;
+      border-color: var(--blue);
+    }
+    .field-hint { font-size: 10px; color: var(--muted); margin-top: 3px; }
+
+    /* ── Buttons ── */
+    .btn {
+      width: 100%;
+      padding: 9px;
+      border: none;
+      border-radius: 7px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      color: var(--bg);
+      transition: opacity .15s;
+    }
+    .btn:hover { opacity: .9; }
+    .btn:disabled { background: var(--surface2); color: var(--muted); cursor: not-allowed; }
+    .btn-sm { padding: 5px 10px; font-size: 11px; width: auto; }
+    .btn-danger { background: linear-gradient(135deg, var(--red), var(--orange)); }
+    .btn-success { background: linear-gradient(135deg, var(--green), var(--blue)); }
+
+    /* ── Status bar ── */
+    .status {
+      padding: 5px 14px;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      font-size: 10px;
+      color: var(--muted);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .status-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--muted);
+      flex-shrink: 0;
+    }
+    .status-dot.ok { background: var(--green); }
+    .status-dot.err { background: var(--red); }
+    .status-dot.busy { background: var(--yellow); animation: blink 1s infinite; }
+
+    @keyframes blink { 50% { opacity: .3; } }
+
+    /* ── Layer items ── */
+    .layer-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background .1s;
+    }
+    .layer-item:hover { background: var(--surface); }
+    .layer-item.selected { background: rgba(137,180,250,.15); border: 1px solid var(--blue); border-radius: 5px; }
+    .layer-name { flex: 1; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .layer-dims { font-size: 10px; color: var(--muted); white-space: nowrap; }
+    .layer-type-badge {
+      font-size: 9px;
+      padding: 1px 6px;
+      border-radius: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .type-background { background: rgba(137,180,250,.2); color: var(--blue); }
+    .type-button { background: rgba(166,227,161,.2); color: var(--green); }
+    .type-label { background: rgba(203,166,247,.2); color: var(--purple); }
+    .type-icon { background: rgba(250,179,135,.2); color: var(--orange); }
+    .type-panel { background: rgba(249,226,175,.2); color: var(--yellow); }
+    .type-bar { background: rgba(243,139,168,.2); color: var(--red); }
+    .type-image { background: rgba(108,112,134,.3); color: var(--muted); }
+
+    /* ── Verification panel ── */
+    .verdict-box {
+      text-align: center;
+      padding: 16px;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+    .verdict-excellent { background: rgba(166,227,161,.12); border: 1px solid rgba(166,227,161,.3); }
+    .verdict-good { background: rgba(137,180,250,.12); border: 1px solid rgba(137,180,250,.3); }
+    .verdict-warning { background: rgba(249,226,175,.12); border: 1px solid rgba(249,226,175,.3); }
+    .verdict-danger { background: rgba(243,139,168,.12); border: 1px solid rgba(243,139,168,.3); }
+    .verdict-score { font-size: 36px; font-weight: 800; line-height: 1; }
+    .verdict-grade { font-size: 14px; font-weight: 700; margin-top: 4px; }
+    .verdict-label { font-size: 10px; color: var(--muted); margin-top: 2px; }
+
+    .issue-item {
+      display: flex;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      font-size: 11px;
+      line-height: 1.4;
+    }
+    .issue-error { background: rgba(243,139,168,.1); border-left: 3px solid var(--red); }
+    .issue-warning { background: rgba(249,226,175,.1); border-left: 3px solid var(--yellow); }
+    .issue-info { background: rgba(137,180,250,.08); border-left: 3px solid var(--blue); }
+    .issue-icon { font-size: 13px; flex-shrink: 0; margin-top: 1px; }
+    .issue-body { flex: 1; }
+    .issue-msg { font-weight: 600; margin-bottom: 2px; }
+    .issue-fix { color: var(--muted); font-size: 10px; }
+
+    .rec-item {
+      padding: 7px 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      margin-bottom: 5px;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .rec-strategy {
+      font-size: 9px;
+      padding: 2px 7px;
+      border-radius: 10px;
+      background: rgba(203,166,247,.2);
+      color: var(--purple);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* ── AI Panel ── */
+    .ai-section { margin-bottom: 14px; }
+    .ai-section-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--purple);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .ai-result {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 11px;
+      line-height: 1.6;
+      max-height: 300px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .ai-result code {
+      background: var(--bg);
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-size: 10px;
+      font-family: 'Consolas', monospace;
+    }
+    .ai-result pre {
+      background: var(--bg);
+      padding: 10px;
+      border-radius: 6px;
+      overflow-x: auto;
+      margin: 6px 0;
+    }
+    .ai-result pre code { background: none; padding: 0; }
+
+    /* ── UDS Preview ── */
+    .uds-preview {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 8px;
+      font-size: 10px;
+      font-family: 'Consolas', monospace;
+      max-height: 200px;
+      overflow: auto;
+      color: var(--muted);
+      white-space: pre;
+    }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+    /* ── Animations ── */
+    .fade-in { animation: fadeIn .2s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+    /* ── Split view for verification ── */
+    .split-view { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .split-view .col { min-width: 0; }
+
+    /* ── Progress bar ── */
+    .progress-bar { height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden; margin-top: 6px; }
+    .progress-fill { height: 100%; background: linear-gradient(90deg, var(--blue), var(--purple)); border-radius: 2px; transition: width .3s; }
+
+    /* ── Checkbox / toggle ── */
+    .toggle-row { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+    .toggle-row label { margin: 0; font-size: 11px; cursor: pointer; }
+    .toggle { position: relative; width: 32px; height: 18px; flex-shrink: 0; }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .toggle-slider {
+      position: absolute; cursor: pointer;
+      inset: 0; background: var(--surface2); border-radius: 18px;
+      transition: .2s;
+    }
+    .toggle-slider:before {
+      content: ""; position: absolute;
+      height: 12px; width: 12px; left: 3px; top: 3px;
+      background: var(--text); border-radius: 50%; transition: .2s;
+    }
+    .toggle input:checked + .toggle-slider { background: var(--blue); }
+    .toggle input:checked + .toggle-slider:before { transform: translateX(14px); }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-icon">🎨</div>
+    <div class="header-info">
+      <div class="header-title">FigmaPS2Roblox <span style="font-weight:400;font-size:10px;color:var(--muted)">v3.0</span></div>
+      <div class="header-sub" id="headerStatus">Photoshop → Roblox UI System</div>
+    </div>
+    <div class="score-badge score-b" id="scoreBadge" style="display:none;">B</div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <div class="tab active" data-tab="info" onclick="switchTab('info')">📋 Info</div>
+    <div class="tab" data-tab="layers" onclick="switchTab('layers')">📐 Camadas</div>
+    <div class="tab" data-tab="verify" onclick="switchTab('verify')">🔍 Verificação</div>
+    <div class="tab" data-tab="templates" onclick="switchTab('templates')">📦 Templates</div>
+    <div class="tab" data-tab="ai" onclick="switchTab('ai')">🤖 IA</div>
+    <div class="tab" data-tab="export" onclick="switchTab('export')">🚀 Exportar</div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+
+    <!-- ── INFO PANEL ── -->
+    <div class="panel active" id="panel-info">
+      <div class="info-grid">
+        <div class="card">
+          <div class="card-label">📄 Documento</div>
+          <div class="card-value" id="docName">Nenhum</div>
+        </div>
+        <div class="card">
+          <div class="card-label">📐 Canvas</div>
+          <div class="card-value" id="canvasSize">—</div>
+        </div>
+        <div class="card">
+          <div class="card-label">📊 Camadas</div>
+          <div class="card-value" id="layerCount">—</div>
+        </div>
+        <div class="card">
+          <div class="card-label">📁 Grupos</div>
+          <div class="card-value" id="groupCount">—</div>
+        </div>
+        <div class="card">
+          <div class="card-label">🎨 Cores</div>
+          <div class="card-value" id="colorCount">—</div>
+        </div>
+        <div class="card">
+          <div class="card-label">🔤 Fontes</div>
+          <div class="card-value" id="fontCount">—</div>
+        </div>
+      </div>
+
+      <div id="udsninja" style="margin-top:12px;">
+        <div class="card" style="padding:8px 12px;font-size:11px;color:var(--muted);">
+          <strong style="color:var(--blue);">💡 Pipeline v3.0</strong><br>
+          PSD → UDS → Verificação Inteligente → IA → Roblox
+        </div>
+      </div>
+
+      <div style="margin-top:12px;">
+        <button class="btn btn-sm" onclick="runVerification()" style="margin-bottom:8px;">🔍 Executar Verificação Rápida</button>
+        <button class="btn btn-sm btn-success" onclick="switchTab('ai'); runAIAnalysis();" style="margin-bottom:8px;">🤖 Análise com IA</button>
+      </div>
+    </div>
+
+    <!-- ── LAYERS PANEL ── -->
+    <div class="panel" id="panel-layers">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+        <span style="font-size:11px;color:var(--muted);" id="layerInfoText">Carregando camadas...</span>
+        <button class="btn btn-sm" onclick="refreshLayers()" style="margin-left:auto;">↻ Atualizar</button>
+      </div>
+      <div id="layerTree"></div>
+    </div>
+
+    <!-- ── VERIFICATION PANEL ── -->
+    <div class="panel" id="panel-verify">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+        <span style="font-size:11px;font-weight:700;">Verificação de Compatibilidade Roblox</span>
+        <button class="btn btn-sm" onclick="runVerification()" style="margin-left:auto;">🔄 Verificar Agora</button>
+      </div>
+
+      <div id="verdictBox" style="display:none;" class="fade-in">
+        <div id="verdictContent"></div>
+      </div>
+
+      <div id="verifyIssues" style="display:none;" class="fade-in"></div>
+
+      <div id="verifyRecomendacoes" style="display:none;" class="fade-in" marginTop="10px;"></div>
+
+      <div id="verifyPerformance" style="display:none;" class="fade-in" marginTop="10px;"></div>
+
+      <div id="verifyEmpty" style="text-align:center;color:var(--muted);padding:40px 0;">
+        Clique em "Verificar Agora" para analisar a compatibilidade do design com Roblox.
+      </div>
+    </div>
+
+    <!-- ── AI PANEL ── -->
+    <div class="panel" id="panel-ai">
+      <div class="ai-section">
+        <div class="ai-section-title">⚙️ Configuração da IA</div>
+        <div class="field">
+          <label>API Key (OpenAI)</label>
+          <input type="password" id="apiKeyInput" placeholder="sk-..." autocomplete="off">
+          <div class="field-hint">Deixe vazio para usar modo simulado</div>
+        </div>
+        <div class="field">
+          <label>Modelo</label>
+          <select id="modelSelect">
+            <option value="gpt-4o">GPT-4o (recomendado)</option>
+            <option value="gpt-4o-mini">GPT-4o Mini (mais rápido)</option>
+            <option value="claude-3-5-sonnet">Claude 3.5 Sonnet</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="ai-section">
+        <div class="ai-section-title">📝 Análise com IA</div>
+        <div class="field">
+          <label>Prompt personalizado (opcional)</label>
+          <textarea id="aiPrompt" placeholder="Ex: Faça responsivo para mobile, otimize para 60fps..."></textarea>
+        </div>
+        <div style="display:flex;gap:8px;">
+          <button class="btn" onclick="runAIAnalysis()" id="analyzeBtn">🤖 Analisar Design</button>
+          <button class="btn btn-sm" onclick="runAIAsk()" id="askBtn" style="background:var(--surface2);">💬 Perguntar</button>
+        </div>
+      </div>
+
+      <div class="ai-section" id="aiResultSection" style="display:none;">
+        <div class="ai-section-title">📊 Resultado da IA</div>
+        <div class="ai-result" id="aiResult"></div>
+      </div>
+
+      <div class="ai-section" id="aiCodeSection" style="display:none;">
+        <div class="ai-section-title">📝 Código Luau Gerado</div>
+        <div class="ai-result" id="aiCodeResult" style="max-height:400px;"></div>
+        <button class="btn btn-sm btn-success" onclick="copyLuaCode()" style="margin-top:8px;">📋 Copiar Código</button>
+      </div>
+
+      <div class="ai-section" id="aiUDSSection" style="display:none;">
+        <div class="ai-section-title">📐 UDS Gerado (preview)</div>
+        <div class="uds-preview" id="aiUDSPreview"></div>
+      </div>
+    </div>
+
+    <!-- ── TEMPLATES PANEL ── -->
+    <div class="panel" id="panel-templates">
+      <div style="font-size:11px;font-weight:700;color:var(--purple);margin-bottom:10px;">📦 Templates Prontos</div>
+      <div style="font-size:11px;color:var(--muted);margin-bottom:12px;">Selecione um template para começar rapidamente. Cada template cria a estrutura de camadas automaticamente.</div>
+      <div id="templatesGrid" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;"></div>
+    </div>
+
+    <!-- ── EXPORT PANEL ── -->
+    <div class="panel" id="panel-export">
+      <div class="field">
+        <label>🎭 Nome da tela</label>
+        <input type="text" id="screenName" placeholder="ex: MainMenu, HUD, Shop">
+      </div>
+      <div class="field">
+        <label>📁 Pasta de saída</label>
+        <input type="text" id="outputPath" placeholder="Selecione uma pasta...">
+        <button class="btn btn-sm" style="margin-top:6px;" onclick="selectFolder()">📂 Selecionar Pasta</button>
+      </div>
+      <div class="field">
+        <label>🛡️ Bypass de moderação</label>
+        <div class="toggle-row">
+          <label class="toggle">
+            <input type="checkbox" id="bypassToggle">
+            <span class="toggle-slider"></span>
+          </label>
+          <label for="bypassToggle">Ativar técnicas de evasão</label>
+        </div>
+        <div class="field-hint" id="bypassHint">Ruído imperceptível altera hash SHA-256 sem mudar visual</div>
+      </div>
+      <div class="field" id="bypassTechField" style="display:none;">
+        <label>Técnica de bypass</label>
+        <select id="bypassTech">
+          <option value="noise">Ruído adaptativo (mais seguro)</option>
+          <option value="frequency">Frequência alta</option>
+          <option value="quantize">Quantização seletiva</option>
+          <option value="dither">Bayer dithering</option>
+          <option value="all">Todas as técnicas</option>
+        </select>
+      </div>
+      <button class="btn" id="exportBtn" onclick="exportToRoblox()">🚀 Exportar para Roblox</button>
+
+      <div id="exportProgress" style="display:none;margin-top:10px;">
+        <div style="font-size:11px;color:var(--muted);" id="exportProgressText">Exportando...</div>
+        <div class="progress-bar"><div class="progress-fill" id="exportProgressFill" style="width:0%"></div></div>
+      </div>
+
+      <div id="exportResult" style="display:none;margin-top:10px;" class="fade-in"></div>
+    </div>
+
+  </div>
+
+  <!-- Status Bar -->
+  <div class="status">
+    <div class="status-dot" id="statusDot"></div>
+    <span id="statusBar">Aguardando documento...</span>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

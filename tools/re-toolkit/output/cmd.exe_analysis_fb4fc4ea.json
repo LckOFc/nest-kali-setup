@@ -1,0 +1,110 @@
+{
+  "success": false,
+  "data": null,
+  "error": "HexEditor.extract_strings() got an unexpected keyword argument 'limit'",
+  "metadata": {
+    "pe_info": {
+      "machine": "MACHINE_TYPES.AMD64",
+      "entry_point": "0x140027c70",
+      "image_base": "0x140000000",
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 228733,
+          "raw_size": 229376,
+          "virtual_address": "0x1000"
+        },
+        {
+          "name": "fothk",
+          "virtual_size": 4096,
+          "raw_size": 4096,
+          "virtual_address": "0x39000"
+        },
+        {
+          "name": ".rdata",
+          "virtual_size": 39432,
+          "raw_size": 40960,
+          "virtual_address": "0x3a000"
+        },
+        {
+          "name": ".data",
+          "virtual_size": 115104,
+          "raw_size": 4096,
+          "virtual_address": "0x44000"
+        },
+        {
+          "name": ".pdata",
+          "virtual_size": 8952,
+          "raw_size": 12288,
+          "virtual_address": "0x61000"
+        },
+        {
+          "name": ".didat",
+          "virtual_size": 184,
+          "raw_size": 4096,
+          "virtual_address": "0x64000"
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 34040,
+          "raw_size": 36864,
+          "virtual_address": "0x65000"
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 556,
+          "raw_size": 4096,
+          "virtual_address": "0x6e000"
+        }
+      ],
+      "has_debug": true,
+      "imports": [
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "ntdll.dll",
+        "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "api-ms-win-core-synch-l1-1-0.dll",
+        "api-ms-win-core-heap-l1-1-0.dll",
+        "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "api-ms-win-core-threadpool-l1-2-0.dll",
+        "api-ms-win-core-processthreads-l1-1-0.dll",
+        "api-ms-win-core-localization-l1-2-0.dll",
+        "api-ms-win-core-debug-l1-1-0.dll",
+        "api-ms-win-core-handle-l1-1-0.dll",
+        "api-ms-win-core-memory-l1-1-0.dll",
+        "api-ms-win-core-console-l1-1-0.dll",
+        "api-ms-win-core-file-l1-1-0.dll",
+        "api-ms-win-core-string-l1-1-0.dll",
+        "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "api-ms-win-core-console-l2-1-0.dll",
+        "api-ms-win-security-base-l1-1-0.dll",
+        "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "api-ms-win-core-timezone-l1-1-0.dll",
+        "api-ms-win-core-datetime-l1-1-0.dll",
+        "api-ms-win-core-systemtopology-l1-1-0.dll",
+        "api-ms-win-core-console-l2-2-0.dll",
+        "api-ms-win-core-registry-l1-1-0.dll",
+        "api-ms-win-core-processenvironment-l1-2-0.dll",
+        "api-ms-win-core-file-l2-1-0.dll",
+        "api-ms-win-core-heap-l2-1-0.dll",
+        "api-ms-win-core-file-l2-1-2.dll",
+        "api-ms-win-core-io-l1-1-0.dll",
+        "api-ms-win-core-console-l3-2-0.dll",
+        "api-ms-win-core-processtopology-l1-1-0.dll",
+        "api-ms-win-eventing-provider-l1-1-0.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-core-processthreads-l1-1-1.dll",
+        "api-ms-win-core-profile-l1-1-0.dll",
+        "api-ms-win-core-interlocked-l1-1-0.dll",
+        "api-ms-win-core-misc-l1-1-0.dll",
+        "api-ms-win-core-apiquery-l1-1-0.dll",
+        "api-ms-win-core-delayload-l1-1-1.dll",
+        "api-ms-win-core-delayload-l1-1-0.dll"
+      ],
+      "exports": []
+    }
+  },
+  "timestamp": "2026-09-10T17:21:52.571722"
+}

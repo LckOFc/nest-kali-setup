@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #1e1e2e;
+      color: #cdd6f4;
+      padding: 20px;
+      min-width: 360px;
+    }
+    h1 { font-size: 16px; color: #89b4fa; margin-bottom: 16px; }
+    .status { font-size: 13px; color: #a6e3a1; margin-bottom: 12px; }
+    .progress-bar {
+      width: 100%;
+      height: 6px;
+      background: #313244;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+    .progress-fill {
+      height: 100%;
+      background: #89b4fa;
+      transition: width 0.2s;
+      width: 0%;
+    }
+    button {
+      background: #89b4fa;
+      color: #1e1e2e;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover { background: #b4d0fb; }
+    button:disabled { background: #45475a; color: #6c7086; cursor: not-allowed; }
+    .info { font-size: 11px; color: #6c7086; margin-top: 12px; line-height: 1.5; }
+    .error { color: #f38ba8; font-size: 12px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>🎨 Figma → Roblox UI Exporter</h1>
+  <div class="status" id="status">Selecione uma Frame ou Grupo no Figma</div>
+  <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
+  <button id="exportBtn" onclick="doExport()" disabled>Exportar para Roblox</button>
+  <div class="info" id="info"></div>
+  <div class="error" id="error"></div>
+
+  <script>
+    const msg = document.getElementById('status');
+    const prog = document.getElementById('progress');
+    const btn = document.getElementById('exportBtn');
+    const info = document.getElementById('info');
+    const err = document.getElementById('error');
+
+    figma.ui.onmessage = (m) => {
+      if (m.type === 'ready') {
+        msg.textContent = `Frame: ${m.name}`;
+        btn.disabled = false;
+        info.textContent = 'Pronto para exportar. Clique no botão acima.';
+      } else if (m.type === 'error') {
+        err.textContent = m.message;
+      } else if (m.type === 'progress') {
+        const pct = Math.round((m.value / m.total) * 100);
+        prog.style.width = pct + '%';
+        msg.textContent = `Exportando ${m.value}/${m.total} camadas...`;
+      } else if (m.type === 'complete') {
+        msg.textContent = `✅ ${m.count} camadas exportadas!`;
+        btn.disabled = true;
+        info.textContent = 'Faça download do manifest.json e dos PNGs na janela que abriu.';
+      }
+    };
+
+    async function doExport() {
+      err.textContent = '';
+      prog.style.width = '0%';
+      figma.ui.postMessage({ type: 'export', folder: 'figma-export' });
+    }
+  </script>
+</body>
+</html>

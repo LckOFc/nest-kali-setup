@@ -1,0 +1,117 @@
+{
+  "target": "ivi-bettx.net",
+  "scan_date": "2026-09-11",
+  "tools": {
+    "vuln_scanner": {
+      "type": "passive",
+      "findings": 2,
+      "severity": "LOW"
+    },
+    "burp_suite_v2": {
+      "type": "active",
+      "findings": 9,
+      "results": {
+        "scan_id": "cd51c36f9ca4",
+        "host": "ivi-bettx.net",
+        "started_at": 1789099806.1196263,
+        "vulnerabilities": [
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "b3939aebf916eba7"
+          },
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /api",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "be4dabdd0fbb77e7"
+          },
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /login",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "18ea9fe7234212ae"
+          },
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /search",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "9a395ed942f0656f"
+          },
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /contact",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "909c7c0b11bcfee7"
+          },
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /about",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "7f1addd894126dbf"
+          },
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /help",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "b6f4b59574076cc9"
+          },
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /sitemap.xml",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "8fa17fb4777b7774"
+          },
+          {
+            "type": "Security_Headers",
+            "subtype": "Missing Security Headers",
+            "severity": "Low",
+            "confidence": "High",
+            "description": "Missing security headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+            "evidence": "Path: /robots.txt",
+            "solution": "Add missing security headers to all responses",
+            "request_id": "f96dc9705384ceec"
+          }
+        ],
+        "requests_made": 0,
+        "paths_scanned": 0,
+        "finished_at": 1789099807.9796705,
+        "duration_seconds": 1.860044240951538
+      }
+    }
+  },
+  "combined_conclusion": "Target well-configured, only low-severity issues"
+}

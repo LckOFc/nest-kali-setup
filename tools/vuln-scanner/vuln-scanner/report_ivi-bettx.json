@@ -1,0 +1,91 @@
+{
+  "target": "https://ivi-bettx.net",
+  "scan_date": "2026-09-11",
+  "findings_count": 12,
+  "findings": [
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /backup.sql",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/backup.sql"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /database.sql",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/database.sql"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /dump.sql",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/dump.sql"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /db.sql",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/db.sql"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /config.yml",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/config.yml"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /config.yaml",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/config.yaml"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /application.yml",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/application.yml"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /application.properties",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/application.properties"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /robots.txt",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/robots.txt"
+    },
+    {
+      "severity": "HIGH",
+      "type": "info_disclosure",
+      "title": "Sensitive file accessible: /sitemap.xml",
+      "details": "Status 200 - file may contain sensitive data",
+      "endpoint": "https://ivi-bettx.net/sitemap.xml"
+    },
+    {
+      "severity": "LOW",
+      "type": "info_disclosure",
+      "title": "Server info leakage: Server",
+      "details": "Server: cloudflare",
+      "endpoint": "https://ivi-bettx.net"
+    },
+    {
+      "severity": "LOW",
+      "type": "misconfiguration",
+      "title": "Missing Security Headers",
+      "details": "Missing: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection, Referrer-Policy",
+      "endpoint": "https://ivi-bettx.net"
+    }
+  ]
+}

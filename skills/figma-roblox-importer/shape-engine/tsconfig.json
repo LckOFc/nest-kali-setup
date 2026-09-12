@@ -1,0 +1,11 @@
+{
+  "extends": "./node_modules/@create-figma-plugin/tsconfig/base.json",
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@figma", "./node_modules/@types"],
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["ES2020", "DOM"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

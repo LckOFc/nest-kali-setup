@@ -1,0 +1,5995 @@
+{
+  "total": 512,
+  "by_package": {
+    "fs": [
+      "fs.Path",
+      "fs.File",
+      "fs.Uri",
+      "fs.subFS",
+      "fs.SubFS",
+      "fs.Uri",
+      "fs.Path",
+      "fs.Uri",
+      "fs.GlobFS",
+      "fs.StatFS",
+      "fs.LocalFS",
+      "fs.Path",
+      "fs.Uri",
+      "fs.dirInfo"
+    ],
+    "net": [
+      "net.SRV",
+      "net.ret",
+      "net.Addr",
+      "net.Conn",
+      "net.conn",
+      "net.IP",
+      "net.file",
+      "net.IPNet",
+      "net.netFD",
+      "net.Error",
+      "net.Flags",
+      "net.scope",
+      "net.MX",
+      "net.NS",
+      "net.IP",
+      "net.IP",
+      "net.IPMask",
+      "net.IPAddr",
+      "net.IPConn",
+      "net.Addr",
+      "net.ipAttr",
+      "net.SRV",
+      "net.result",
+      "net.byName",
+      "net.Dialer"
+    ],
+    "vcs": [
+      "vcs.Vcs"
+    ],
+    "url": [
+      "url.URL",
+      "url.Error",
+      "url.Error",
+      "url.Values",
+      "url.URL"
+    ],
+    "poll": [
+      "poll.FD"
+    ],
+    "tea": [
+      "tea.Cmd",
+      "tea.Key",
+      "tea.View",
+      "tea.Mouse",
+      "tea.Model",
+      "tea.Cmd",
+      "tea.Cursor",
+      "tea.EnvMsg",
+      "tea.RawMsg",
+      "tea.KeyMsg",
+      "tea.Cmd"
+    ],
+    "sys": [
+      "sys.nih"
+    ],
+    "mcp": [
+      "mcp.msg",
+      "mcp.res",
+      "mcp.raw",
+      "mcp.Meta",
+      "mcp.Icon",
+      "mcp.Role",
+      "mcp.Tool",
+      "mcp.Root",
+      "mcp.wire",
+      "mcp.Plain",
+      "mcp.Server",
+      "mcp.Config",
+      "mcp.Params",
+      "mcp.Result",
+      "mcp.Client",
+      "mcp.Icon",
+      "mcp.Role",
+      "mcp.Prompt",
+      "mcp.ioConn",
+      "mcp.compat",
+      "mcp.result",
+      "mcp.raw"
+    ],
+    "env": [
+      "env.Env",
+      "env.Limit"
+    ],
+    "cdp": [
+      "cdp.CSS",
+      "cdp.DOM",
+      "cdp.Log",
+      "cdp.PWA",
+      "cdp.Cast",
+      "cdp.Page",
+      "cdp.FedCM",
+      "cdp.Fetch",
+      "cdp.Input",
+      "cdp.Media",
+      "cdp.Audits",
+      "cdp.Memory",
+      "cdp.Schema",
+      "cdp.Target",
+      "cdp.Client"
+    ],
+    "anypb": [
+      "anypb.x",
+      "anypb.Any"
+    ],
+    "diff": [
+      "diff.op",
+      "diff.File",
+      "diff.hunk",
+      "diff.Chunk",
+      "diff.op",
+      "diff.Patch"
+    ],
+    "draw": [
+      "draw.Op",
+      "draw.Image"
+    ],
+    "uri": [
+      "uri.URI",
+      "uri.URI",
+      "uri.URI"
+    ],
+    "big": [
+      "big.Int",
+      "big.nat",
+      "big.Rat",
+      "big.Int",
+      "big.Word",
+      "big.form",
+      "big.Float",
+      "big.Int",
+      "big.Int",
+      "big.Word"
+    ],
+    "aes": [
+      "aes.CTR",
+      "aes.Block",
+      "aes.block"
+    ],
+    "gcm": [
+      "gcm.GCM"
+    ],
+    "uv": [
+      "uv.Cell",
+      "uv.Link",
+      "uv.Line",
+      "uv.Style",
+      "uv.tFlag",
+      "uv.Event",
+      "uv.Mouse",
+      "uv.Key",
+      "uv.Line",
+      "uv.Logger",
+      "uv.Screen",
+      "uv.Buffer",
+      "uv.cursor",
+      "uv.KeyMod",
+      "uv.Key"
+    ],
+    "rfmt": [
+      "rfmt.pp",
+      "rfmt.fmt"
+    ],
+    "http2": [
+      "http2.I",
+      "http2.pipe"
+    ],
+    "gorm": [
+      "gorm.Tx",
+      "gorm.DB",
+      "gorm.DB",
+      "gorm.Rows",
+      "gorm.join"
+    ],
+    "cel": [
+      "cel.Env",
+      "cel.Ast",
+      "cel.prog"
+    ],
+    "ref": [
+      "ref.Val",
+      "ref.Type",
+      "ref.Val"
+    ],
+    "lru": [
+      "lru.Key",
+      "lru.entry",
+      "lru.Cache"
+    ],
+    "wf": [
+      "wf.Rule",
+      "wf.Range",
+      "wf.Field",
+      "wf.Layer",
+      "wf.Match",
+      "wf.Action",
+      "wf.RuleID"
+    ],
+    "art": [
+      "art.Key",
+      "art.Node",
+      "art.Kind",
+      "art.tree",
+      "art.leaf",
+      "art.node",
+      "art.Tree",
+      "art.noop",
+      "art.Value",
+      "art.node4",
+      "art.state",
+      "art.noder"
+    ],
+    "s2a": [
+      "s2a.uid"
+    ],
+    "rule": [
+      "rule.or",
+      "rule.not",
+      "rule.and"
+    ],
+    "mux": [
+      "mux.Mux"
+    ],
+    "ast": [
+      "ast.pos",
+      "ast.AST",
+      "ast.Type",
+      "ast.Path",
+      "ast.Node",
+      "ast.Expr",
+      "ast.Text",
+      "ast.Link",
+      "ast.List",
+      "ast.expr",
+      "ast.Kind",
+      "ast.Field",
+      "ast.Value",
+      "ast.Emoji",
+      "ast.Image",
+      "ast.Table",
+      "ast.Range",
+      "ast.Lexer"
+    ],
+    "eax": [
+      "eax.eax"
+    ],
+    "ocb": [
+      "ocb.ocb",
+      "ocb.mask"
+    ],
+    "sql": [
+      "sql.Row",
+      "sql.Stmt",
+      "sql.Rows",
+      "sql.Conn",
+      "sql.Rows"
+    ],
+    "spew": [
+      "spew.t0",
+      "spew.flag"
+    ],
+    "varz": [
+      "varz.vz",
+      "varz.vz",
+      "varz.Varz"
+    ],
+    "ssh": [
+      "ssh.mux",
+      "ssh.Conn",
+      "ssh.ecdh"
+    ],
+    "bpf": [
+      "bpf.TAX",
+      "bpf.TXA",
+      "bpf.Jump",
+      "bpf.RetA",
+      "bpf.ALUOp"
+    ],
+    "ccm": [
+      "ccm.CCM",
+      "ccm.ccm"
+    ],
+    "sync": [
+      "sync.Map",
+      "sync.Pool",
+      "sync.Cond",
+      "sync.Once",
+      "sync.Mutex",
+      "sync.eface"
+    ],
+    "embed": [
+      "embed.FS",
+      "embed.file"
+    ],
+    "local": [
+      "local.FS",
+      "local.FS"
+    ],
+    "xml": [
+      "xml.Name",
+      "xml.Attr",
+      "xml.Token",
+      "xml.stack",
+      "xml.Attr",
+      "xml.Name"
+    ],
+    "http": [
+      "http.Dir",
+      "http.Err",
+      "http.body",
+      "http.conn",
+      "http.File",
+      "http.ioFS"
+    ],
+    "exec": [
+      "exec.Cmd",
+      "exec.Error"
+    ],
+    "os": [
+      "os.File",
+      "os.Signal",
+      "os.dirInfo",
+      "os.rawConn",
+      "os.timeout",
+      "os.File",
+      "os.Process"
+    ],
+    "zip": [
+      "zip.File",
+      "zip.Reader",
+      "zip.header"
+    ],
+    "tls": [
+      "tls.Conn",
+      "tls.aead",
+      "tls.alert",
+      "tls.Config",
+      "tls.alert",
+      "tls.Dialer"
+    ],
+    "abi": [
+      "abi.Kind",
+      "abi.Type",
+      "abi.Name",
+      "abi.Type",
+      "abi.TFlag",
+      "abi.Method",
+      "abi.FuncID"
+    ],
+    "maps": [
+      "maps.Map",
+      "maps.Iter",
+      "maps.table"
+    ],
+    "status": [
+      "status.x"
+    ],
+    "dom": [
+      "dom.Node",
+      "dom.Quad",
+      "dom.Rect",
+      "dom.RGBA",
+      "dom.NodeID",
+      "dom.Node",
+      "dom.Quad"
+    ],
+    "tap": [
+      "tap.Info"
+    ],
+    "x509": [
+      "x509.OID",
+      "x509.OID"
+    ],
+    "zap": [
+      "zap.ints",
+      "zap.Sink",
+      "zap.uints",
+      "zap.times",
+      "zap.int8s",
+      "zap.bools"
+    ],
+    "hpke": [
+      "hpke.KEM",
+      "hpke.KDF",
+      "hpke.AEAD",
+      "hpke.aead"
+    ],
+    "ansi": [
+      "ansi.Cmd",
+      "ansi.Mode"
+    ],
+    "key": [
+      "key.Help"
+    ],
+    "kind": [
+      "kind.Not",
+      "kind.Type",
+      "kind.Enum"
+    ],
+    "latlng": [
+      "latlng.x"
+    ],
+    "css": [
+      "css.Rule",
+      "css.Value",
+      "css.Style",
+      "css.Media",
+      "css.Layer",
+      "css.Scope"
+    ],
+    "ecdh": [
+      "ecdh.KDF"
+    ],
+    "cmp": [
+      "cmp.Path",
+      "cmp.core",
+      "cmp.state"
+    ],
+    "asn1": [
+      "asn1.Tag",
+      "asn1.Flag"
+    ],
+    "sbox": [
+      "sbox.Cmd"
+    ],
+    "urpc": [
+      "urpc.tag",
+      "urpc.Call",
+      "urpc.Conn",
+      "urpc.peer"
+    ],
+    "gg": [
+      "gg.Point",
+      "gg.Matrix"
+    ],
+    "rtcp": [
+      "rtcp.ECN"
+    ],
+    "ice": [
+      "ice.Conn",
+      "ice.Role",
+      "ice.Agent"
+    ],
+    "stun": [
+      "stun.URI"
+    ],
+    "gcfg": [
+      "gcfg.tag"
+    ],
+    "ole": [
+      "ole.GUID"
+    ],
+    "f64": [
+      "f64.Aff3"
+    ],
+    "vnet": [
+      "vnet.NIC",
+      "vnet.Net"
+    ],
+    "obu": [
+      "obu.Type"
+    ],
+    "antlr": [
+      "antlr.OR",
+      "antlr.ATN",
+      "antlr.DFA",
+      "antlr.AND"
+    ],
+    "rpc": [
+      "rpc.Call"
+    ],
+    "sdk": [
+      "sdk.span"
+    ],
+    "flag": [
+      "flag.Flag",
+      "flag.Value"
+    ],
+    "fmt": [
+      "fmt.ssave",
+      "fmt.State",
+      "fmt.buffer"
+    ],
+    "io": [
+      "io.Writer",
+      "io.Reader",
+      "io.Closer",
+      "io.Seeker",
+      "io.discard"
+    ],
+    "time": [
+      "time.zone",
+      "time.Time",
+      "time.abbr",
+      "time.Month",
+      "time.Timer",
+      "time.Time"
+    ],
+    "log": [
+      "log.Level",
+      "log.Entry",
+      "log.Logger"
+    ],
+    "uuid": [
+      "uuid.Time",
+      "uuid.UUID"
+    ],
+    "runtime": [
+      "runtime.m",
+      "runtime.g",
+      "runtime.p"
+    ],
+    "rand": [
+      "rand.Rand"
+    ],
+    "user": [
+      "user.User"
+    ],
+    "cors": [
+      "cors.Cors"
+    ],
+    "iter": [
+      "iter.coro"
+    ],
+    "store": [
+      "store.Tip",
+      "store.Auth"
+    ],
+    "slog": [
+      "slog.Attr",
+      "slog.Kind",
+      "slog.kind",
+      "slog.Level",
+      "slog.Value"
+    ],
+    "tar": [
+      "tar.block",
+      "tar.Header",
+      "tar.Format",
+      "tar.Reader"
+    ],
+    "hash": [
+      "hash.Hash"
+    ],
+    "driver": [
+      "driver.Tx"
+    ],
+    "label": [
+      "label.Set"
+    ],
+    "testing": [
+      "testing.T"
+    ],
+    "proto": [
+      "proto.wkt"
+    ],
+    "syntax": [
+      "syntax.Op"
+    ],
+    "emptypb": [
+      "emptypb.x"
+    ],
+    "target": [
+      "target.ID"
+    ],
+    "list": [
+      "list.List"
+    ],
+    "task": [
+      "task.Opts"
+    ],
+    "jpeg": [
+      "jpeg.bits",
+      "jpeg.block"
+    ],
+    "yaml": [
+      "yaml.Kind",
+      "yaml.Node",
+      "yaml.node",
+      "yaml.Style"
+    ],
+    "stats": [
+      "stats.End"
+    ],
+    "peer": [
+      "peer.Peer"
+    ],
+    "text": [
+      "text.Kind",
+      "text.call"
+    ],
+    "ring": [
+      "ring.Ring"
+    ],
+    "data": [
+      "data.Type"
+    ],
+    "json": [
+      "json.Kind",
+      "json.call",
+      "json.kind",
+      "json.Token",
+      "json.Delim",
+      "json.coder"
+    ],
+    "code": [
+      "code.Code"
+    ],
+    "pem": [
+      "pem.Block"
+    ],
+    "term": [
+      "term.File"
+    ],
+    "types": [
+      "types.Any",
+      "types.Api",
+      "types.Err",
+      "types.Int"
+    ],
+    "date": [
+      "date.Date"
+    ],
+    "param": [
+      "param.opt"
+    ],
+    "gob": [
+      "gob.decOp",
+      "gob.encOp"
+    ],
+    "toml": [
+      "toml.Tree"
+    ],
+    "core": [
+      "core.Tool"
+    ],
+    "rpcc": [
+      "rpcc.Conn"
+    ],
+    "cast": [
+      "cast.Sink"
+    ],
+    "norm": [
+      "norm.Form",
+      "norm.Iter"
+    ],
+    "privacy": [
+      "privacy.x"
+    ],
+    "ecc": [
+      "ecc.Curve"
+    ],
+    "osfs": [
+      "osfs.file",
+      "osfs.Type"
+    ],
+    "billy": [
+      "billy.Dir"
+    ],
+    "clause": [
+      "clause.Eq",
+      "clause.Gt",
+      "clause.IN"
+    ],
+    "glob": [
+      "glob.Glob"
+    ],
+    "parse": [
+      "parse.Pos"
+    ],
+    "pkix": [
+      "pkix.Name"
+    ],
+    "dtls": [
+      "dtls.Conn"
+    ],
+    "sdp": [
+      "sdp.Codec",
+      "sdp.lexer"
+    ],
+    "fmtp": [
+      "fmtp.FMTP"
+    ],
+    "hmac": [
+      "hmac.HMAC",
+      "hmac.hmac"
+    ],
+    "sha3": [
+      "sha3.SHA3"
+    ],
+    "font": [
+      "font.Face"
+    ],
+    "lzw": [
+      "lzw.Order"
+    ],
+    "sjson": [
+      "sjson.val"
+    ],
+    "html": [
+      "html.span",
+      "html.Node"
+    ],
+    "expr": [
+      "expr.Type",
+      "expr.Decl",
+      "expr.Expr"
+    ],
+    "lang": [
+      "lang.rule"
+    ],
+    "webm": [
+      "webm.Info",
+      "webm.Seek",
+      "webm.Cues"
+    ],
+    "mdns": [
+      "mdns.Conn"
+    ],
+    "atom": [
+      "atom.Atom"
+    ],
+    "util": [
+      "util.Libs"
+    ],
+    "match": [
+      "match.Any",
+      "match.Max",
+      "match.Min",
+      "match.Row"
+    ],
+    "global": [
+      "global.il"
+    ],
+    "agent": [
+      "agent.Key"
+    ],
+    "noop": [
+      "noop.Span"
+    ],
+    "trace": [
+      "trace.Task",
+      "trace.cond"
+    ],
+    "bytes": [
+      "bytes.span"
+    ],
+    "regexp": [
+      "regexp.job"
+    ],
+    "object": [
+      "object.Tag"
+    ],
+    "grpc": [
+      "grpc.idler"
+    ],
+    "sets": [
+      "sets.Empty"
+    ],
+    "hex": [
+      "hex.dumper"
+    ],
+    "drive": [
+      "drive.User",
+      "drive.File"
+    ],
+    "lsp": [
+      "lsp.Client"
+    ],
+    "fnv": [
+      "fnv.sum32a"
+    ],
+    "detach": [
+      "detach.ctx"
+    ],
+    "model": [
+      "model.turn"
+    ],
+    "cipher": [
+      "cipher.ctr",
+      "cipher.cfb",
+      "cipher.cbc"
+    ],
+    "async": [
+      "async.Loop",
+      "async.Gate"
+    ],
+    "md5": [
+      "md5.digest"
+    ],
+    "cpu": [
+      "cpu.option"
+    ],
+    "sentry": [
+      "sentry.Log",
+      "sentry.Dsn",
+      "sentry.Hub"
+    ],
+    "color": [
+      "color.CMYK",
+      "color.Gray",
+      "color.RGBA"
+    ],
+    "structpb": [
+      "structpb.x"
+    ],
+    "hujson": [
+      "hujson.row"
+    ],
+    "auditing": [
+      "auditing.x"
+    ],
+    "page": [
+      "page.Frame"
+    ],
+    "noder": [
+      "noder.Path"
+    ],
+    "git": [
+      "git.Signer",
+      "git.Status",
+      "git.Remote"
+    ],
+    "genai": [
+      "genai.File",
+      "genai.Part",
+      "genai.Blob",
+      "genai.Type",
+      "genai.Tool",
+      "genai.Chat",
+      "genai.Live"
+    ],
+    "codes": [
+      "codes.Code"
+    ],
+    "image": [
+      "image.CMYK",
+      "image.Gray",
+      "image.RGBA"
+    ],
+    "resize": [
+      "resize.ycc"
+    ],
+    "clock": [
+      "clock.Mock"
+    ],
+    "mem": [
+      "mem.Buffer",
+      "mem.buffer",
+      "mem.writer",
+      "mem.Reader"
+    ]
+  },
+  "functions": [
+    {
+      "index": 0,
+      "entry_offset": 0,
+      "name": "fs.Path",
+      "package": "fs",
+      "function": "Path",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 1,
+      "entry_offset": 0,
+      "name": "net.SRV",
+      "package": "net",
+      "function": "SRV",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 2,
+      "entry_offset": 0,
+      "name": "net.ret",
+      "package": "net",
+      "function": "ret",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 3,
+      "entry_offset": 0,
+      "name": "fs.File",
+      "package": "fs",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 4,
+      "entry_offset": 0,
+      "name": "vcs.Vcs",
+      "package": "vcs",
+      "function": "Vcs",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 5,
+      "entry_offset": 0,
+      "name": "url.URL",
+      "package": "url",
+      "function": "URL",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 6,
+      "entry_offset": 0,
+      "name": "poll.FD",
+      "package": "poll",
+      "function": "FD",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 7,
+      "entry_offset": 0,
+      "name": "tea.Cmd",
+      "package": "tea",
+      "function": "Cmd",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 8,
+      "entry_offset": 0,
+      "name": "tea.Key",
+      "package": "tea",
+      "function": "Key",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 9,
+      "entry_offset": 0,
+      "name": "sys.nih",
+      "package": "sys",
+      "function": "nih",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 10,
+      "entry_offset": 0,
+      "name": "mcp.msg",
+      "package": "mcp",
+      "function": "msg",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 11,
+      "entry_offset": 0,
+      "name": "mcp.res",
+      "package": "mcp",
+      "function": "res",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 12,
+      "entry_offset": 0,
+      "name": "mcp.raw",
+      "package": "mcp",
+      "function": "raw",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 13,
+      "entry_offset": 0,
+      "name": "env.Env",
+      "package": "env",
+      "function": "Env",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 14,
+      "entry_offset": 0,
+      "name": "cdp.CSS",
+      "package": "cdp",
+      "function": "CSS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 15,
+      "entry_offset": 0,
+      "name": "cdp.DOM",
+      "package": "cdp",
+      "function": "DOM",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 16,
+      "entry_offset": 0,
+      "name": "cdp.Log",
+      "package": "cdp",
+      "function": "Log",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 17,
+      "entry_offset": 0,
+      "name": "cdp.PWA",
+      "package": "cdp",
+      "function": "PWA",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 18,
+      "entry_offset": 0,
+      "name": "anypb.x",
+      "package": "anypb",
+      "function": "x",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 19,
+      "entry_offset": 0,
+      "name": "diff.op",
+      "package": "diff",
+      "function": "op",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 20,
+      "entry_offset": 0,
+      "name": "draw.Op",
+      "package": "draw",
+      "function": "Op",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 21,
+      "entry_offset": 0,
+      "name": "uri.URI",
+      "package": "uri",
+      "function": "URI",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 22,
+      "entry_offset": 0,
+      "name": "big.Int",
+      "package": "big",
+      "function": "Int",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 23,
+      "entry_offset": 0,
+      "name": "big.nat",
+      "package": "big",
+      "function": "nat",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 24,
+      "entry_offset": 0,
+      "name": "big.Rat",
+      "package": "big",
+      "function": "Rat",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 25,
+      "entry_offset": 0,
+      "name": "aes.CTR",
+      "package": "aes",
+      "function": "CTR",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 26,
+      "entry_offset": 0,
+      "name": "gcm.GCM",
+      "package": "gcm",
+      "function": "GCM",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 27,
+      "entry_offset": 0,
+      "name": "uv.Cell",
+      "package": "uv",
+      "function": "Cell",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 28,
+      "entry_offset": 0,
+      "name": "uv.Link",
+      "package": "uv",
+      "function": "Link",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 29,
+      "entry_offset": 0,
+      "name": "uv.Line",
+      "package": "uv",
+      "function": "Line",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 30,
+      "entry_offset": 0,
+      "name": "rfmt.pp",
+      "package": "rfmt",
+      "function": "pp",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 31,
+      "entry_offset": 0,
+      "name": "http2.I",
+      "package": "http2",
+      "function": "I",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 32,
+      "entry_offset": 0,
+      "name": "gorm.Tx",
+      "package": "gorm",
+      "function": "Tx",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 33,
+      "entry_offset": 0,
+      "name": "gorm.DB",
+      "package": "gorm",
+      "function": "DB",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 34,
+      "entry_offset": 0,
+      "name": "cel.Env",
+      "package": "cel",
+      "function": "Env",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 35,
+      "entry_offset": 0,
+      "name": "cel.Ast",
+      "package": "cel",
+      "function": "Ast",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 36,
+      "entry_offset": 0,
+      "name": "ref.Val",
+      "package": "ref",
+      "function": "Val",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 37,
+      "entry_offset": 0,
+      "name": "lru.Key",
+      "package": "lru",
+      "function": "Key",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 38,
+      "entry_offset": 0,
+      "name": "wf.Rule",
+      "package": "wf",
+      "function": "Rule",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 39,
+      "entry_offset": 0,
+      "name": "art.Key",
+      "package": "art",
+      "function": "Key",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 40,
+      "entry_offset": 0,
+      "name": "s2a.uid",
+      "package": "s2a",
+      "function": "uid",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 41,
+      "entry_offset": 0,
+      "name": "rule.or",
+      "package": "rule",
+      "function": "or",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 42,
+      "entry_offset": 0,
+      "name": "mux.Mux",
+      "package": "mux",
+      "function": "Mux",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 43,
+      "entry_offset": 0,
+      "name": "ast.pos",
+      "package": "ast",
+      "function": "pos",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 44,
+      "entry_offset": 0,
+      "name": "eax.eax",
+      "package": "eax",
+      "function": "eax",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 45,
+      "entry_offset": 0,
+      "name": "ocb.ocb",
+      "package": "ocb",
+      "function": "ocb",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 46,
+      "entry_offset": 0,
+      "name": "sql.Row",
+      "package": "sql",
+      "function": "Row",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 47,
+      "entry_offset": 0,
+      "name": "ast.AST",
+      "package": "ast",
+      "function": "AST",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 48,
+      "entry_offset": 0,
+      "name": "spew.t0",
+      "package": "spew",
+      "function": "t0",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 49,
+      "entry_offset": 0,
+      "name": "varz.vz",
+      "package": "varz",
+      "function": "vz",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 50,
+      "entry_offset": 0,
+      "name": "ssh.mux",
+      "package": "ssh",
+      "function": "mux",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 51,
+      "entry_offset": 0,
+      "name": "bpf.TAX",
+      "package": "bpf",
+      "function": "TAX",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 52,
+      "entry_offset": 0,
+      "name": "bpf.TXA",
+      "package": "bpf",
+      "function": "TXA",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 53,
+      "entry_offset": 0,
+      "name": "ccm.CCM",
+      "package": "ccm",
+      "function": "CCM",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 54,
+      "entry_offset": 0,
+      "name": "ccm.ccm",
+      "package": "ccm",
+      "function": "ccm",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 55,
+      "entry_offset": 0,
+      "name": "fs.Uri",
+      "package": "fs",
+      "function": "Uri",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 56,
+      "entry_offset": 0,
+      "name": "sync.Map",
+      "package": "sync",
+      "function": "Map",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 57,
+      "entry_offset": 0,
+      "name": "embed.FS",
+      "package": "embed",
+      "function": "FS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 58,
+      "entry_offset": 0,
+      "name": "local.FS",
+      "package": "local",
+      "function": "FS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 59,
+      "entry_offset": 0,
+      "name": "xml.Name",
+      "package": "xml",
+      "function": "Name",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 60,
+      "entry_offset": 0,
+      "name": "xml.Attr",
+      "package": "xml",
+      "function": "Attr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 61,
+      "entry_offset": 0,
+      "name": "http.Dir",
+      "package": "http",
+      "function": "Dir",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 62,
+      "entry_offset": 0,
+      "name": "exec.Cmd",
+      "package": "exec",
+      "function": "Cmd",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 63,
+      "entry_offset": 0,
+      "name": "os.File",
+      "package": "os",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 64,
+      "entry_offset": 0,
+      "name": "net.Addr",
+      "package": "net",
+      "function": "Addr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 65,
+      "entry_offset": 0,
+      "name": "net.Conn",
+      "package": "net",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 66,
+      "entry_offset": 0,
+      "name": "net.conn",
+      "package": "net",
+      "function": "conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 67,
+      "entry_offset": 0,
+      "name": "net.IP",
+      "package": "net",
+      "function": "IP",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 68,
+      "entry_offset": 0,
+      "name": "net.file",
+      "package": "net",
+      "function": "file",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 69,
+      "entry_offset": 0,
+      "name": "fs.subFS",
+      "package": "fs",
+      "function": "subFS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 70,
+      "entry_offset": 0,
+      "name": "fs.SubFS",
+      "package": "fs",
+      "function": "SubFS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 71,
+      "entry_offset": 0,
+      "name": "zip.File",
+      "package": "zip",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 72,
+      "entry_offset": 0,
+      "name": "tls.Conn",
+      "package": "tls",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 73,
+      "entry_offset": 0,
+      "name": "tls.aead",
+      "package": "tls",
+      "function": "aead",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 74,
+      "entry_offset": 0,
+      "name": "abi.Kind",
+      "package": "abi",
+      "function": "Kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 75,
+      "entry_offset": 0,
+      "name": "abi.Type",
+      "package": "abi",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 76,
+      "entry_offset": 0,
+      "name": "abi.Name",
+      "package": "abi",
+      "function": "Name",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 77,
+      "entry_offset": 0,
+      "name": "tea.View",
+      "package": "tea",
+      "function": "View",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 78,
+      "entry_offset": 0,
+      "name": "maps.Map",
+      "package": "maps",
+      "function": "Map",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 79,
+      "entry_offset": 0,
+      "name": "status.x",
+      "package": "status",
+      "function": "x",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 80,
+      "entry_offset": 0,
+      "name": "mcp.Meta",
+      "package": "mcp",
+      "function": "Meta",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 81,
+      "entry_offset": 0,
+      "name": "mcp.Icon",
+      "package": "mcp",
+      "function": "Icon",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 82,
+      "entry_offset": 0,
+      "name": "mcp.Role",
+      "package": "mcp",
+      "function": "Role",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 83,
+      "entry_offset": 0,
+      "name": "mcp.Tool",
+      "package": "mcp",
+      "function": "Tool",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 84,
+      "entry_offset": 0,
+      "name": "mcp.Root",
+      "package": "mcp",
+      "function": "Root",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 85,
+      "entry_offset": 0,
+      "name": "mcp.wire",
+      "package": "mcp",
+      "function": "wire",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 86,
+      "entry_offset": 0,
+      "name": "cdp.Cast",
+      "package": "cdp",
+      "function": "Cast",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 87,
+      "entry_offset": 0,
+      "name": "cdp.Page",
+      "package": "cdp",
+      "function": "Page",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 88,
+      "entry_offset": 0,
+      "name": "dom.Node",
+      "package": "dom",
+      "function": "Node",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 89,
+      "entry_offset": 0,
+      "name": "dom.Quad",
+      "package": "dom",
+      "function": "Quad",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 90,
+      "entry_offset": 0,
+      "name": "dom.Rect",
+      "package": "dom",
+      "function": "Rect",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 91,
+      "entry_offset": 0,
+      "name": "dom.RGBA",
+      "package": "dom",
+      "function": "RGBA",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 92,
+      "entry_offset": 0,
+      "name": "tap.Info",
+      "package": "tap",
+      "function": "Info",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 93,
+      "entry_offset": 0,
+      "name": "x509.OID",
+      "package": "x509",
+      "function": "OID",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 94,
+      "entry_offset": 0,
+      "name": "big.Int",
+      "package": "big",
+      "function": "Int",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 95,
+      "entry_offset": 0,
+      "name": "zap.ints",
+      "package": "zap",
+      "function": "ints",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 96,
+      "entry_offset": 0,
+      "name": "zap.Sink",
+      "package": "zap",
+      "function": "Sink",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 97,
+      "entry_offset": 0,
+      "name": "big.Word",
+      "package": "big",
+      "function": "Word",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 98,
+      "entry_offset": 0,
+      "name": "big.form",
+      "package": "big",
+      "function": "form",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 99,
+      "entry_offset": 0,
+      "name": "hpke.KEM",
+      "package": "hpke",
+      "function": "KEM",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 100,
+      "entry_offset": 0,
+      "name": "hpke.KDF",
+      "package": "hpke",
+      "function": "KDF",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 101,
+      "entry_offset": 0,
+      "name": "uv.Style",
+      "package": "uv",
+      "function": "Style",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 102,
+      "entry_offset": 0,
+      "name": "uv.tFlag",
+      "package": "uv",
+      "function": "tFlag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 103,
+      "entry_offset": 0,
+      "name": "uv.Event",
+      "package": "uv",
+      "function": "Event",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 104,
+      "entry_offset": 0,
+      "name": "uv.Mouse",
+      "package": "uv",
+      "function": "Mouse",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 105,
+      "entry_offset": 0,
+      "name": "uv.Key",
+      "package": "uv",
+      "function": "Key",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 106,
+      "entry_offset": 0,
+      "name": "ansi.Cmd",
+      "package": "ansi",
+      "function": "Cmd",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 107,
+      "entry_offset": 0,
+      "name": "key.Help",
+      "package": "key",
+      "function": "Help",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 108,
+      "entry_offset": 0,
+      "name": "rfmt.fmt",
+      "package": "rfmt",
+      "function": "fmt",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 109,
+      "entry_offset": 0,
+      "name": "kind.Not",
+      "package": "kind",
+      "function": "Not",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 110,
+      "entry_offset": 0,
+      "name": "latlng.x",
+      "package": "latlng",
+      "function": "x",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 111,
+      "entry_offset": 0,
+      "name": "css.Rule",
+      "package": "css",
+      "function": "Rule",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 112,
+      "entry_offset": 0,
+      "name": "ecdh.KDF",
+      "package": "ecdh",
+      "function": "KDF",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 113,
+      "entry_offset": 0,
+      "name": "gorm.DB",
+      "package": "gorm",
+      "function": "DB",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 114,
+      "entry_offset": 0,
+      "name": "cmp.Path",
+      "package": "cmp",
+      "function": "Path",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 115,
+      "entry_offset": 0,
+      "name": "cmp.core",
+      "package": "cmp",
+      "function": "core",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 116,
+      "entry_offset": 0,
+      "name": "cel.prog",
+      "package": "cel",
+      "function": "prog",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 117,
+      "entry_offset": 0,
+      "name": "ref.Type",
+      "package": "ref",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 118,
+      "entry_offset": 0,
+      "name": "ast.Type",
+      "package": "ast",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 119,
+      "entry_offset": 0,
+      "name": "ast.Path",
+      "package": "ast",
+      "function": "Path",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 120,
+      "entry_offset": 0,
+      "name": "ast.Node",
+      "package": "ast",
+      "function": "Node",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 121,
+      "entry_offset": 0,
+      "name": "ast.Expr",
+      "package": "ast",
+      "function": "Expr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 122,
+      "entry_offset": 0,
+      "name": "asn1.Tag",
+      "package": "asn1",
+      "function": "Tag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 123,
+      "entry_offset": 0,
+      "name": "sbox.Cmd",
+      "package": "sbox",
+      "function": "Cmd",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 124,
+      "entry_offset": 0,
+      "name": "urpc.tag",
+      "package": "urpc",
+      "function": "tag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 125,
+      "entry_offset": 0,
+      "name": "wf.Range",
+      "package": "wf",
+      "function": "Range",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 126,
+      "entry_offset": 0,
+      "name": "wf.Field",
+      "package": "wf",
+      "function": "Field",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 127,
+      "entry_offset": 0,
+      "name": "wf.Layer",
+      "package": "wf",
+      "function": "Layer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 128,
+      "entry_offset": 0,
+      "name": "wf.Match",
+      "package": "wf",
+      "function": "Match",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 129,
+      "entry_offset": 0,
+      "name": "art.Node",
+      "package": "art",
+      "function": "Node",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 130,
+      "entry_offset": 0,
+      "name": "art.Kind",
+      "package": "art",
+      "function": "Kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 131,
+      "entry_offset": 0,
+      "name": "art.tree",
+      "package": "art",
+      "function": "tree",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 132,
+      "entry_offset": 0,
+      "name": "art.leaf",
+      "package": "art",
+      "function": "leaf",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 133,
+      "entry_offset": 0,
+      "name": "art.node",
+      "package": "art",
+      "function": "node",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 134,
+      "entry_offset": 0,
+      "name": "art.Tree",
+      "package": "art",
+      "function": "Tree",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 135,
+      "entry_offset": 0,
+      "name": "art.noop",
+      "package": "art",
+      "function": "noop",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 136,
+      "entry_offset": 0,
+      "name": "rule.not",
+      "package": "rule",
+      "function": "not",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 137,
+      "entry_offset": 0,
+      "name": "rule.and",
+      "package": "rule",
+      "function": "and",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 138,
+      "entry_offset": 0,
+      "name": "gg.Point",
+      "package": "gg",
+      "function": "Point",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 139,
+      "entry_offset": 0,
+      "name": "rtcp.ECN",
+      "package": "rtcp",
+      "function": "ECN",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 140,
+      "entry_offset": 0,
+      "name": "ice.Conn",
+      "package": "ice",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 141,
+      "entry_offset": 0,
+      "name": "ice.Role",
+      "package": "ice",
+      "function": "Role",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 142,
+      "entry_offset": 0,
+      "name": "stun.URI",
+      "package": "stun",
+      "function": "URI",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 143,
+      "entry_offset": 0,
+      "name": "ast.Text",
+      "package": "ast",
+      "function": "Text",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 144,
+      "entry_offset": 0,
+      "name": "ast.Link",
+      "package": "ast",
+      "function": "Link",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 145,
+      "entry_offset": 0,
+      "name": "ast.List",
+      "package": "ast",
+      "function": "List",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 146,
+      "entry_offset": 0,
+      "name": "ocb.mask",
+      "package": "ocb",
+      "function": "mask",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 147,
+      "entry_offset": 0,
+      "name": "gcfg.tag",
+      "package": "gcfg",
+      "function": "tag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 148,
+      "entry_offset": 0,
+      "name": "http.Err",
+      "package": "http",
+      "function": "Err",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 149,
+      "entry_offset": 0,
+      "name": "sql.Stmt",
+      "package": "sql",
+      "function": "Stmt",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 150,
+      "entry_offset": 0,
+      "name": "sql.Rows",
+      "package": "sql",
+      "function": "Rows",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 151,
+      "entry_offset": 0,
+      "name": "sql.Conn",
+      "package": "sql",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 152,
+      "entry_offset": 0,
+      "name": "ast.expr",
+      "package": "ast",
+      "function": "expr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 153,
+      "entry_offset": 0,
+      "name": "ole.GUID",
+      "package": "ole",
+      "function": "GUID",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 154,
+      "entry_offset": 0,
+      "name": "f64.Aff3",
+      "package": "f64",
+      "function": "Aff3",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 155,
+      "entry_offset": 0,
+      "name": "vnet.NIC",
+      "package": "vnet",
+      "function": "NIC",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 156,
+      "entry_offset": 0,
+      "name": "vnet.Net",
+      "package": "vnet",
+      "function": "Net",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 157,
+      "entry_offset": 0,
+      "name": "obu.Type",
+      "package": "obu",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 158,
+      "entry_offset": 0,
+      "name": "ssh.Conn",
+      "package": "ssh",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 159,
+      "entry_offset": 0,
+      "name": "ssh.ecdh",
+      "package": "ssh",
+      "function": "ecdh",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 160,
+      "entry_offset": 0,
+      "name": "antlr.OR",
+      "package": "antlr",
+      "function": "OR",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 161,
+      "entry_offset": 0,
+      "name": "ast.Kind",
+      "package": "ast",
+      "function": "Kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 162,
+      "entry_offset": 0,
+      "name": "rpc.Call",
+      "package": "rpc",
+      "function": "Call",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 163,
+      "entry_offset": 0,
+      "name": "bpf.Jump",
+      "package": "bpf",
+      "function": "Jump",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 164,
+      "entry_offset": 0,
+      "name": "bpf.RetA",
+      "package": "bpf",
+      "function": "RetA",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 165,
+      "entry_offset": 0,
+      "name": "sdk.span",
+      "package": "sdk",
+      "function": "span",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 166,
+      "entry_offset": 0,
+      "name": "fs.Uri",
+      "package": "fs",
+      "function": "Uri",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 167,
+      "entry_offset": 0,
+      "name": "fs.Path",
+      "package": "fs",
+      "function": "Path",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 168,
+      "entry_offset": 0,
+      "name": "flag.Flag",
+      "package": "flag",
+      "function": "Flag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 169,
+      "entry_offset": 0,
+      "name": "fmt.ssave",
+      "package": "fmt",
+      "function": "ssave",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 170,
+      "entry_offset": 0,
+      "name": "fmt.State",
+      "package": "fmt",
+      "function": "State",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 171,
+      "entry_offset": 0,
+      "name": "os.Signal",
+      "package": "os",
+      "function": "Signal",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 172,
+      "entry_offset": 0,
+      "name": "io.Writer",
+      "package": "io",
+      "function": "Writer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 173,
+      "entry_offset": 0,
+      "name": "io.Reader",
+      "package": "io",
+      "function": "Reader",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 174,
+      "entry_offset": 0,
+      "name": "io.Closer",
+      "package": "io",
+      "function": "Closer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 175,
+      "entry_offset": 0,
+      "name": "io.Seeker",
+      "package": "io",
+      "function": "Seeker",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 176,
+      "entry_offset": 0,
+      "name": "sync.Pool",
+      "package": "sync",
+      "function": "Pool",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 177,
+      "entry_offset": 0,
+      "name": "sync.Cond",
+      "package": "sync",
+      "function": "Cond",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 178,
+      "entry_offset": 0,
+      "name": "sync.Once",
+      "package": "sync",
+      "function": "Once",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 179,
+      "entry_offset": 0,
+      "name": "time.zone",
+      "package": "time",
+      "function": "zone",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 180,
+      "entry_offset": 0,
+      "name": "time.Time",
+      "package": "time",
+      "function": "Time",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 181,
+      "entry_offset": 0,
+      "name": "time.abbr",
+      "package": "time",
+      "function": "abbr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 182,
+      "entry_offset": 0,
+      "name": "log.Level",
+      "package": "log",
+      "function": "Level",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 183,
+      "entry_offset": 0,
+      "name": "uuid.Time",
+      "package": "uuid",
+      "function": "Time",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 184,
+      "entry_offset": 0,
+      "name": "uuid.UUID",
+      "package": "uuid",
+      "function": "UUID",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 185,
+      "entry_offset": 0,
+      "name": "runtime.m",
+      "package": "runtime",
+      "function": "m",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 186,
+      "entry_offset": 0,
+      "name": "runtime.g",
+      "package": "runtime",
+      "function": "g",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 187,
+      "entry_offset": 0,
+      "name": "runtime.p",
+      "package": "runtime",
+      "function": "p",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 188,
+      "entry_offset": 0,
+      "name": "abi.Type",
+      "package": "abi",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 189,
+      "entry_offset": 0,
+      "name": "local.FS",
+      "package": "local",
+      "function": "FS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 190,
+      "entry_offset": 0,
+      "name": "mcp.Plain",
+      "package": "mcp",
+      "function": "Plain",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 191,
+      "entry_offset": 0,
+      "name": "xml.Token",
+      "package": "xml",
+      "function": "Token",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 192,
+      "entry_offset": 0,
+      "name": "xml.stack",
+      "package": "xml",
+      "function": "stack",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 193,
+      "entry_offset": 0,
+      "name": "http.body",
+      "package": "http",
+      "function": "body",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 194,
+      "entry_offset": 0,
+      "name": "http.conn",
+      "package": "http",
+      "function": "conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 195,
+      "entry_offset": 0,
+      "name": "http.File",
+      "package": "http",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 196,
+      "entry_offset": 0,
+      "name": "http.ioFS",
+      "package": "http",
+      "function": "ioFS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 197,
+      "entry_offset": 0,
+      "name": "rand.Rand",
+      "package": "rand",
+      "function": "Rand",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 198,
+      "entry_offset": 0,
+      "name": "fs.Uri",
+      "package": "fs",
+      "function": "Uri",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 199,
+      "entry_offset": 0,
+      "name": "net.IPNet",
+      "package": "net",
+      "function": "IPNet",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 200,
+      "entry_offset": 0,
+      "name": "net.netFD",
+      "package": "net",
+      "function": "netFD",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 201,
+      "entry_offset": 0,
+      "name": "net.Error",
+      "package": "net",
+      "function": "Error",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 202,
+      "entry_offset": 0,
+      "name": "net.Flags",
+      "package": "net",
+      "function": "Flags",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 203,
+      "entry_offset": 0,
+      "name": "net.scope",
+      "package": "net",
+      "function": "scope",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 204,
+      "entry_offset": 0,
+      "name": "net.MX",
+      "package": "net",
+      "function": "MX",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 205,
+      "entry_offset": 0,
+      "name": "net.NS",
+      "package": "net",
+      "function": "NS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 206,
+      "entry_offset": 0,
+      "name": "uri.URI",
+      "package": "uri",
+      "function": "URI",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 207,
+      "entry_offset": 0,
+      "name": "fs.GlobFS",
+      "package": "fs",
+      "function": "GlobFS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 208,
+      "entry_offset": 0,
+      "name": "fs.StatFS",
+      "package": "fs",
+      "function": "StatFS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 209,
+      "entry_offset": 0,
+      "name": "user.User",
+      "package": "user",
+      "function": "User",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 210,
+      "entry_offset": 0,
+      "name": "url.Error",
+      "package": "url",
+      "function": "Error",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 211,
+      "entry_offset": 0,
+      "name": "cors.Cors",
+      "package": "cors",
+      "function": "Cors",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 212,
+      "entry_offset": 0,
+      "name": "tls.alert",
+      "package": "tls",
+      "function": "alert",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 213,
+      "entry_offset": 0,
+      "name": "abi.TFlag",
+      "package": "abi",
+      "function": "TFlag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 214,
+      "entry_offset": 0,
+      "name": "iter.coro",
+      "package": "iter",
+      "function": "coro",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 215,
+      "entry_offset": 0,
+      "name": "store.Tip",
+      "package": "store",
+      "function": "Tip",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 216,
+      "entry_offset": 0,
+      "name": "tea.Mouse",
+      "package": "tea",
+      "function": "Mouse",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 217,
+      "entry_offset": 0,
+      "name": "tea.Model",
+      "package": "tea",
+      "function": "Model",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 218,
+      "entry_offset": 0,
+      "name": "tea.Cmd",
+      "package": "tea",
+      "function": "Cmd",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 219,
+      "entry_offset": 0,
+      "name": "slog.Attr",
+      "package": "slog",
+      "function": "Attr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 220,
+      "entry_offset": 0,
+      "name": "slog.Kind",
+      "package": "slog",
+      "function": "Kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 221,
+      "entry_offset": 0,
+      "name": "slog.kind",
+      "package": "slog",
+      "function": "kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 222,
+      "entry_offset": 0,
+      "name": "tar.block",
+      "package": "tar",
+      "function": "block",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 223,
+      "entry_offset": 0,
+      "name": "hash.Hash",
+      "package": "hash",
+      "function": "Hash",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 224,
+      "entry_offset": 0,
+      "name": "driver.Tx",
+      "package": "driver",
+      "function": "Tx",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 225,
+      "entry_offset": 0,
+      "name": "maps.Iter",
+      "package": "maps",
+      "function": "Iter",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 226,
+      "entry_offset": 0,
+      "name": "label.Set",
+      "package": "label",
+      "function": "Set",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 227,
+      "entry_offset": 0,
+      "name": "uv.Line",
+      "package": "uv",
+      "function": "Line",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 228,
+      "entry_offset": 0,
+      "name": "testing.T",
+      "package": "testing",
+      "function": "T",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 229,
+      "entry_offset": 0,
+      "name": "proto.wkt",
+      "package": "proto",
+      "function": "wkt",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 230,
+      "entry_offset": 0,
+      "name": "syntax.Op",
+      "package": "syntax",
+      "function": "Op",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 231,
+      "entry_offset": 0,
+      "name": "emptypb.x",
+      "package": "emptypb",
+      "function": "x",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 232,
+      "entry_offset": 0,
+      "name": "target.ID",
+      "package": "target",
+      "function": "ID",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 233,
+      "entry_offset": 0,
+      "name": "cdp.FedCM",
+      "package": "cdp",
+      "function": "FedCM",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 234,
+      "entry_offset": 0,
+      "name": "cdp.Fetch",
+      "package": "cdp",
+      "function": "Fetch",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 235,
+      "entry_offset": 0,
+      "name": "cdp.Input",
+      "package": "cdp",
+      "function": "Input",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 236,
+      "entry_offset": 0,
+      "name": "cdp.Media",
+      "package": "cdp",
+      "function": "Media",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 237,
+      "entry_offset": 0,
+      "name": "list.List",
+      "package": "list",
+      "function": "List",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 238,
+      "entry_offset": 0,
+      "name": "anypb.Any",
+      "package": "anypb",
+      "function": "Any",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 239,
+      "entry_offset": 0,
+      "name": "diff.File",
+      "package": "diff",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 240,
+      "entry_offset": 0,
+      "name": "diff.hunk",
+      "package": "diff",
+      "function": "hunk",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 241,
+      "entry_offset": 0,
+      "name": "task.Opts",
+      "package": "task",
+      "function": "Opts",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 242,
+      "entry_offset": 0,
+      "name": "jpeg.bits",
+      "package": "jpeg",
+      "function": "bits",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 243,
+      "entry_offset": 0,
+      "name": "yaml.Kind",
+      "package": "yaml",
+      "function": "Kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 244,
+      "entry_offset": 0,
+      "name": "yaml.Node",
+      "package": "yaml",
+      "function": "Node",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 245,
+      "entry_offset": 0,
+      "name": "stats.End",
+      "package": "stats",
+      "function": "End",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 246,
+      "entry_offset": 0,
+      "name": "peer.Peer",
+      "package": "peer",
+      "function": "Peer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 247,
+      "entry_offset": 0,
+      "name": "text.Kind",
+      "package": "text",
+      "function": "Kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 248,
+      "entry_offset": 0,
+      "name": "text.call",
+      "package": "text",
+      "function": "call",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 249,
+      "entry_offset": 0,
+      "name": "ring.Ring",
+      "package": "ring",
+      "function": "Ring",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 250,
+      "entry_offset": 0,
+      "name": "data.Type",
+      "package": "data",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 251,
+      "entry_offset": 0,
+      "name": "json.Kind",
+      "package": "json",
+      "function": "Kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 252,
+      "entry_offset": 0,
+      "name": "zap.uints",
+      "package": "zap",
+      "function": "uints",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 253,
+      "entry_offset": 0,
+      "name": "zap.times",
+      "package": "zap",
+      "function": "times",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 254,
+      "entry_offset": 0,
+      "name": "zap.int8s",
+      "package": "zap",
+      "function": "int8s",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 255,
+      "entry_offset": 0,
+      "name": "zap.bools",
+      "package": "zap",
+      "function": "bools",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 256,
+      "entry_offset": 0,
+      "name": "net.IP",
+      "package": "net",
+      "function": "IP",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 257,
+      "entry_offset": 0,
+      "name": "code.Code",
+      "package": "code",
+      "function": "Code",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 258,
+      "entry_offset": 0,
+      "name": "pem.Block",
+      "package": "pem",
+      "function": "Block",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 259,
+      "entry_offset": 0,
+      "name": "big.Float",
+      "package": "big",
+      "function": "Float",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 260,
+      "entry_offset": 0,
+      "name": "big.Int",
+      "package": "big",
+      "function": "Int",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 261,
+      "entry_offset": 0,
+      "name": "aes.Block",
+      "package": "aes",
+      "function": "Block",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 262,
+      "entry_offset": 0,
+      "name": "aes.block",
+      "package": "aes",
+      "function": "block",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 263,
+      "entry_offset": 0,
+      "name": "hpke.AEAD",
+      "package": "hpke",
+      "function": "AEAD",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 264,
+      "entry_offset": 0,
+      "name": "hpke.aead",
+      "package": "hpke",
+      "function": "aead",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 265,
+      "entry_offset": 0,
+      "name": "uv.Logger",
+      "package": "uv",
+      "function": "Logger",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 266,
+      "entry_offset": 0,
+      "name": "uv.Screen",
+      "package": "uv",
+      "function": "Screen",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 267,
+      "entry_offset": 0,
+      "name": "uv.Buffer",
+      "package": "uv",
+      "function": "Buffer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 268,
+      "entry_offset": 0,
+      "name": "uv.cursor",
+      "package": "uv",
+      "function": "cursor",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 269,
+      "entry_offset": 0,
+      "name": "uv.KeyMod",
+      "package": "uv",
+      "function": "KeyMod",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 270,
+      "entry_offset": 0,
+      "name": "uv.Key",
+      "package": "uv",
+      "function": "Key",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 271,
+      "entry_offset": 0,
+      "name": "ansi.Mode",
+      "package": "ansi",
+      "function": "Mode",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 272,
+      "entry_offset": 0,
+      "name": "term.File",
+      "package": "term",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 273,
+      "entry_offset": 0,
+      "name": "types.Any",
+      "package": "types",
+      "function": "Any",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 274,
+      "entry_offset": 0,
+      "name": "types.Api",
+      "package": "types",
+      "function": "Api",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 275,
+      "entry_offset": 0,
+      "name": "kind.Type",
+      "package": "kind",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 276,
+      "entry_offset": 0,
+      "name": "kind.Enum",
+      "package": "kind",
+      "function": "Enum",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 277,
+      "entry_offset": 0,
+      "name": "json.call",
+      "package": "json",
+      "function": "call",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 278,
+      "entry_offset": 0,
+      "name": "json.kind",
+      "package": "json",
+      "function": "kind",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 279,
+      "entry_offset": 0,
+      "name": "date.Date",
+      "package": "date",
+      "function": "Date",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 280,
+      "entry_offset": 0,
+      "name": "param.opt",
+      "package": "param",
+      "function": "opt",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 281,
+      "entry_offset": 0,
+      "name": "gob.decOp",
+      "package": "gob",
+      "function": "decOp",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 282,
+      "entry_offset": 0,
+      "name": "gob.encOp",
+      "package": "gob",
+      "function": "encOp",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 283,
+      "entry_offset": 0,
+      "name": "toml.Tree",
+      "package": "toml",
+      "function": "Tree",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 284,
+      "entry_offset": 0,
+      "name": "core.Tool",
+      "package": "core",
+      "function": "Tool",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 285,
+      "entry_offset": 0,
+      "name": "rpcc.Conn",
+      "package": "rpcc",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 286,
+      "entry_offset": 0,
+      "name": "cast.Sink",
+      "package": "cast",
+      "function": "Sink",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 287,
+      "entry_offset": 0,
+      "name": "css.Value",
+      "package": "css",
+      "function": "Value",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 288,
+      "entry_offset": 0,
+      "name": "css.Style",
+      "package": "css",
+      "function": "Style",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 289,
+      "entry_offset": 0,
+      "name": "css.Media",
+      "package": "css",
+      "function": "Media",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 290,
+      "entry_offset": 0,
+      "name": "css.Layer",
+      "package": "css",
+      "function": "Layer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 291,
+      "entry_offset": 0,
+      "name": "css.Scope",
+      "package": "css",
+      "function": "Scope",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 292,
+      "entry_offset": 0,
+      "name": "log.Entry",
+      "package": "log",
+      "function": "Entry",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 293,
+      "entry_offset": 0,
+      "name": "norm.Form",
+      "package": "norm",
+      "function": "Form",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 294,
+      "entry_offset": 0,
+      "name": "norm.Iter",
+      "package": "norm",
+      "function": "Iter",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 295,
+      "entry_offset": 0,
+      "name": "privacy.x",
+      "package": "privacy",
+      "function": "x",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 296,
+      "entry_offset": 0,
+      "name": "ecc.Curve",
+      "package": "ecc",
+      "function": "Curve",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 297,
+      "entry_offset": 0,
+      "name": "osfs.file",
+      "package": "osfs",
+      "function": "file",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 298,
+      "entry_offset": 0,
+      "name": "osfs.Type",
+      "package": "osfs",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 299,
+      "entry_offset": 0,
+      "name": "billy.Dir",
+      "package": "billy",
+      "function": "Dir",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 300,
+      "entry_offset": 0,
+      "name": "clause.Eq",
+      "package": "clause",
+      "function": "Eq",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 301,
+      "entry_offset": 0,
+      "name": "clause.Gt",
+      "package": "clause",
+      "function": "Gt",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 302,
+      "entry_offset": 0,
+      "name": "clause.IN",
+      "package": "clause",
+      "function": "IN",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 303,
+      "entry_offset": 0,
+      "name": "gorm.Rows",
+      "package": "gorm",
+      "function": "Rows",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 304,
+      "entry_offset": 0,
+      "name": "gorm.join",
+      "package": "gorm",
+      "function": "join",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 305,
+      "entry_offset": 0,
+      "name": "cmp.state",
+      "package": "cmp",
+      "function": "state",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 306,
+      "entry_offset": 0,
+      "name": "ref.Val",
+      "package": "ref",
+      "function": "Val",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 307,
+      "entry_offset": 0,
+      "name": "types.Err",
+      "package": "types",
+      "function": "Err",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 308,
+      "entry_offset": 0,
+      "name": "types.Int",
+      "package": "types",
+      "function": "Int",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 309,
+      "entry_offset": 0,
+      "name": "ast.Field",
+      "package": "ast",
+      "function": "Field",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 310,
+      "entry_offset": 0,
+      "name": "ast.Value",
+      "package": "ast",
+      "function": "Value",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 311,
+      "entry_offset": 0,
+      "name": "glob.Glob",
+      "package": "glob",
+      "function": "Glob",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 312,
+      "entry_offset": 0,
+      "name": "parse.Pos",
+      "package": "parse",
+      "function": "Pos",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 313,
+      "entry_offset": 0,
+      "name": "asn1.Flag",
+      "package": "asn1",
+      "function": "Flag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 314,
+      "entry_offset": 0,
+      "name": "pkix.Name",
+      "package": "pkix",
+      "function": "Name",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 315,
+      "entry_offset": 0,
+      "name": "lru.entry",
+      "package": "lru",
+      "function": "entry",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 316,
+      "entry_offset": 0,
+      "name": "lru.Cache",
+      "package": "lru",
+      "function": "Cache",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 317,
+      "entry_offset": 0,
+      "name": "yaml.node",
+      "package": "yaml",
+      "function": "node",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 318,
+      "entry_offset": 0,
+      "name": "urpc.Call",
+      "package": "urpc",
+      "function": "Call",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 319,
+      "entry_offset": 0,
+      "name": "urpc.Conn",
+      "package": "urpc",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 320,
+      "entry_offset": 0,
+      "name": "urpc.peer",
+      "package": "urpc",
+      "function": "peer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 321,
+      "entry_offset": 0,
+      "name": "wf.Action",
+      "package": "wf",
+      "function": "Action",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 322,
+      "entry_offset": 0,
+      "name": "wf.RuleID",
+      "package": "wf",
+      "function": "RuleID",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 323,
+      "entry_offset": 0,
+      "name": "art.Value",
+      "package": "art",
+      "function": "Value",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 324,
+      "entry_offset": 0,
+      "name": "art.node4",
+      "package": "art",
+      "function": "node4",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 325,
+      "entry_offset": 0,
+      "name": "art.state",
+      "package": "art",
+      "function": "state",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 326,
+      "entry_offset": 0,
+      "name": "art.noder",
+      "package": "art",
+      "function": "noder",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 327,
+      "entry_offset": 0,
+      "name": "varz.vz",
+      "package": "varz",
+      "function": "vz",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 328,
+      "entry_offset": 0,
+      "name": "gg.Matrix",
+      "package": "gg",
+      "function": "Matrix",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 329,
+      "entry_offset": 0,
+      "name": "dtls.Conn",
+      "package": "dtls",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 330,
+      "entry_offset": 0,
+      "name": "sdp.Codec",
+      "package": "sdp",
+      "function": "Codec",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 331,
+      "entry_offset": 0,
+      "name": "sdp.lexer",
+      "package": "sdp",
+      "function": "lexer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 332,
+      "entry_offset": 0,
+      "name": "ice.Agent",
+      "package": "ice",
+      "function": "Agent",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 333,
+      "entry_offset": 0,
+      "name": "fmtp.FMTP",
+      "package": "fmtp",
+      "function": "FMTP",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 334,
+      "entry_offset": 0,
+      "name": "hmac.HMAC",
+      "package": "hmac",
+      "function": "HMAC",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 335,
+      "entry_offset": 0,
+      "name": "sha3.SHA3",
+      "package": "sha3",
+      "function": "SHA3",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 336,
+      "entry_offset": 0,
+      "name": "font.Face",
+      "package": "font",
+      "function": "Face",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 337,
+      "entry_offset": 0,
+      "name": "lzw.Order",
+      "package": "lzw",
+      "function": "Order",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 338,
+      "entry_offset": 0,
+      "name": "ast.Emoji",
+      "package": "ast",
+      "function": "Emoji",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 339,
+      "entry_offset": 0,
+      "name": "ast.Image",
+      "package": "ast",
+      "function": "Image",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 340,
+      "entry_offset": 0,
+      "name": "ast.Table",
+      "package": "ast",
+      "function": "Table",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 341,
+      "entry_offset": 0,
+      "name": "sjson.val",
+      "package": "sjson",
+      "function": "val",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 342,
+      "entry_offset": 0,
+      "name": "html.span",
+      "package": "html",
+      "function": "span",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 343,
+      "entry_offset": 0,
+      "name": "html.Node",
+      "package": "html",
+      "function": "Node",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 344,
+      "entry_offset": 0,
+      "name": "sql.Rows",
+      "package": "sql",
+      "function": "Rows",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 345,
+      "entry_offset": 0,
+      "name": "expr.Type",
+      "package": "expr",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 346,
+      "entry_offset": 0,
+      "name": "expr.Decl",
+      "package": "expr",
+      "function": "Decl",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 347,
+      "entry_offset": 0,
+      "name": "expr.Expr",
+      "package": "expr",
+      "function": "Expr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 348,
+      "entry_offset": 0,
+      "name": "env.Limit",
+      "package": "env",
+      "function": "Limit",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 349,
+      "entry_offset": 0,
+      "name": "lang.rule",
+      "package": "lang",
+      "function": "rule",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 350,
+      "entry_offset": 0,
+      "name": "spew.flag",
+      "package": "spew",
+      "function": "flag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 351,
+      "entry_offset": 0,
+      "name": "varz.Varz",
+      "package": "varz",
+      "function": "Varz",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 352,
+      "entry_offset": 0,
+      "name": "webm.Info",
+      "package": "webm",
+      "function": "Info",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 353,
+      "entry_offset": 0,
+      "name": "webm.Seek",
+      "package": "webm",
+      "function": "Seek",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 354,
+      "entry_offset": 0,
+      "name": "webm.Cues",
+      "package": "webm",
+      "function": "Cues",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 355,
+      "entry_offset": 0,
+      "name": "mdns.Conn",
+      "package": "mdns",
+      "function": "Conn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 356,
+      "entry_offset": 0,
+      "name": "net.IP",
+      "package": "net",
+      "function": "IP",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 357,
+      "entry_offset": 0,
+      "name": "hmac.hmac",
+      "package": "hmac",
+      "function": "hmac",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 358,
+      "entry_offset": 0,
+      "name": "atom.Atom",
+      "package": "atom",
+      "function": "Atom",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 359,
+      "entry_offset": 0,
+      "name": "util.Libs",
+      "package": "util",
+      "function": "Libs",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 360,
+      "entry_offset": 0,
+      "name": "antlr.ATN",
+      "package": "antlr",
+      "function": "ATN",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 361,
+      "entry_offset": 0,
+      "name": "antlr.DFA",
+      "package": "antlr",
+      "function": "DFA",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 362,
+      "entry_offset": 0,
+      "name": "antlr.AND",
+      "package": "antlr",
+      "function": "AND",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 363,
+      "entry_offset": 0,
+      "name": "match.Any",
+      "package": "match",
+      "function": "Any",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 364,
+      "entry_offset": 0,
+      "name": "match.Max",
+      "package": "match",
+      "function": "Max",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 365,
+      "entry_offset": 0,
+      "name": "match.Min",
+      "package": "match",
+      "function": "Min",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 366,
+      "entry_offset": 0,
+      "name": "match.Row",
+      "package": "match",
+      "function": "Row",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 367,
+      "entry_offset": 0,
+      "name": "ast.Range",
+      "package": "ast",
+      "function": "Range",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 368,
+      "entry_offset": 0,
+      "name": "ast.Lexer",
+      "package": "ast",
+      "function": "Lexer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 369,
+      "entry_offset": 0,
+      "name": "global.il",
+      "package": "global",
+      "function": "il",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 370,
+      "entry_offset": 0,
+      "name": "bpf.ALUOp",
+      "package": "bpf",
+      "function": "ALUOp",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 371,
+      "entry_offset": 0,
+      "name": "agent.Key",
+      "package": "agent",
+      "function": "Key",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 372,
+      "entry_offset": 0,
+      "name": "noop.Span",
+      "package": "noop",
+      "function": "Span",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 373,
+      "entry_offset": 0,
+      "name": "flag.Value",
+      "package": "flag",
+      "function": "Value",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 374,
+      "entry_offset": 0,
+      "name": "fmt.buffer",
+      "package": "fmt",
+      "function": "buffer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 375,
+      "entry_offset": 0,
+      "name": "os.dirInfo",
+      "package": "os",
+      "function": "dirInfo",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 376,
+      "entry_offset": 0,
+      "name": "os.rawConn",
+      "package": "os",
+      "function": "rawConn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 377,
+      "entry_offset": 0,
+      "name": "os.timeout",
+      "package": "os",
+      "function": "timeout",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 378,
+      "entry_offset": 0,
+      "name": "os.File",
+      "package": "os",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 379,
+      "entry_offset": 0,
+      "name": "os.Process",
+      "package": "os",
+      "function": "Process",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 380,
+      "entry_offset": 0,
+      "name": "io.discard",
+      "package": "io",
+      "function": "discard",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 381,
+      "entry_offset": 0,
+      "name": "sync.Mutex",
+      "package": "sync",
+      "function": "Mutex",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 382,
+      "entry_offset": 0,
+      "name": "sync.eface",
+      "package": "sync",
+      "function": "eface",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 383,
+      "entry_offset": 0,
+      "name": "time.Month",
+      "package": "time",
+      "function": "Month",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 384,
+      "entry_offset": 0,
+      "name": "time.Timer",
+      "package": "time",
+      "function": "Timer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 385,
+      "entry_offset": 0,
+      "name": "embed.file",
+      "package": "embed",
+      "function": "file",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 386,
+      "entry_offset": 0,
+      "name": "json.Token",
+      "package": "json",
+      "function": "Token",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 387,
+      "entry_offset": 0,
+      "name": "json.Delim",
+      "package": "json",
+      "function": "Delim",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 388,
+      "entry_offset": 0,
+      "name": "trace.Task",
+      "package": "trace",
+      "function": "Task",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 389,
+      "entry_offset": 0,
+      "name": "mcp.Server",
+      "package": "mcp",
+      "function": "Server",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 390,
+      "entry_offset": 0,
+      "name": "mcp.Config",
+      "package": "mcp",
+      "function": "Config",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 391,
+      "entry_offset": 0,
+      "name": "fs.LocalFS",
+      "package": "fs",
+      "function": "LocalFS",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 392,
+      "entry_offset": 0,
+      "name": "bytes.span",
+      "package": "bytes",
+      "function": "span",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 393,
+      "entry_offset": 0,
+      "name": "xml.Attr",
+      "package": "xml",
+      "function": "Attr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 394,
+      "entry_offset": 0,
+      "name": "xml.Name",
+      "package": "xml",
+      "function": "Name",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 395,
+      "entry_offset": 0,
+      "name": "regexp.job",
+      "package": "regexp",
+      "function": "job",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 396,
+      "entry_offset": 0,
+      "name": "url.Error",
+      "package": "url",
+      "function": "Error",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 397,
+      "entry_offset": 0,
+      "name": "object.Tag",
+      "package": "object",
+      "function": "Tag",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 398,
+      "entry_offset": 0,
+      "name": "log.Logger",
+      "package": "log",
+      "function": "Logger",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 399,
+      "entry_offset": 0,
+      "name": "fs.Path",
+      "package": "fs",
+      "function": "Path",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 400,
+      "entry_offset": 0,
+      "name": "exec.Error",
+      "package": "exec",
+      "function": "Error",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 401,
+      "entry_offset": 0,
+      "name": "grpc.idler",
+      "package": "grpc",
+      "function": "idler",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 402,
+      "entry_offset": 0,
+      "name": "sets.Empty",
+      "package": "sets",
+      "function": "Empty",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 403,
+      "entry_offset": 0,
+      "name": "hex.dumper",
+      "package": "hex",
+      "function": "dumper",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 404,
+      "entry_offset": 0,
+      "name": "zip.Reader",
+      "package": "zip",
+      "function": "Reader",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 405,
+      "entry_offset": 0,
+      "name": "fs.Uri",
+      "package": "fs",
+      "function": "Uri",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 406,
+      "entry_offset": 0,
+      "name": "drive.User",
+      "package": "drive",
+      "function": "User",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 407,
+      "entry_offset": 0,
+      "name": "drive.File",
+      "package": "drive",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 408,
+      "entry_offset": 0,
+      "name": "net.IPMask",
+      "package": "net",
+      "function": "IPMask",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 409,
+      "entry_offset": 0,
+      "name": "net.IPAddr",
+      "package": "net",
+      "function": "IPAddr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 410,
+      "entry_offset": 0,
+      "name": "net.IPConn",
+      "package": "net",
+      "function": "IPConn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 411,
+      "entry_offset": 0,
+      "name": "net.Addr",
+      "package": "net",
+      "function": "Addr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 412,
+      "entry_offset": 0,
+      "name": "net.ipAttr",
+      "package": "net",
+      "function": "ipAttr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 413,
+      "entry_offset": 0,
+      "name": "net.SRV",
+      "package": "net",
+      "function": "SRV",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 414,
+      "entry_offset": 0,
+      "name": "net.result",
+      "package": "net",
+      "function": "result",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 415,
+      "entry_offset": 0,
+      "name": "net.byName",
+      "package": "net",
+      "function": "byName",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 416,
+      "entry_offset": 0,
+      "name": "net.Dialer",
+      "package": "net",
+      "function": "Dialer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 417,
+      "entry_offset": 0,
+      "name": "uri.URI",
+      "package": "uri",
+      "function": "URI",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 418,
+      "entry_offset": 0,
+      "name": "lsp.Client",
+      "package": "lsp",
+      "function": "Client",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 419,
+      "entry_offset": 0,
+      "name": "fs.dirInfo",
+      "package": "fs",
+      "function": "dirInfo",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 420,
+      "entry_offset": 0,
+      "name": "url.Values",
+      "package": "url",
+      "function": "Values",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 421,
+      "entry_offset": 0,
+      "name": "zip.header",
+      "package": "zip",
+      "function": "header",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 422,
+      "entry_offset": 0,
+      "name": "fnv.sum32a",
+      "package": "fnv",
+      "function": "sum32a",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 423,
+      "entry_offset": 0,
+      "name": "detach.ctx",
+      "package": "detach",
+      "function": "ctx",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 424,
+      "entry_offset": 0,
+      "name": "tls.Config",
+      "package": "tls",
+      "function": "Config",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 425,
+      "entry_offset": 0,
+      "name": "tls.alert",
+      "package": "tls",
+      "function": "alert",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 426,
+      "entry_offset": 0,
+      "name": "tls.Dialer",
+      "package": "tls",
+      "function": "Dialer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 427,
+      "entry_offset": 0,
+      "name": "url.URL",
+      "package": "url",
+      "function": "URL",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 428,
+      "entry_offset": 0,
+      "name": "x509.OID",
+      "package": "x509",
+      "function": "OID",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 429,
+      "entry_offset": 0,
+      "name": "abi.Method",
+      "package": "abi",
+      "function": "Method",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 430,
+      "entry_offset": 0,
+      "name": "abi.FuncID",
+      "package": "abi",
+      "function": "FuncID",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 431,
+      "entry_offset": 0,
+      "name": "store.Auth",
+      "package": "store",
+      "function": "Auth",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 432,
+      "entry_offset": 0,
+      "name": "tea.Cursor",
+      "package": "tea",
+      "function": "Cursor",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 433,
+      "entry_offset": 0,
+      "name": "tea.EnvMsg",
+      "package": "tea",
+      "function": "EnvMsg",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 434,
+      "entry_offset": 0,
+      "name": "tea.RawMsg",
+      "package": "tea",
+      "function": "RawMsg",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 435,
+      "entry_offset": 0,
+      "name": "tea.KeyMsg",
+      "package": "tea",
+      "function": "KeyMsg",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 436,
+      "entry_offset": 0,
+      "name": "model.turn",
+      "package": "model",
+      "function": "turn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 437,
+      "entry_offset": 0,
+      "name": "tea.Cmd",
+      "package": "tea",
+      "function": "Cmd",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 438,
+      "entry_offset": 0,
+      "name": "cipher.ctr",
+      "package": "cipher",
+      "function": "ctr",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 439,
+      "entry_offset": 0,
+      "name": "cipher.cfb",
+      "package": "cipher",
+      "function": "cfb",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 440,
+      "entry_offset": 0,
+      "name": "cipher.cbc",
+      "package": "cipher",
+      "function": "cbc",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 441,
+      "entry_offset": 0,
+      "name": "async.Loop",
+      "package": "async",
+      "function": "Loop",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 442,
+      "entry_offset": 0,
+      "name": "async.Gate",
+      "package": "async",
+      "function": "Gate",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 443,
+      "entry_offset": 0,
+      "name": "slog.Level",
+      "package": "slog",
+      "function": "Level",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 444,
+      "entry_offset": 0,
+      "name": "slog.Value",
+      "package": "slog",
+      "function": "Value",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 445,
+      "entry_offset": 0,
+      "name": "tar.Header",
+      "package": "tar",
+      "function": "Header",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 446,
+      "entry_offset": 0,
+      "name": "tar.Format",
+      "package": "tar",
+      "function": "Format",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 447,
+      "entry_offset": 0,
+      "name": "tar.Reader",
+      "package": "tar",
+      "function": "Reader",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 448,
+      "entry_offset": 0,
+      "name": "md5.digest",
+      "package": "md5",
+      "function": "digest",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 449,
+      "entry_offset": 0,
+      "name": "json.coder",
+      "package": "json",
+      "function": "coder",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 450,
+      "entry_offset": 0,
+      "name": "time.Time",
+      "package": "time",
+      "function": "Time",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 451,
+      "entry_offset": 0,
+      "name": "maps.table",
+      "package": "maps",
+      "function": "table",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 452,
+      "entry_offset": 0,
+      "name": "cpu.option",
+      "package": "cpu",
+      "function": "option",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 453,
+      "entry_offset": 0,
+      "name": "sentry.Log",
+      "package": "sentry",
+      "function": "Log",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 454,
+      "entry_offset": 0,
+      "name": "sentry.Dsn",
+      "package": "sentry",
+      "function": "Dsn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 455,
+      "entry_offset": 0,
+      "name": "sentry.Hub",
+      "package": "sentry",
+      "function": "Hub",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 456,
+      "entry_offset": 0,
+      "name": "color.CMYK",
+      "package": "color",
+      "function": "CMYK",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 457,
+      "entry_offset": 0,
+      "name": "color.Gray",
+      "package": "color",
+      "function": "Gray",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 458,
+      "entry_offset": 0,
+      "name": "color.RGBA",
+      "package": "color",
+      "function": "RGBA",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 459,
+      "entry_offset": 0,
+      "name": "structpb.x",
+      "package": "structpb",
+      "function": "x",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 460,
+      "entry_offset": 0,
+      "name": "mcp.Params",
+      "package": "mcp",
+      "function": "Params",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 461,
+      "entry_offset": 0,
+      "name": "mcp.Result",
+      "package": "mcp",
+      "function": "Result",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 462,
+      "entry_offset": 0,
+      "name": "mcp.Client",
+      "package": "mcp",
+      "function": "Client",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 463,
+      "entry_offset": 0,
+      "name": "mcp.Icon",
+      "package": "mcp",
+      "function": "Icon",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 464,
+      "entry_offset": 0,
+      "name": "mcp.Role",
+      "package": "mcp",
+      "function": "Role",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 465,
+      "entry_offset": 0,
+      "name": "mcp.Prompt",
+      "package": "mcp",
+      "function": "Prompt",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 466,
+      "entry_offset": 0,
+      "name": "mcp.ioConn",
+      "package": "mcp",
+      "function": "ioConn",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 467,
+      "entry_offset": 0,
+      "name": "mcp.compat",
+      "package": "mcp",
+      "function": "compat",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 468,
+      "entry_offset": 0,
+      "name": "mcp.result",
+      "package": "mcp",
+      "function": "result",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 469,
+      "entry_offset": 0,
+      "name": "mcp.raw",
+      "package": "mcp",
+      "function": "raw",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 470,
+      "entry_offset": 0,
+      "name": "hujson.row",
+      "package": "hujson",
+      "function": "row",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 471,
+      "entry_offset": 0,
+      "name": "auditing.x",
+      "package": "auditing",
+      "function": "x",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 472,
+      "entry_offset": 0,
+      "name": "cdp.Audits",
+      "package": "cdp",
+      "function": "Audits",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 473,
+      "entry_offset": 0,
+      "name": "cdp.Memory",
+      "package": "cdp",
+      "function": "Memory",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 474,
+      "entry_offset": 0,
+      "name": "cdp.Schema",
+      "package": "cdp",
+      "function": "Schema",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 475,
+      "entry_offset": 0,
+      "name": "cdp.Target",
+      "package": "cdp",
+      "function": "Target",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 476,
+      "entry_offset": 0,
+      "name": "cdp.Client",
+      "package": "cdp",
+      "function": "Client",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 477,
+      "entry_offset": 0,
+      "name": "dom.NodeID",
+      "package": "dom",
+      "function": "NodeID",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 478,
+      "entry_offset": 0,
+      "name": "dom.Node",
+      "package": "dom",
+      "function": "Node",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 479,
+      "entry_offset": 0,
+      "name": "dom.Quad",
+      "package": "dom",
+      "function": "Quad",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 480,
+      "entry_offset": 0,
+      "name": "page.Frame",
+      "package": "page",
+      "function": "Frame",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 481,
+      "entry_offset": 0,
+      "name": "http2.pipe",
+      "package": "http2",
+      "function": "pipe",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 482,
+      "entry_offset": 0,
+      "name": "noder.Path",
+      "package": "noder",
+      "function": "Path",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 483,
+      "entry_offset": 0,
+      "name": "big.Int",
+      "package": "big",
+      "function": "Int",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 484,
+      "entry_offset": 0,
+      "name": "big.Word",
+      "package": "big",
+      "function": "Word",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 485,
+      "entry_offset": 0,
+      "name": "diff.Chunk",
+      "package": "diff",
+      "function": "Chunk",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 486,
+      "entry_offset": 0,
+      "name": "diff.op",
+      "package": "diff",
+      "function": "op",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 487,
+      "entry_offset": 0,
+      "name": "diff.Patch",
+      "package": "diff",
+      "function": "Patch",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 488,
+      "entry_offset": 0,
+      "name": "git.Signer",
+      "package": "git",
+      "function": "Signer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 489,
+      "entry_offset": 0,
+      "name": "git.Status",
+      "package": "git",
+      "function": "Status",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 490,
+      "entry_offset": 0,
+      "name": "git.Remote",
+      "package": "git",
+      "function": "Remote",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 491,
+      "entry_offset": 0,
+      "name": "genai.File",
+      "package": "genai",
+      "function": "File",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 492,
+      "entry_offset": 0,
+      "name": "genai.Part",
+      "package": "genai",
+      "function": "Part",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 493,
+      "entry_offset": 0,
+      "name": "genai.Blob",
+      "package": "genai",
+      "function": "Blob",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 494,
+      "entry_offset": 0,
+      "name": "genai.Type",
+      "package": "genai",
+      "function": "Type",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 495,
+      "entry_offset": 0,
+      "name": "genai.Tool",
+      "package": "genai",
+      "function": "Tool",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 496,
+      "entry_offset": 0,
+      "name": "genai.Chat",
+      "package": "genai",
+      "function": "Chat",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 497,
+      "entry_offset": 0,
+      "name": "genai.Live",
+      "package": "genai",
+      "function": "Live",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 498,
+      "entry_offset": 0,
+      "name": "codes.Code",
+      "package": "codes",
+      "function": "Code",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 499,
+      "entry_offset": 0,
+      "name": "image.CMYK",
+      "package": "image",
+      "function": "CMYK",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 500,
+      "entry_offset": 0,
+      "name": "image.Gray",
+      "package": "image",
+      "function": "Gray",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 501,
+      "entry_offset": 0,
+      "name": "image.RGBA",
+      "package": "image",
+      "function": "RGBA",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 502,
+      "entry_offset": 0,
+      "name": "draw.Image",
+      "package": "draw",
+      "function": "Image",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 503,
+      "entry_offset": 0,
+      "name": "jpeg.block",
+      "package": "jpeg",
+      "function": "block",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 504,
+      "entry_offset": 0,
+      "name": "resize.ycc",
+      "package": "resize",
+      "function": "ycc",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 505,
+      "entry_offset": 0,
+      "name": "yaml.Style",
+      "package": "yaml",
+      "function": "Style",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 506,
+      "entry_offset": 0,
+      "name": "clock.Mock",
+      "package": "clock",
+      "function": "Mock",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 507,
+      "entry_offset": 0,
+      "name": "mem.Buffer",
+      "package": "mem",
+      "function": "Buffer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 508,
+      "entry_offset": 0,
+      "name": "mem.buffer",
+      "package": "mem",
+      "function": "buffer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 509,
+      "entry_offset": 0,
+      "name": "mem.writer",
+      "package": "mem",
+      "function": "writer",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 510,
+      "entry_offset": 0,
+      "name": "mem.Reader",
+      "package": "mem",
+      "function": "Reader",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    },
+    {
+      "index": 511,
+      "entry_offset": 0,
+      "name": "trace.cond",
+      "package": "trace",
+      "function": "cond",
+      "file_index": 0,
+      "line": 0,
+      "args_size": 0
+    }
+  ]
+}

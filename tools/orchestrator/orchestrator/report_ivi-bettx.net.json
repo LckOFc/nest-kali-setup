@@ -1,0 +1,112 @@
+{
+  "target": "https://ivi-bettx.net",
+  "start_time": "2026-09-11T01:22:58.915690",
+  "tools": {
+    "tor_webfetch": {
+      "status": "completed",
+      "status_code": 200,
+      "protection_level": "apex",
+      "fingerprint": "7cb14bfd403ec135"
+    },
+    "darkweb_intel": {
+      "status": "completed",
+      "analysis": {
+        "indicator": "https://ivi-bettx.net",
+        "matches": [],
+        "risk_score": 0.0,
+        "recommendations": [],
+        "sources": [],
+        "risk_level": "low"
+      },
+      "search_results_count": 15
+    },
+    "vuln_scanner": {
+      "status": "completed",
+      "findings_count": 4,
+      "findings": [
+        {
+          "type": "info_disclosure",
+          "severity": "low",
+          "title": "Missing Security Headers",
+          "description": "Missing headers: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection",
+          "endpoint": "https://ivi-bettx.net",
+          "parameter": null,
+          "evidence": "Missing: X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy, X-XSS-Protection, Referrer-Policy, Permissions-Policy",
+          "remediation": "Add security headers to all responses.",
+          "cve": null,
+          "cvss": null,
+          "source": "vuln_scanner"
+        },
+        {
+          "type": "info_disclosure",
+          "severity": "high",
+          "title": "Spring Actuator Exposed",
+          "description": "Spring Boot actuator endpoints accessible",
+          "endpoint": "https://ivi-bettx.net/actuator",
+          "parameter": null,
+          "evidence": "Status: 200",
+          "remediation": "Secure actuator endpoints. Disable sensitive endpoints.",
+          "cve": null,
+          "cvss": null,
+          "source": "vuln_scanner"
+        },
+        {
+          "type": "info_disclosure",
+          "severity": "high",
+          "title": "Spring Actuator Exposed",
+          "description": "Spring Boot actuator endpoints accessible",
+          "endpoint": "https://ivi-bettx.net/actuator/env",
+          "parameter": null,
+          "evidence": "Status: 200",
+          "remediation": "Secure actuator endpoints. Disable sensitive endpoints.",
+          "cve": null,
+          "cvss": null,
+          "source": "vuln_scanner"
+        },
+        {
+          "type": "info_disclosure",
+          "severity": "high",
+          "title": "Spring Actuator Exposed",
+          "description": "Spring Boot actuator endpoints accessible",
+          "endpoint": "https://ivi-bettx.net/actuator/health",
+          "parameter": null,
+          "evidence": "Status: 200",
+          "remediation": "Secure actuator endpoints. Disable sensitive endpoints.",
+          "cve": null,
+          "cvss": null,
+          "source": "vuln_scanner"
+        }
+      ]
+    }
+  },
+  "correlated_findings": [
+    {
+      "type": "info_disclosure",
+      "sources": [
+        "vuln_scanner",
+        "vuln_scanner",
+        "vuln_scanner",
+        "vuln_scanner"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "summary": {
+    "total_findings": 4,
+    "by_severity": {
+      "critical": 0,
+      "high": 3,
+      "medium": 0,
+      "low": 1
+    },
+    "risk_level": "HIGH",
+    "tools_used": [
+      "tor_webfetch",
+      "darkweb_intel",
+      "vuln_scanner"
+    ],
+    "correlated_findings": 1
+  },
+  "end_time": "2026-09-11T01:23:35.622787",
+  "duration_seconds": 36.70709705352783
+}

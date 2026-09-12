@@ -1,0 +1,2 @@
+# APEX Cracker — Modo 4070
+# Nenhuma dependência externa — Python 3.8+ stdlib only

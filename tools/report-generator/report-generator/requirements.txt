@@ -1,0 +1,2 @@
+# Report Generator v1
+# No external dependencies required

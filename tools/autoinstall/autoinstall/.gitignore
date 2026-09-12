@@ -1,0 +1,19 @@
+# AutoInstall v1
+
+# Engine core
+engine/__init__.py
+
+# Parsers
+parsers/__init__.py
+parsers/patterns.py
+parsers/semantic.py
+
+# Agent integration
+agent.py
+
+# Logs and DB (generated at runtime)
+log/
+autoinstall.db
+
+# Documentation
+README.md

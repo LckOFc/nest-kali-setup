@@ -1,0 +1,30 @@
+[
+  {
+    "name": "X0",
+    "body": " Close(context.Context, *io.CloseArgs) error; Read(context.Context, *io.ReadArgs) (*io.ReadReply, error) "
+  },
+  {
+    "name": "X1",
+    "body": " Close(context.Context, *io.CloseArgs) error; Read(context.Context, *io.ReadArgs) (*io.ReadReply, error) "
+  },
+  {
+    "name": "Resolver",
+    "body": " FindExtensionByName(protoreflect.FullName) (protoreflect.ExtensionType, error); FindExtensionByNumber(protoreflect.FullName, protowire.Number) (protoreflect.ExtensionType, error) "
+  },
+  {
+    "name": "Resolver",
+    "body": " FindExtensionByName(protoreflect.FullName) (protoreflect.ExtensionType, error); FindExtensionByNumber(protoreflect.FullName, protowire.Number) (protoreflect.ExtensionType, error) "
+  },
+  {
+    "name": "Resolver",
+    "body": " FindExtensionByName(protoreflect.FullName) (protoreflect.ExtensionType, error); FindExtensionByNumber(protoreflect.FullName, protowire.Number) (protoreflect.ExtensionType, error) "
+  },
+  {
+    "name": "Resolver",
+    "body": " FindExtensionByName(protoreflect.FullName) (protoreflect.ExtensionType, error); FindExtensionByNumber(protoreflect.FullName, protowire.Number) (protoreflect.ExtensionType, error) "
+  },
+  {
+    "name": "Resolver",
+    "body": " FindExtensionByName(protoreflect.FullName) (protoreflect.ExtensionType, error); FindExtensionByNumber(protoreflect.FullName, protowire.Number) (protoreflect.ExtensionType, error) "
+  }
+]

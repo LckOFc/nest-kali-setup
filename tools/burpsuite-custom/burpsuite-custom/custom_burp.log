@@ -1,0 +1,596 @@
+2026-09-09 02:27:33,594 [INFO] Database initialized: :memory:
+2026-09-09 02:27:33,595 [INFO] Proxy configured: 127.0.0.1:18080, intercept=True
+2026-09-09 02:27:33,620 [INFO] Database initialized: :memory:
+2026-09-09 02:28:06,511 [INFO] Database initialized: :memory:
+2026-09-09 02:28:06,511 [INFO] Proxy configured: 127.0.0.1:19999, intercept=True
+2026-09-09 02:28:11,357 [INFO] Database initialized: :memory:
+2026-09-09 02:28:11,357 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:28:11,357 [INFO] CustomBurp initialized
+2026-09-09 02:28:11,378 [ERROR] Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\tools\burpsuite-custom\web\app.py", line 582, in get_status
+    return jsonify(burp.get_status())
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\tools\burpsuite-custom\core\engine.py", line 1364, in get_status
+    stats = self.db.get_stats()
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\tools\burpsuite-custom\core\engine.py", line 390, in get_stats
+    c.execute("SELECT COUNT(*) FROM requests")
+sqlite3.OperationalError: no such table: requests
+2026-09-09 02:28:11,391 [ERROR] Exception on /api/requests [GET]
+Traceback (most recent call last):
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\tools\burpsuite-custom\web\app.py", line 607, in get_requests
+    requests = burp.db.get_requests(host=host, limit=limit, search=search)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\tools\burpsuite-custom\core\engine.py", line 323, in get_requests
+    c.execute(query, params)
+sqlite3.OperationalError: no such table: requests
+2026-09-09 02:28:11,393 [ERROR] Exception on /api/issues [GET]
+Traceback (most recent call last):
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\tools\burpsuite-custom\web\app.py", line 630, in get_issues
+    issues = burp.db.get_issues(severity=severity)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devel\tools\burpsuite-custom\core\engine.py", line 359, in get_issues
+    c.execute(query, params)
+sqlite3.OperationalError: no such table: issues
+2026-09-09 02:28:24,547 [INFO] Database initialized: :memory:
+2026-09-09 02:28:24,547 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:28:24,547 [INFO] CustomBurp initialized
+2026-09-09 02:28:24,775 [INFO] Database initialized: test_burp.db
+2026-09-09 02:28:24,775 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:28:24,776 [INFO] CustomBurp initialized
+2026-09-09 02:28:53,885 [INFO] Database initialized: :memory:
+2026-09-09 02:28:53,886 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:28:53,886 [INFO] CustomBurp initialized
+2026-09-09 02:28:53,929 [INFO] Database initialized: :memory:
+2026-09-09 02:28:53,929 [INFO] Proxy configured: 127.0.0.1:19999, intercept=True
+2026-09-09 02:29:05,694 [INFO] Database initialized: :memory:
+2026-09-09 02:29:05,694 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:29:05,694 [INFO] CustomBurp initialized
+2026-09-09 02:29:15,860 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmp7_vo67nt.db
+2026-09-09 02:29:15,860 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:29:15,861 [INFO] CustomBurp initialized
+2026-09-09 02:29:46,608 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpsfs40a2a.db
+2026-09-09 02:29:46,608 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:29:46,608 [INFO] CustomBurp initialized
+2026-09-09 02:30:11,792 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpwapr2s2h.db
+2026-09-09 02:30:11,792 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:30:11,792 [INFO] CustomBurp initialized
+2026-09-09 02:30:20,487 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpm0lygiov.db
+2026-09-09 02:30:20,488 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:30:20,488 [INFO] CustomBurp initialized
+2026-09-09 02:30:40,899 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmp83kev_oo.db
+2026-09-09 02:30:40,899 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 02:30:40,899 [INFO] CustomBurp initialized
+2026-09-09 03:32:06,462 [INFO] Database initialized: :memory:
+2026-09-09 03:32:06,463 [INFO] Proxy configured: 127.0.0.1:19999, intercept=False
+2026-09-09 03:32:20,199 [INFO] Database initialized: custom_burp.db
+2026-09-09 03:32:20,200 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 03:32:20,200 [INFO] CustomBurp initialized
+2026-09-09 03:32:20,200 [INFO] Proxy started on port 8080
+2026-09-09 03:32:20,201 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 03:34:54,894 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpuvgvv34i.db
+2026-09-09 03:34:54,894 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 03:34:54,895 [INFO] CustomBurp initialized
+2026-09-09 03:35:14,532 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpinmb43ig.db
+2026-09-09 03:35:14,532 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 03:35:14,532 [INFO] CustomBurp initialized
+2026-09-09 03:35:14,545 [INFO] Database initialized: :memory:
+2026-09-09 03:35:14,546 [INFO] Proxy configured: 127.0.0.1:19999, intercept=True
+2026-09-09 03:35:38,327 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpzmwwcu8g.db
+2026-09-09 03:35:38,328 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 03:35:38,328 [INFO] CustomBurp initialized
+2026-09-09 03:35:38,340 [INFO] Database initialized: :memory:
+2026-09-09 03:35:38,340 [INFO] Proxy configured: 127.0.0.1:19999, intercept=True
+2026-09-09 03:43:23,829 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpjb1owhh8.db
+2026-09-09 03:43:23,830 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 03:43:23,830 [INFO] CustomBurp initialized
+2026-09-09 03:43:23,843 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 03:43:24,185 [INFO] Intruder complete: 2 results
+2026-09-09 03:43:24,186 [INFO] Database initialized: :memory:
+2026-09-09 03:43:24,622 [INFO] CA certificate created: ca.crt
+2026-09-09 03:43:24,622 [INFO] Proxy configured: 127.0.0.1:19999, intercept=True
+2026-09-09 03:43:24,897 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 03:43:24,983 [INFO] Intruder complete: 2 results
+2026-09-09 03:43:24,984 [INFO] Database initialized: :memory:
+2026-09-09 03:43:25,004 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpp1e07_fm.db
+2026-09-09 03:44:23,749 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpggxeo7gf.db
+2026-09-09 03:44:23,749 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 03:44:23,749 [INFO] CustomBurp initialized
+2026-09-09 03:44:23,762 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 03:44:24,399 [INFO] Intruder complete: 2 results
+2026-09-09 03:44:24,401 [INFO] Database initialized: :memory:
+2026-09-09 03:44:24,504 [INFO] CA certificate loaded from ca.crt
+2026-09-09 03:44:24,505 [INFO] Proxy configured: 127.0.0.1:19999, intercept=True
+2026-09-09 03:44:24,731 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 03:44:24,812 [INFO] Intruder complete: 2 results
+2026-09-09 03:44:24,813 [INFO] Database initialized: :memory:
+2026-09-09 03:44:24,832 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpii3kf3h_.db
+2026-09-09 04:08:46,966 [INFO] Database initialized: custom_burp.db
+2026-09-09 04:08:46,967 [INFO] Database initialized: custom_burp.db
+2026-09-09 04:08:46,967 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:08:46,968 [INFO] CustomBurp initialized
+2026-09-09 04:08:46,969 [INFO] Proxy started on port 8080
+2026-09-09 04:08:46,969 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 04:08:47,014 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://192.168.0.105:4000
+2026-09-09 04:08:47,014 [INFO] [33mPress CTRL+C to quit[0m
+2026-09-09 04:18:30,863 [INFO] Database initialized: custom_burp.db
+2026-09-09 04:18:30,864 [INFO] Database initialized: custom_burp.db
+2026-09-09 04:18:30,864 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:18:30,864 [INFO] CustomBurp initialized
+2026-09-09 04:18:30,865 [INFO] Proxy started on port 8080
+2026-09-09 04:18:30,866 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 04:18:30,882 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://192.168.0.105:4000
+2026-09-09 04:18:30,882 [INFO] [33mPress CTRL+C to quit[0m
+2026-09-09 04:28:32,972 [INFO] Database initialized: :memory:
+2026-09-09 04:28:32,972 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:28:32,974 [INFO] Database initialized: :memory:
+2026-09-09 04:28:32,975 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:28:32,976 [INFO] Database initialized: :memory:
+2026-09-09 04:28:32,976 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:28:32,978 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 04:28:33,355 [INFO] Intruder complete: 2 results
+2026-09-09 04:30:02,146 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmposxk6c4e.db
+2026-09-09 04:30:02,146 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:30:19,322 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmplphpqb0w.db
+2026-09-09 04:30:19,323 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:30:19,377 [INFO] Collaborator initialized: af17e560.collab.customburp
+2026-09-09 04:30:19,377 [INFO] CustomBurp initialized
+2026-09-09 04:31:07,548 [INFO] Database initialized: :memory:
+2026-09-09 04:31:07,549 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:31:07,577 [INFO] Collaborator initialized: aee4afc6.collab.customburp
+2026-09-09 04:31:07,577 [INFO] CustomBurp initialized
+2026-09-09 04:31:07,578 [INFO] Database initialized: :memory:
+2026-09-09 04:31:07,578 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:31:07,578 [INFO] Collaborator initialized: b6b42c6c.collab.customburp
+2026-09-09 04:31:07,579 [INFO] CustomBurp initialized
+2026-09-09 04:31:07,579 [INFO] Database initialized: :memory:
+2026-09-09 04:31:07,579 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:31:07,580 [INFO] Collaborator initialized: 521570ee.collab.customburp
+2026-09-09 04:31:07,580 [INFO] CustomBurp initialized
+2026-09-09 04:31:07,581 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 04:31:07,906 [INFO] Intruder complete: 2 results
+2026-09-09 04:31:07,907 [INFO] Collaborator initialized: f29cda39.collab.customburp
+2026-09-09 04:31:07,907 [INFO] Collaborator server started on 127.0.0.1:19000
+2026-09-09 04:31:07,908 [INFO] Database initialized: :memory:
+2026-09-09 04:31:07,909 [INFO] Database initialized: :memory:
+2026-09-09 04:31:07,909 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:31:07,909 [INFO] Collaborator initialized: 0ebc6028.collab.customburp
+2026-09-09 04:31:07,909 [INFO] CustomBurp initialized
+2026-09-09 04:31:07,910 [INFO] Database initialized: :memory:
+2026-09-09 04:31:07,910 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:31:07,911 [INFO] Collaborator initialized: 354c6edb.collab.customburp
+2026-09-09 04:31:07,911 [INFO] CustomBurp initialized
+2026-09-09 04:34:34,907 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpre0ffc5q.db
+2026-09-09 04:34:34,908 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:34:34,957 [INFO] Collaborator initialized: acca4ebf.collab.customburp
+2026-09-09 04:34:34,958 [INFO] CustomBurp initialized
+2026-09-09 04:34:59,935 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpn7p1tnkd.db
+2026-09-09 04:34:59,935 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:34:59,981 [INFO] Collaborator initialized: 0f4b2d9d.collab.customburp
+2026-09-09 04:34:59,981 [INFO] CustomBurp initialized
+2026-09-09 04:34:59,983 [INFO] Proxy started on port 8080
+2026-09-09 04:34:59,983 [INFO] Proxy stopped
+2026-09-09 04:35:00,796 [INFO] Database initialized: :memory:
+2026-09-09 04:35:00,796 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:35:00,815 [INFO] Collaborator initialized: 1de54e8b.collab.customburp
+2026-09-09 04:35:00,815 [INFO] CustomBurp initialized
+2026-09-09 04:35:00,816 [INFO] Database initialized: :memory:
+2026-09-09 04:35:00,816 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:35:00,817 [INFO] Collaborator initialized: 45039542.collab.customburp
+2026-09-09 04:35:00,817 [INFO] CustomBurp initialized
+2026-09-09 04:35:00,818 [INFO] Database initialized: :memory:
+2026-09-09 04:35:00,818 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:35:00,818 [INFO] Collaborator initialized: 8e0bb5fb.collab.customburp
+2026-09-09 04:35:00,818 [INFO] CustomBurp initialized
+2026-09-09 04:35:00,819 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 04:35:05,130 [INFO] Intruder complete: 2 results
+2026-09-09 04:35:05,131 [INFO] Collaborator initialized: bd8536f7.collab.customburp
+2026-09-09 04:35:05,132 [INFO] Collaborator server started on 127.0.0.1:19000
+2026-09-09 04:35:05,133 [INFO] Database initialized: :memory:
+2026-09-09 04:35:05,133 [INFO] Database initialized: :memory:
+2026-09-09 04:35:05,133 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:35:05,135 [INFO] Collaborator initialized: dc13385f.collab.customburp
+2026-09-09 04:35:05,135 [INFO] CustomBurp initialized
+2026-09-09 04:35:05,136 [INFO] Proxy started on port 8080
+2026-09-09 04:35:05,136 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 04:35:05,136 [INFO] Database initialized: :memory:
+2026-09-09 04:35:05,136 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:35:05,137 [INFO] Collaborator initialized: 24cf38c7.collab.customburp
+2026-09-09 04:35:05,137 [INFO] CustomBurp initialized
+2026-09-09 04:35:20,200 [INFO] Database initialized: :memory:
+2026-09-09 04:35:20,200 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:35:20,228 [INFO] Collaborator initialized: d4381475.collab.customburp
+2026-09-09 04:35:20,228 [INFO] CustomBurp initialized
+2026-09-09 04:35:20,228 [INFO] Proxy started on port 8080
+2026-09-09 04:35:20,229 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 04:35:20,730 [INFO] Proxy stopped
+2026-09-09 04:36:26,883 [INFO] Database initialized: :memory:
+2026-09-09 04:36:26,883 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 04:36:26,899 [INFO] Collaborator initialized: 36ab25d5.collab.customburp
+2026-09-09 04:36:26,899 [INFO] CustomBurp initialized
+2026-09-09 05:10:11,326 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpawn_4w0a.db
+2026-09-09 05:10:11,326 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:10:11,375 [INFO] Collaborator initialized: 1f45e5ba.collab.customburp
+2026-09-09 05:10:11,376 [INFO] CustomBurp initialized
+2026-09-09 05:10:11,377 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:11:34,851 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmpcqy1f052.db
+2026-09-09 05:11:34,851 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:11:34,889 [INFO] Collaborator initialized: 2a46c1a9.collab.customburp
+2026-09-09 05:11:34,890 [INFO] CustomBurp initialized
+2026-09-09 05:11:34,892 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:11:54,162 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmp4syikg96.db
+2026-09-09 05:11:54,162 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:11:54,195 [INFO] Collaborator initialized: b9dc584e.collab.customburp
+2026-09-09 05:11:54,195 [INFO] CustomBurp initialized
+2026-09-09 05:12:43,365 [INFO] Database initialized: :memory:
+2026-09-09 05:12:43,365 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:12:43,396 [INFO] Collaborator initialized: 08d22473.collab.customburp
+2026-09-09 05:12:43,396 [INFO] CustomBurp initialized
+2026-09-09 05:12:43,485 [INFO] Database initialized: C:\Users\devel\AppData\Local\Temp\tmp525cy98z.db
+2026-09-09 05:12:43,486 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:12:43,593 [INFO] Collaborator initialized: fc857ad2.collab.customburp
+2026-09-09 05:12:43,593 [INFO] CustomBurp initialized
+2026-09-09 05:13:16,405 [INFO] Database initialized: :memory:
+2026-09-09 05:13:16,405 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:13:16,423 [INFO] Collaborator initialized: d6d30f48.collab.customburp
+2026-09-09 05:13:16,423 [INFO] CustomBurp initialized
+2026-09-09 05:13:52,135 [INFO] Database initialized: :memory:
+2026-09-09 05:13:52,135 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:13:52,160 [INFO] Database initialized: :memory:
+2026-09-09 05:13:52,160 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:13:52,169 [INFO] Collaborator initialized: 829f068f.collab.customburp
+2026-09-09 05:13:52,169 [INFO] CustomBurp initialized
+2026-09-09 05:13:52,177 [INFO] Collaborator initialized: e31281cf.collab.customburp
+2026-09-09 05:13:52,177 [INFO] CustomBurp initialized
+2026-09-09 05:17:02,819 [INFO] Database initialized: :memory:
+2026-09-09 05:17:02,819 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:17:02,834 [INFO] Collaborator initialized: ee545169.collab.customburp
+2026-09-09 05:17:02,834 [INFO] CustomBurp initialized
+2026-09-09 05:18:21,202 [INFO] Database initialized: :memory:
+2026-09-09 05:18:21,202 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:18:21,222 [INFO] Collaborator initialized: 50310269.collab.customburp
+2026-09-09 05:18:21,222 [INFO] CustomBurp initialized
+2026-09-09 05:18:21,223 [INFO] Database initialized: :memory:
+2026-09-09 05:18:21,223 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:18:21,223 [INFO] Collaborator initialized: ff3f05b2.collab.customburp
+2026-09-09 05:18:21,223 [INFO] CustomBurp initialized
+2026-09-09 05:18:21,224 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:18:21,927 [INFO] Intruder complete: 2 results
+2026-09-09 05:18:21,928 [INFO] Collaborator initialized: f483baf4.collab.customburp
+2026-09-09 05:18:21,929 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:18:21,938 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:18:21,938 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:18:21,941 [INFO] Database initialized: :memory:
+2026-09-09 05:18:21,942 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:18:21,942 [INFO] Collaborator initialized: 8ff81163.collab.customburp
+2026-09-09 05:18:21,942 [INFO] CustomBurp initialized
+2026-09-09 05:18:21,943 [INFO] Proxy started on port 8080
+2026-09-09 05:18:21,943 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:18:21,943 [INFO] Database initialized: :memory:
+2026-09-09 05:18:21,943 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:18:21,944 [INFO] Collaborator initialized: 20730533.collab.customburp
+2026-09-09 05:18:21,944 [INFO] CustomBurp initialized
+2026-09-09 05:18:21,945 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:18:21,945 [INFO] Proxy stopped
+2026-09-09 05:18:43,249 [INFO] Database initialized: :memory:
+2026-09-09 05:18:43,249 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:18:43,277 [INFO] Collaborator initialized: 2a141579.collab.customburp
+2026-09-09 05:18:43,278 [INFO] CustomBurp initialized
+2026-09-09 05:19:20,302 [INFO] Database initialized: :memory:
+2026-09-09 05:19:20,302 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:20,331 [INFO] Collaborator initialized: c13bbf87.collab.customburp
+2026-09-09 05:19:20,331 [INFO] CustomBurp initialized
+2026-09-09 05:19:20,332 [INFO] Proxy started on port 8080
+2026-09-09 05:19:21,112 [INFO] Database initialized: :memory:
+2026-09-09 05:19:21,112 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:21,131 [INFO] Collaborator initialized: 1aa95e05.collab.customburp
+2026-09-09 05:19:21,131 [INFO] CustomBurp initialized
+2026-09-09 05:19:21,132 [INFO] Database initialized: :memory:
+2026-09-09 05:19:21,132 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:21,133 [INFO] Collaborator initialized: 964a4384.collab.customburp
+2026-09-09 05:19:21,133 [INFO] CustomBurp initialized
+2026-09-09 05:19:21,134 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:19:21,809 [INFO] Intruder complete: 2 results
+2026-09-09 05:19:21,811 [INFO] Collaborator initialized: 51d86f5c.collab.customburp
+2026-09-09 05:19:21,813 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:19:21,815 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:19:21,816 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:19:21,821 [INFO] Database initialized: :memory:
+2026-09-09 05:19:21,822 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:21,822 [INFO] Collaborator initialized: 4c91e397.collab.customburp
+2026-09-09 05:19:21,822 [INFO] CustomBurp initialized
+2026-09-09 05:19:21,823 [INFO] Proxy started on port 8080
+2026-09-09 05:19:21,824 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:19:21,824 [INFO] Database initialized: :memory:
+2026-09-09 05:19:21,824 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:21,825 [INFO] Collaborator initialized: 1fc94722.collab.customburp
+2026-09-09 05:19:21,825 [INFO] CustomBurp initialized
+2026-09-09 05:19:21,826 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:19:21,826 [INFO] Proxy stopped
+2026-09-09 05:19:46,251 [INFO] Database initialized: :memory:
+2026-09-09 05:19:46,251 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:46,270 [INFO] Collaborator initialized: 28b11e5d.collab.customburp
+2026-09-09 05:19:46,270 [INFO] CustomBurp initialized
+2026-09-09 05:19:46,271 [INFO] Database initialized: :memory:
+2026-09-09 05:19:46,271 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:46,271 [INFO] Collaborator initialized: fe8d8e82.collab.customburp
+2026-09-09 05:19:46,271 [INFO] CustomBurp initialized
+2026-09-09 05:19:46,272 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:19:46,859 [INFO] Intruder complete: 2 results
+2026-09-09 05:19:46,860 [INFO] Collaborator initialized: 38ecf1b2.collab.customburp
+2026-09-09 05:19:46,861 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:19:46,864 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:19:46,864 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:19:46,865 [INFO] Database initialized: :memory:
+2026-09-09 05:19:46,865 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:46,866 [INFO] Collaborator initialized: 7a8c6701.collab.customburp
+2026-09-09 05:19:46,866 [INFO] CustomBurp initialized
+2026-09-09 05:19:46,866 [INFO] Proxy started on port 8080
+2026-09-09 05:19:46,866 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:19:47,167 [INFO] Proxy stopped
+2026-09-09 05:19:47,367 [INFO] Database initialized: :memory:
+2026-09-09 05:19:47,367 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:19:47,368 [INFO] Collaborator initialized: 4d01d16f.collab.customburp
+2026-09-09 05:19:47,368 [INFO] CustomBurp initialized
+2026-09-09 05:19:47,368 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:19:47,369 [INFO] Proxy stopped
+2026-09-09 05:20:41,440 [INFO] Database initialized: :memory:
+2026-09-09 05:20:41,441 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:20:41,460 [INFO] Collaborator initialized: 41c4bd2f.collab.customburp
+2026-09-09 05:20:41,460 [INFO] CustomBurp initialized
+2026-09-09 05:20:41,461 [INFO] Database initialized: :memory:
+2026-09-09 05:20:41,461 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:20:41,462 [INFO] Collaborator initialized: 47957b62.collab.customburp
+2026-09-09 05:20:41,462 [INFO] CustomBurp initialized
+2026-09-09 05:20:41,463 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:20:41,788 [INFO] Intruder complete: 2 results
+2026-09-09 05:20:41,789 [INFO] Collaborator initialized: 2629d0f4.collab.customburp
+2026-09-09 05:20:41,789 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:20:41,792 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:20:41,792 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:20:41,793 [INFO] Database initialized: :memory:
+2026-09-09 05:20:41,793 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:20:41,794 [INFO] Collaborator initialized: b3f3dfd4.collab.customburp
+2026-09-09 05:20:41,794 [INFO] CustomBurp initialized
+2026-09-09 05:20:41,794 [INFO] Proxy started on port 8080
+2026-09-09 05:20:41,794 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:20:42,095 [INFO] Proxy stopped
+2026-09-09 05:20:42,296 [INFO] Database initialized: :memory:
+2026-09-09 05:20:42,296 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:20:42,296 [INFO] Collaborator initialized: dcb64ac5.collab.customburp
+2026-09-09 05:20:42,296 [INFO] CustomBurp initialized
+2026-09-09 05:20:42,298 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:20:42,298 [INFO] Proxy stopped
+2026-09-09 05:29:23,466 [INFO] Database initialized: :memory:
+2026-09-09 05:29:23,467 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:29:23,485 [INFO] Collaborator initialized: c3f2a613.collab.customburp
+2026-09-09 05:29:23,485 [INFO] CustomBurp initialized
+2026-09-09 05:29:23,486 [INFO] Database initialized: :memory:
+2026-09-09 05:29:23,486 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:29:23,487 [INFO] Collaborator initialized: 7496bb09.collab.customburp
+2026-09-09 05:29:23,487 [INFO] CustomBurp initialized
+2026-09-09 05:29:23,488 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:29:23,908 [INFO] Intruder complete: 2 results
+2026-09-09 05:29:23,909 [INFO] Collaborator initialized: b287b216.collab.customburp
+2026-09-09 05:29:23,910 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:29:23,913 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:29:23,913 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:29:23,915 [INFO] Database initialized: :memory:
+2026-09-09 05:29:23,915 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:29:23,915 [INFO] Collaborator initialized: a29f2f23.collab.customburp
+2026-09-09 05:29:23,915 [INFO] CustomBurp initialized
+2026-09-09 05:29:23,916 [INFO] Proxy started on port 8080
+2026-09-09 05:29:23,916 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:29:24,217 [INFO] Proxy stopped
+2026-09-09 05:29:24,418 [INFO] Database initialized: :memory:
+2026-09-09 05:29:24,418 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:29:24,418 [INFO] Collaborator initialized: 940278d8.collab.customburp
+2026-09-09 05:29:24,418 [INFO] CustomBurp initialized
+2026-09-09 05:29:24,419 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:29:24,419 [INFO] Proxy stopped
+2026-09-09 05:31:44,736 [INFO] Database initialized: :memory:
+2026-09-09 05:31:44,736 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:31:44,761 [INFO] Collaborator initialized: c27a965a.collab.customburp
+2026-09-09 05:31:44,761 [INFO] CustomBurp initialized
+2026-09-09 05:31:45,555 [INFO] Database initialized: :memory:
+2026-09-09 05:31:45,555 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:31:45,573 [INFO] Collaborator initialized: 25c60d78.collab.customburp
+2026-09-09 05:31:45,573 [INFO] CustomBurp initialized
+2026-09-09 05:31:45,573 [INFO] Database initialized: :memory:
+2026-09-09 05:31:45,574 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:31:45,574 [INFO] Collaborator initialized: 01501b32.collab.customburp
+2026-09-09 05:31:45,574 [INFO] CustomBurp initialized
+2026-09-09 05:31:45,575 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:31:45,916 [INFO] Intruder complete: 2 results
+2026-09-09 05:31:45,917 [INFO] Collaborator initialized: f45abfa2.collab.customburp
+2026-09-09 05:31:45,917 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:31:45,921 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:31:45,921 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:31:45,922 [INFO] Database initialized: :memory:
+2026-09-09 05:31:45,923 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:31:45,923 [INFO] Collaborator initialized: 435bc944.collab.customburp
+2026-09-09 05:31:45,923 [INFO] CustomBurp initialized
+2026-09-09 05:31:45,926 [INFO] Proxy started on port 8080
+2026-09-09 05:31:45,926 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:31:46,227 [INFO] Proxy stopped
+2026-09-09 05:31:46,428 [INFO] Database initialized: :memory:
+2026-09-09 05:31:46,428 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:31:46,429 [INFO] Collaborator initialized: c4e11d34.collab.customburp
+2026-09-09 05:31:46,429 [INFO] CustomBurp initialized
+2026-09-09 05:31:46,431 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:31:46,431 [INFO] Proxy stopped
+2026-09-09 05:32:28,917 [INFO] Database initialized: :memory:
+2026-09-09 05:32:28,917 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:32:28,965 [INFO] Collaborator initialized: 71cfaf5d.collab.customburp
+2026-09-09 05:32:28,966 [INFO] CustomBurp initialized
+2026-09-09 05:32:28,966 [INFO] Proxy stopped
+2026-09-09 05:32:29,740 [INFO] Database initialized: :memory:
+2026-09-09 05:32:29,740 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:32:29,768 [INFO] Collaborator initialized: c67fe3bc.collab.customburp
+2026-09-09 05:32:29,769 [INFO] CustomBurp initialized
+2026-09-09 05:32:29,769 [INFO] Database initialized: :memory:
+2026-09-09 05:32:29,769 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:32:29,771 [INFO] Collaborator initialized: dedadf54.collab.customburp
+2026-09-09 05:32:29,771 [INFO] CustomBurp initialized
+2026-09-09 05:32:29,772 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:32:30,502 [INFO] Intruder complete: 2 results
+2026-09-09 05:32:30,503 [INFO] Collaborator initialized: 0c6ff720.collab.customburp
+2026-09-09 05:32:30,504 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:32:30,505 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:32:30,505 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:32:30,506 [INFO] Database initialized: :memory:
+2026-09-09 05:32:30,506 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:32:30,507 [INFO] Collaborator initialized: 1857581e.collab.customburp
+2026-09-09 05:32:30,508 [INFO] CustomBurp initialized
+2026-09-09 05:32:30,508 [INFO] Proxy started on port 8080
+2026-09-09 05:32:30,508 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:32:30,810 [INFO] Proxy stopped
+2026-09-09 05:32:31,021 [INFO] Database initialized: :memory:
+2026-09-09 05:32:31,021 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:32:31,022 [INFO] Collaborator initialized: d862cad5.collab.customburp
+2026-09-09 05:32:31,023 [INFO] CustomBurp initialized
+2026-09-09 05:32:31,026 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:32:31,027 [INFO] Proxy stopped
+2026-09-09 05:33:07,217 [INFO] Collaborator initialized: 26c757e4.collab.customburp
+2026-09-09 05:35:13,514 [INFO] Collaborator initialized: 51135a10.collab.customburp
+2026-09-09 05:35:55,597 [INFO] Collaborator initialized: e73c3f81.collab.customburp
+2026-09-09 05:35:56,261 [INFO] Database initialized: :memory:
+2026-09-09 05:35:56,262 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:35:56,299 [INFO] Collaborator initialized: a7cdb43a.collab.customburp
+2026-09-09 05:35:56,299 [INFO] CustomBurp initialized
+2026-09-09 05:35:56,301 [INFO] Database initialized: :memory:
+2026-09-09 05:35:56,301 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:35:56,302 [INFO] Collaborator initialized: 2fd1f211.collab.customburp
+2026-09-09 05:35:56,302 [INFO] CustomBurp initialized
+2026-09-09 05:35:56,303 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:35:56,647 [INFO] Intruder complete: 2 results
+2026-09-09 05:35:56,648 [INFO] Collaborator initialized: 38703468.collab.customburp
+2026-09-09 05:35:56,652 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:35:56,654 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:35:56,654 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:35:56,655 [INFO] Database initialized: :memory:
+2026-09-09 05:35:56,655 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:35:56,655 [INFO] Collaborator initialized: cf9f48a2.collab.customburp
+2026-09-09 05:35:56,656 [INFO] CustomBurp initialized
+2026-09-09 05:35:56,656 [INFO] Proxy started on port 8080
+2026-09-09 05:35:56,657 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:35:56,958 [INFO] Proxy stopped
+2026-09-09 05:35:57,159 [INFO] Database initialized: :memory:
+2026-09-09 05:35:57,159 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:35:57,159 [INFO] Collaborator initialized: 510631a4.collab.customburp
+2026-09-09 05:35:57,160 [INFO] CustomBurp initialized
+2026-09-09 05:35:57,161 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:35:57,161 [INFO] Proxy stopped
+2026-09-09 05:41:53,045 [INFO] Collaborator initialized: e50b3374.collab.customburp
+2026-09-09 05:41:59,621 [INFO] Collaborator initialized: a43f679b.collab.customburp
+2026-09-09 05:42:16,427 [INFO] Database initialized: :memory:
+2026-09-09 05:42:16,428 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:42:16,468 [INFO] Collaborator initialized: 3a07dce8.collab.customburp
+2026-09-09 05:42:16,468 [INFO] CustomBurp initialized
+2026-09-09 05:42:16,469 [INFO] Database initialized: :memory:
+2026-09-09 05:42:16,469 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:42:16,470 [INFO] Collaborator initialized: e2a3c2da.collab.customburp
+2026-09-09 05:42:16,470 [INFO] CustomBurp initialized
+2026-09-09 05:42:16,471 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:42:16,869 [INFO] Intruder complete: 2 results
+2026-09-09 05:42:16,870 [INFO] Collaborator initialized: 186ec68a.collab.customburp
+2026-09-09 05:42:16,871 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:42:16,872 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:42:16,872 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:42:16,873 [INFO] Database initialized: :memory:
+2026-09-09 05:42:16,873 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:42:16,873 [INFO] Collaborator initialized: 971d1490.collab.customburp
+2026-09-09 05:42:16,874 [INFO] CustomBurp initialized
+2026-09-09 05:42:16,874 [INFO] Proxy started on port 8080
+2026-09-09 05:42:16,874 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:42:17,175 [INFO] Proxy stopped
+2026-09-09 05:42:17,375 [INFO] Database initialized: :memory:
+2026-09-09 05:42:17,375 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:42:17,376 [INFO] Collaborator initialized: b59178de.collab.customburp
+2026-09-09 05:42:17,376 [INFO] CustomBurp initialized
+2026-09-09 05:42:17,377 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:42:17,378 [INFO] Proxy stopped
+2026-09-09 05:42:28,856 [INFO] Collaborator initialized: d782befc.collab.customburp
+2026-09-09 05:42:28,869 [INFO] Database initialized: :memory:
+2026-09-09 05:42:28,870 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:42:28,871 [INFO] Collaborator initialized: c305414e.collab.customburp
+2026-09-09 05:42:28,872 [INFO] CustomBurp initialized
+2026-09-09 05:46:44,605 [INFO] Collaborator initialized: 97b5c0c5.collab.customburp
+2026-09-09 05:46:45,647 [INFO] Database initialized: :memory:
+2026-09-09 05:46:45,647 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:46:45,671 [INFO] Collaborator initialized: cf180e19.collab.customburp
+2026-09-09 05:46:45,672 [INFO] CustomBurp initialized
+2026-09-09 05:46:45,673 [INFO] Database initialized: :memory:
+2026-09-09 05:46:45,673 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:46:45,673 [INFO] Collaborator initialized: 0073c6ba.collab.customburp
+2026-09-09 05:46:45,673 [INFO] CustomBurp initialized
+2026-09-09 05:46:45,674 [INFO] Intruder sniper: 2 combinations, 2 threads
+2026-09-09 05:46:46,248 [INFO] Intruder complete: 2 results
+2026-09-09 05:46:46,249 [INFO] Collaborator initialized: c898ee1a.collab.customburp
+2026-09-09 05:46:46,250 [INFO] Collaborator server started on 127.0.0.1:19001
+2026-09-09 05:46:46,251 [WARNING] Alert: [High] XSS - XSS detected
+2026-09-09 05:46:46,251 [WARNING] Alert: [Critical] SQLi - SQLi detected
+2026-09-09 05:46:46,251 [INFO] Database initialized: :memory:
+2026-09-09 05:46:46,252 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:46:46,252 [INFO] Collaborator initialized: ebdbda29.collab.customburp
+2026-09-09 05:46:46,252 [INFO] CustomBurp initialized
+2026-09-09 05:46:46,253 [INFO] Proxy started on port 8080
+2026-09-09 05:46:46,253 [INFO] Proxy started on 127.0.0.1:8080
+2026-09-09 05:46:46,554 [INFO] Proxy stopped
+2026-09-09 05:46:46,758 [INFO] Database initialized: :memory:
+2026-09-09 05:46:46,758 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:46:46,759 [INFO] Collaborator initialized: ed33e4c4.collab.customburp
+2026-09-09 05:46:46,760 [INFO] CustomBurp initialized
+2026-09-09 05:46:46,761 [INFO] Collaborator server started on 127.0.0.1:9000
+2026-09-09 05:46:46,761 [INFO] Proxy stopped
+2026-09-09 05:47:57,303 [INFO] Collaborator initialized: 91ce1383.collab.customburp
+2026-09-09 05:47:59,608 [INFO] Collaborator initialized: e6361e64.collab.customburp
+2026-09-09 05:48:07,150 [INFO] Collaborator initialized: e07b1fa7.collab.customburp
+2026-09-09 05:48:07,167 [INFO] Database initialized: :memory:
+2026-09-09 05:48:07,167 [INFO] Proxy configured: 127.0.0.1:8080, intercept=True
+2026-09-09 05:48:07,169 [INFO] Collaborator initialized: fe025c28.collab.customburp
+2026-09-09 05:48:07,170 [INFO] CustomBurp initialized
+2026-09-09 05:48:07,210 [INFO] Proxy stopped

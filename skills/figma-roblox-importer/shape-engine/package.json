@@ -1,0 +1,53 @@
+{
+  "name": "shape-engine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "build-figma-plugin --typecheck --watch",
+    "build": "build-figma-plugin --typecheck --minify"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^2.1.5",
+    "@create-figma-plugin/tsconfig": "^2.1.5",
+    "@create-figma-plugin/ui": "^2.1.5",
+    "@figma/plugin-typings": "1.97.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "figma-plugin": {
+    "id": "shape-engine-plugin",
+    "name": "Shape Engine",
+    "editorType": ["figma"],
+    "permissions": [],
+    "networkAccess": {
+      "allowedDomains": ["none"]
+    },
+    "menu": [
+      {
+        "name": "🔷 Shapes — Criar",
+        "main": "src/main.ts"
+      },
+      {
+        "name": "🎨 Texturas & Preenchimentos",
+        "main": "src/textures.ts"
+      },
+      {
+        "name": "⚡ Booleanas & Camadas",
+        "main": "src/booleans.ts"
+      },
+      {
+        "name": "✏️ Editar Vetores",
+        "main": "src/vectors.ts"
+      },
+      {
+        "name": "📐 Transformar",
+        "main": "src/transform.ts"
+      }
+    ]
+  }
+}

@@ -1,0 +1,816 @@
+net: 25 functions
+  - SRV
+  - ret
+  - Addr
+  - Conn
+  - conn
+  - IP
+  - file
+  - IPNet
+  - netFD
+  - Error
+
+mcp: 22 functions
+  - msg
+  - res
+  - raw
+  - Meta
+  - Icon
+  - Role
+  - Tool
+  - Root
+  - wire
+  - Plain
+
+ast: 18 functions
+  - pos
+  - AST
+  - Type
+  - Path
+  - Node
+  - Expr
+  - Text
+  - Link
+  - List
+  - expr
+
+cdp: 15 functions
+  - CSS
+  - DOM
+  - Log
+  - PWA
+  - Cast
+  - Page
+  - FedCM
+  - Fetch
+  - Input
+  - Media
+
+uv: 15 functions
+  - Cell
+  - Link
+  - Line
+  - Style
+  - tFlag
+  - Event
+  - Mouse
+  - Key
+  - Line
+  - Logger
+
+fs: 14 functions
+  - Path
+  - File
+  - Uri
+  - subFS
+  - SubFS
+  - Uri
+  - Path
+  - Uri
+  - GlobFS
+  - StatFS
+
+art: 12 functions
+  - Key
+  - Node
+  - Kind
+  - tree
+  - leaf
+  - node
+  - Tree
+  - noop
+  - Value
+  - node4
+
+tea: 11 functions
+  - Cmd
+  - Key
+  - View
+  - Mouse
+  - Model
+  - Cmd
+  - Cursor
+  - EnvMsg
+  - RawMsg
+  - KeyMsg
+
+big: 10 functions
+  - Int
+  - nat
+  - Rat
+  - Int
+  - Word
+  - form
+  - Float
+  - Int
+  - Int
+  - Word
+
+wf: 7 functions
+  - Rule
+  - Range
+  - Field
+  - Layer
+  - Match
+  - Action
+  - RuleID
+
+os: 7 functions
+  - File
+  - Signal
+  - dirInfo
+  - rawConn
+  - timeout
+  - File
+  - Process
+
+abi: 7 functions
+  - Kind
+  - Type
+  - Name
+  - Type
+  - TFlag
+  - Method
+  - FuncID
+
+dom: 7 functions
+  - Node
+  - Quad
+  - Rect
+  - RGBA
+  - NodeID
+  - Node
+  - Quad
+
+genai: 7 functions
+  - File
+  - Part
+  - Blob
+  - Type
+  - Tool
+  - Chat
+  - Live
+
+diff: 6 functions
+  - op
+  - File
+  - hunk
+  - Chunk
+  - op
+  - Patch
+
+sync: 6 functions
+  - Map
+  - Pool
+  - Cond
+  - Once
+  - Mutex
+  - eface
+
+xml: 6 functions
+  - Name
+  - Attr
+  - Token
+  - stack
+  - Attr
+  - Name
+
+http: 6 functions
+  - Dir
+  - Err
+  - body
+  - conn
+  - File
+  - ioFS
+
+tls: 6 functions
+  - Conn
+  - aead
+  - alert
+  - Config
+  - alert
+  - Dialer
+
+zap: 6 functions
+  - ints
+  - Sink
+  - uints
+  - times
+  - int8s
+  - bools
+
+css: 6 functions
+  - Rule
+  - Value
+  - Style
+  - Media
+  - Layer
+  - Scope
+
+time: 6 functions
+  - zone
+  - Time
+  - abbr
+  - Month
+  - Timer
+  - Time
+
+json: 6 functions
+  - Kind
+  - call
+  - kind
+  - Token
+  - Delim
+  - coder
+
+url: 5 functions
+  - URL
+  - Error
+  - Error
+  - Values
+  - URL
+
+gorm: 5 functions
+  - Tx
+  - DB
+  - DB
+  - Rows
+  - join
+
+sql: 5 functions
+  - Row
+  - Stmt
+  - Rows
+  - Conn
+  - Rows
+
+bpf: 5 functions
+  - TAX
+  - TXA
+  - Jump
+  - RetA
+  - ALUOp
+
+io: 5 functions
+  - Writer
+  - Reader
+  - Closer
+  - Seeker
+  - discard
+
+slog: 5 functions
+  - Attr
+  - Kind
+  - kind
+  - Level
+  - Value
+
+hpke: 4 functions
+  - KEM
+  - KDF
+  - AEAD
+  - aead
+
+urpc: 4 functions
+  - tag
+  - Call
+  - Conn
+  - peer
+
+antlr: 4 functions
+  - OR
+  - ATN
+  - DFA
+  - AND
+
+tar: 4 functions
+  - block
+  - Header
+  - Format
+  - Reader
+
+yaml: 4 functions
+  - Kind
+  - Node
+  - node
+  - Style
+
+types: 4 functions
+  - Any
+  - Api
+  - Err
+  - Int
+
+match: 4 functions
+  - Any
+  - Max
+  - Min
+  - Row
+
+mem: 4 functions
+  - Buffer
+  - buffer
+  - writer
+  - Reader
+
+uri: 3 functions
+  - URI
+  - URI
+  - URI
+
+aes: 3 functions
+  - CTR
+  - Block
+  - block
+
+cel: 3 functions
+  - Env
+  - Ast
+  - prog
+
+ref: 3 functions
+  - Val
+  - Type
+  - Val
+
+lru: 3 functions
+  - Key
+  - entry
+  - Cache
+
+rule: 3 functions
+  - or
+  - not
+  - and
+
+varz: 3 functions
+  - vz
+  - vz
+  - Varz
+
+ssh: 3 functions
+  - mux
+  - Conn
+  - ecdh
+
+zip: 3 functions
+  - File
+  - Reader
+  - header
+
+maps: 3 functions
+  - Map
+  - Iter
+  - table
+
+kind: 3 functions
+  - Not
+  - Type
+  - Enum
+
+cmp: 3 functions
+  - Path
+  - core
+  - state
+
+ice: 3 functions
+  - Conn
+  - Role
+  - Agent
+
+fmt: 3 functions
+  - ssave
+  - State
+  - buffer
+
+log: 3 functions
+  - Level
+  - Entry
+  - Logger
+
+runtime: 3 functions
+  - m
+  - g
+  - p
+
+clause: 3 functions
+  - Eq
+  - Gt
+  - IN
+
+expr: 3 functions
+  - Type
+  - Decl
+  - Expr
+
+webm: 3 functions
+  - Info
+  - Seek
+  - Cues
+
+cipher: 3 functions
+  - ctr
+  - cfb
+  - cbc
+
+sentry: 3 functions
+  - Log
+  - Dsn
+  - Hub
+
+color: 3 functions
+  - CMYK
+  - Gray
+  - RGBA
+
+git: 3 functions
+  - Signer
+  - Status
+  - Remote
+
+image: 3 functions
+  - CMYK
+  - Gray
+  - RGBA
+
+env: 2 functions
+  - Env
+  - Limit
+
+anypb: 2 functions
+  - x
+  - Any
+
+draw: 2 functions
+  - Op
+  - Image
+
+rfmt: 2 functions
+  - pp
+  - fmt
+
+http2: 2 functions
+  - I
+  - pipe
+
+ocb: 2 functions
+  - ocb
+  - mask
+
+spew: 2 functions
+  - t0
+  - flag
+
+ccm: 2 functions
+  - CCM
+  - ccm
+
+embed: 2 functions
+  - FS
+  - file
+
+local: 2 functions
+  - FS
+  - FS
+
+exec: 2 functions
+  - Cmd
+  - Error
+
+x509: 2 functions
+  - OID
+  - OID
+
+ansi: 2 functions
+  - Cmd
+  - Mode
+
+asn1: 2 functions
+  - Tag
+  - Flag
+
+gg: 2 functions
+  - Point
+  - Matrix
+
+vnet: 2 functions
+  - NIC
+  - Net
+
+flag: 2 functions
+  - Flag
+  - Value
+
+uuid: 2 functions
+  - Time
+  - UUID
+
+store: 2 functions
+  - Tip
+  - Auth
+
+jpeg: 2 functions
+  - bits
+  - block
+
+text: 2 functions
+  - Kind
+  - call
+
+gob: 2 functions
+  - decOp
+  - encOp
+
+norm: 2 functions
+  - Form
+  - Iter
+
+osfs: 2 functions
+  - file
+  - Type
+
+sdp: 2 functions
+  - Codec
+  - lexer
+
+hmac: 2 functions
+  - HMAC
+  - hmac
+
+html: 2 functions
+  - span
+  - Node
+
+trace: 2 functions
+  - Task
+  - cond
+
+drive: 2 functions
+  - User
+  - File
+
+async: 2 functions
+  - Loop
+  - Gate
+
+vcs: 1 functions
+  - Vcs
+
+poll: 1 functions
+  - FD
+
+sys: 1 functions
+  - nih
+
+gcm: 1 functions
+  - GCM
+
+s2a: 1 functions
+  - uid
+
+mux: 1 functions
+  - Mux
+
+eax: 1 functions
+  - eax
+
+status: 1 functions
+  - x
+
+tap: 1 functions
+  - Info
+
+key: 1 functions
+  - Help
+
+latlng: 1 functions
+  - x
+
+ecdh: 1 functions
+  - KDF
+
+sbox: 1 functions
+  - Cmd
+
+rtcp: 1 functions
+  - ECN
+
+stun: 1 functions
+  - URI
+
+gcfg: 1 functions
+  - tag
+
+ole: 1 functions
+  - GUID
+
+f64: 1 functions
+  - Aff3
+
+obu: 1 functions
+  - Type
+
+rpc: 1 functions
+  - Call
+
+sdk: 1 functions
+  - span
+
+rand: 1 functions
+  - Rand
+
+user: 1 functions
+  - User
+
+cors: 1 functions
+  - Cors
+
+iter: 1 functions
+  - coro
+
+hash: 1 functions
+  - Hash
+
+driver: 1 functions
+  - Tx
+
+label: 1 functions
+  - Set
+
+testing: 1 functions
+  - T
+
+proto: 1 functions
+  - wkt
+
+syntax: 1 functions
+  - Op
+
+emptypb: 1 functions
+  - x
+
+target: 1 functions
+  - ID
+
+list: 1 functions
+  - List
+
+task: 1 functions
+  - Opts
+
+stats: 1 functions
+  - End
+
+peer: 1 functions
+  - Peer
+
+ring: 1 functions
+  - Ring
+
+data: 1 functions
+  - Type
+
+code: 1 functions
+  - Code
+
+pem: 1 functions
+  - Block
+
+term: 1 functions
+  - File
+
+date: 1 functions
+  - Date
+
+param: 1 functions
+  - opt
+
+toml: 1 functions
+  - Tree
+
+core: 1 functions
+  - Tool
+
+rpcc: 1 functions
+  - Conn
+
+cast: 1 functions
+  - Sink
+
+privacy: 1 functions
+  - x
+
+ecc: 1 functions
+  - Curve
+
+billy: 1 functions
+  - Dir
+
+glob: 1 functions
+  - Glob
+
+parse: 1 functions
+  - Pos
+
+pkix: 1 functions
+  - Name
+
+dtls: 1 functions
+  - Conn
+
+fmtp: 1 functions
+  - FMTP
+
+sha3: 1 functions
+  - SHA3
+
+font: 1 functions
+  - Face
+
+lzw: 1 functions
+  - Order
+
+sjson: 1 functions
+  - val
+
+lang: 1 functions
+  - rule
+
+mdns: 1 functions
+  - Conn
+
+atom: 1 functions
+  - Atom
+
+util: 1 functions
+  - Libs
+
+global: 1 functions
+  - il
+
+agent: 1 functions
+  - Key
+
+noop: 1 functions
+  - Span
+
+bytes: 1 functions
+  - span
+
+regexp: 1 functions
+  - job
+
+object: 1 functions
+  - Tag
+
+grpc: 1 functions
+  - idler
+
+sets: 1 functions
+  - Empty
+
+hex: 1 functions
+  - dumper
+
+lsp: 1 functions
+  - Client
+
+fnv: 1 functions
+  - sum32a
+
+detach: 1 functions
+  - ctx
+
+model: 1 functions
+  - turn
+
+md5: 1 functions
+  - digest
+
+cpu: 1 functions
+  - option
+
+structpb: 1 functions
+  - x
+
+hujson: 1 functions
+  - row
+
+auditing: 1 functions
+  - x
+
+page: 1 functions
+  - Frame
+
+noder: 1 functions
+  - Path
+
+codes: 1 functions
+  - Code
+
+resize: 1 functions
+  - ycc
+
+clock: 1 functions
+  - Mock
+

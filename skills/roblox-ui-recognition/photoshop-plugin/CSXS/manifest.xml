@@ -1,0 +1,55 @@
+<ExtensionManifest Version="8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.roblox.phototolua" ExtensionBundleVersion="3.0.0">
+  <ExtensionList>
+    <Extension Id="com.roblox.phototolua.panel" Version="3.0.0" />
+  </ExtensionList>
+  <ExtensionList>
+    <Extension Id="com.roblox.phototolua.verification" Version="3.0.0" />
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="PHXS" Version="[22.0,99.9]" />
+      <Host Name="PHSP" Version="[22.0,99.9]" />
+    </HostList>
+    <LocaleList>
+      <Locale Code="All" />
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="11.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <DispatchInfo>
+      <ExtendedPanel xmlns="http://www.adobe.com/2005/extendedpanel">
+        <Caption>FigmaPS2Roblox v3</Caption>
+        <SubsystemType>uk.co.adobe.cepInterface</SubsystemType>
+        <Icon>BriefIcon.png</Icon>
+        <TooltipText>Photoshop → Roblox UI com verificação inteligente, IA e UDS em tempo real</TooltipText>
+        <CustomPaletteMode>floating</CustomPaletteMode>
+        <SupportedDimensions>
+          <SupportedDimension>
+            <Width>400</Width>
+            <Height>680</Height>
+          </SupportedDimension>
+          <SupportedDimension>
+            <Width>500</Width>
+            <Height>750</Height>
+          </SupportedDimension>
+          <SupportedDimension>
+            <Width>440</Width>
+            <Height>700</Height>
+          </SupportedDimension>
+        </SupportedDimensions>
+        <DialogProperties>
+          <MinimumSize>
+            <Width>380</Width>
+            <Height>520</Height>
+          </MinimumSize>
+          <MaximumSize>
+            <Width>800</Width>
+            <Height>950</Height>
+          </MaximumSize>
+        </DialogProperties>
+      </ExtendedPanel>
+    </DispatchInfo>
+  </DispatchInfoList>
+</ExtensionManifest>

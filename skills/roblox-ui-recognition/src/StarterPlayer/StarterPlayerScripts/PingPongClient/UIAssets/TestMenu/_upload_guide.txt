@@ -1,0 +1,17 @@
+# Guia de Upload — TestMenu
+
+📂 Pasta com assets processados:
+   C:/Users/devel/.config/opencode/test-ui-assets
+
+1️⃣  Abra o Roblox Studio
+2️⃣  No Explorer: ReplicatedStorage > UIAssets > TestMenu (crie se não existir)
+3️⃣  Arraste os 30 arquivos PNG da pasta acima para o Explorer
+4️⃣  Aguarde o upload completar
+5️⃣  Copie os Asset IDs (clique direito no asset > Copy Asset ID)
+
+📝 Para atualizar o manifest:
+   Edite TestMenu/_manifest.json substituindo cada "rbxassetid://0"
+   pelo ID real do asset correspondente.
+
+🔗 Ou use o comando:
+   node roblox-ui-manage.js update-placeholders _controller.lua --assets=UID1=123,UID2=456

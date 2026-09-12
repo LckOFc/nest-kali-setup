@@ -1,0 +1,1265 @@
+{
+  "name": "TestMenu",
+  "canvasWidth": 1920,
+  "canvasHeight": 1080,
+  "scaleMode": "ScaleToFit",
+  "elements": [
+    {
+      "type": "ImageLabel",
+      "name": "backgroundmainfe",
+      "assetId": "PLACEHOLDER_3",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "anchorX": 0,
+      "anchorY": 0,
+      "zIndex": 1,
+      "scaleType": "Fill",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "backgroundmain",
+      "assetId": "PLACEHOLDER_4",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "anchorX": 0,
+      "anchorY": 0,
+      "zIndex": 1,
+      "scaleType": "Fill",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "bgmenucecbe",
+      "assetId": "PLACEHOLDER_7",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "anchorX": 0,
+      "anchorY": 0,
+      "zIndex": 1,
+      "scaleType": "Fill",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "bgmenu",
+      "assetId": "PLACEHOLDER_8",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "anchorX": 0,
+      "anchorY": 0,
+      "zIndex": 1,
+      "scaleType": "Fill",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "telafundo",
+      "assetId": "PLACEHOLDER_45",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "anchorX": 0,
+      "anchorY": 0,
+      "zIndex": 1,
+      "scaleType": "Fill",
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "containerinventorycfefad",
+      "x": 610,
+      "y": 60,
+      "width": 700,
+      "height": 450,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.09,
+        "g": 0.11,
+        "b": 0.13
+      },
+      "backgroundTransparency": 0,
+      "borderRadius": 12,
+      "zIndex": 2,
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "containerinventory",
+      "x": 610,
+      "y": 540,
+      "width": 700,
+      "height": 450,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.09,
+        "g": 0.11,
+        "b": 0.13
+      },
+      "backgroundTransparency": 0,
+      "borderRadius": 12,
+      "zIndex": 2,
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "framedialogbfe",
+      "x": 710,
+      "y": 1020,
+      "width": 500,
+      "height": 20,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.09,
+        "g": 0.11,
+        "b": 0.13
+      },
+      "backgroundTransparency": 0,
+      "borderRadius": 12,
+      "zIndex": 2,
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "framedialog",
+      "x": 710,
+      "y": 1070,
+      "width": 500,
+      "height": -30,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.09,
+        "g": 0.11,
+        "b": 0.13
+      },
+      "backgroundTransparency": 0,
+      "borderRadius": 12,
+      "zIndex": 2,
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "panelcard",
+      "x": 660,
+      "y": 1070,
+      "width": 600,
+      "height": -30,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.09,
+        "g": 0.11,
+        "b": 0.13
+      },
+      "backgroundTransparency": 0,
+      "borderRadius": 12,
+      "zIndex": 2,
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "btn",
+      "text": "btn",
+      "x": 960,
+      "y": 236,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onbtnPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "btnplaybaff",
+      "text": "btnplay baff",
+      "x": 960,
+      "y": 328,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onbtnplaybaffPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "btnsubmitbacfb",
+      "text": "btnsubmit bacfb",
+      "x": 960,
+      "y": 420,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onbtnsubmitbacfbPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "btncda",
+      "text": "btn cda",
+      "x": 960,
+      "y": 512,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onbtncdaPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "btnplay",
+      "text": "btn play",
+      "x": 960,
+      "y": 604,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onbtnplayPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "btnsubmit",
+      "text": "btn submit",
+      "x": 960,
+      "y": 696,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onbtnsubmitPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "buttonsettingsfaded",
+      "text": "buttonsettings faded",
+      "x": 960,
+      "y": 788,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onbuttonsettingsfadedPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "buttonsettings",
+      "text": "button settings",
+      "x": 960,
+      "y": 880,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onbuttonsettingsPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "ctastartbaff",
+      "text": "ctastart baff",
+      "x": 960,
+      "y": 972,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onctastartbaffPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "ctastart",
+      "text": "cta start",
+      "x": 960,
+      "y": 1064,
+      "width": 400,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "onctastartPressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextLabel",
+      "name": "labelsubtitle",
+      "text": "label subtitle",
+      "x": 960,
+      "y": 80,
+      "width": 1820,
+      "height": 70,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 48,
+      "font": "GothamBlack",
+      "zIndex": 4,
+      "children": []
+    },
+    {
+      "type": "TextLabel",
+      "name": "scoredisplay",
+      "text": "score display",
+      "x": 960,
+      "y": 165,
+      "width": 1820,
+      "height": 40,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 24,
+      "font": "GothamBold",
+      "zIndex": 4,
+      "children": []
+    },
+    {
+      "type": "TextLabel",
+      "name": "textdescription",
+      "text": "text description",
+      "x": 960,
+      "y": 220,
+      "width": 1820,
+      "height": 40,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 24,
+      "font": "GothamBold",
+      "zIndex": 4,
+      "children": []
+    },
+    {
+      "type": "TextLabel",
+      "name": "titlemain",
+      "text": "title main",
+      "x": 960,
+      "y": 275,
+      "width": 1820,
+      "height": 70,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 48,
+      "font": "GothamBlack",
+      "zIndex": 4,
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "asseticonswordddcea",
+      "assetId": "PLACEHOLDER_1",
+      "x": 960,
+      "y": 540,
+      "width": 64,
+      "height": 64,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "asseticonsword",
+      "assetId": "PLACEHOLDER_2",
+      "x": 960,
+      "y": 540,
+      "width": 64,
+      "height": 64,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "iconcoinefbeb",
+      "assetId": "PLACEHOLDER_31",
+      "x": 960,
+      "y": 540,
+      "width": 48,
+      "height": 48,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "iconheartcabbe",
+      "assetId": "PLACEHOLDER_32",
+      "x": 960,
+      "y": 540,
+      "width": 32,
+      "height": 32,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "iconcoin",
+      "assetId": "PLACEHOLDER_33",
+      "x": 960,
+      "y": 540,
+      "width": 48,
+      "height": 48,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "iconheart",
+      "assetId": "PLACEHOLDER_34",
+      "x": 960,
+      "y": 540,
+      "width": 32,
+      "height": 32,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "imgavatarebf",
+      "assetId": "PLACEHOLDER_37",
+      "x": 960,
+      "y": 540,
+      "width": 64,
+      "height": 64,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "imgavatar",
+      "assetId": "PLACEHOLDER_38",
+      "x": 960,
+      "y": 540,
+      "width": 64,
+      "height": 64,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "logoapp",
+      "assetId": "PLACEHOLDER_40",
+      "x": 960,
+      "y": 540,
+      "width": 80,
+      "height": 80,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "barhealthaba_Bg",
+      "x": 40,
+      "y": 30,
+      "width": 400,
+      "height": 24,
+      "anchorX": 0,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "borderRadius": 6,
+      "zIndex": 6,
+      "children": [
+        {
+          "type": "Frame",
+          "name": "barhealthaba_Fill",
+          "x": 0,
+          "y": 0,
+          "width": 280,
+          "height": 24,
+          "anchorX": 0,
+          "anchorY": 0,
+          "backgroundColor": {
+            "r": 0.3,
+            "g": 0.8,
+            "b": 0.3
+          },
+          "borderRadius": 6,
+          "zIndex": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "Frame",
+      "name": "barhealth_Bg",
+      "x": 40,
+      "y": 30,
+      "width": 400,
+      "height": 24,
+      "anchorX": 0,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "borderRadius": 6,
+      "zIndex": 6,
+      "children": [
+        {
+          "type": "Frame",
+          "name": "barhealth_Fill",
+          "x": 0,
+          "y": 0,
+          "width": 280,
+          "height": 24,
+          "anchorX": 0,
+          "anchorY": 0,
+          "backgroundColor": {
+            "r": 0.3,
+            "g": 0.8,
+            "b": 0.3
+          },
+          "borderRadius": 6,
+          "zIndex": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "Frame",
+      "name": "hpbarfilleeaca_Bg",
+      "x": 40,
+      "y": 30,
+      "width": 400,
+      "height": 24,
+      "anchorX": 0,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "borderRadius": 6,
+      "zIndex": 6,
+      "children": [
+        {
+          "type": "Frame",
+          "name": "hpbarfilleeaca_Fill",
+          "x": 0,
+          "y": 0,
+          "width": 280,
+          "height": 24,
+          "anchorX": 0,
+          "anchorY": 0,
+          "backgroundColor": {
+            "r": 0.3,
+            "g": 0.8,
+            "b": 0.3
+          },
+          "borderRadius": 6,
+          "zIndex": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "Frame",
+      "name": "hpbarfill_Bg",
+      "x": 40,
+      "y": 30,
+      "width": 400,
+      "height": 24,
+      "anchorX": 0,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "borderRadius": 6,
+      "zIndex": 6,
+      "children": [
+        {
+          "type": "Frame",
+          "name": "hpbarfill_Fill",
+          "x": 0,
+          "y": 0,
+          "width": 280,
+          "height": 24,
+          "anchorX": 0,
+          "anchorY": 0,
+          "backgroundColor": {
+            "r": 0.3,
+            "g": 0.8,
+            "b": 0.3
+          },
+          "borderRadius": 6,
+          "zIndex": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "Frame",
+      "name": "manabar_Bg",
+      "x": 40,
+      "y": 30,
+      "width": 400,
+      "height": 24,
+      "anchorX": 0,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "borderRadius": 6,
+      "zIndex": 6,
+      "children": [
+        {
+          "type": "Frame",
+          "name": "manabar_Fill",
+          "x": 0,
+          "y": 0,
+          "width": 280,
+          "height": 24,
+          "anchorX": 0,
+          "anchorY": 0,
+          "backgroundColor": {
+            "r": 0.3,
+            "g": 0.8,
+            "b": 0.3
+          },
+          "borderRadius": 6,
+          "zIndex": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "ImageLabel",
+      "name": "",
+      "assetId": "PLACEHOLDER_0",
+      "x": 920,
+      "y": 540,
+      "width": 80,
+      "height": 80,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "empty",
+      "assetId": "PLACEHOLDER_25",
+      "x": 959.5,
+      "y": 540,
+      "width": 1,
+      "height": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "emptycd",
+      "assetId": "PLACEHOLDER_26",
+      "x": 959.5,
+      "y": 540,
+      "width": 1,
+      "height": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "imagedecorativedc",
+      "assetId": "PLACEHOLDER_35",
+      "x": 860,
+      "y": 540,
+      "width": 200,
+      "height": 150,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "imagedecorative",
+      "assetId": "PLACEHOLDER_36",
+      "x": 860,
+      "y": 540,
+      "width": 200,
+      "height": 150,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "x",
+      "assetId": "PLACEHOLDER_48",
+      "x": 910,
+      "y": 540,
+      "width": 100,
+      "height": 100,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "baf",
+      "assetId": "PLACEHOLDER_49",
+      "x": 920,
+      "y": 540,
+      "width": 80,
+      "height": 80,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "dividerverticalfecf",
+      "x": 960,
+      "y": 540,
+      "width": 4,
+      "height": 4,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.4,
+        "g": 0.4,
+        "b": 0.4
+      },
+      "zIndex": 3,
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "dividervertical",
+      "x": 960,
+      "y": 540,
+      "width": 4,
+      "height": 4,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.4,
+        "g": 0.4,
+        "b": 0.4
+      },
+      "zIndex": 3,
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "separatorline",
+      "x": 960,
+      "y": 540,
+      "width": 600,
+      "height": 4,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.4,
+        "g": 0.4,
+        "b": 0.4
+      },
+      "zIndex": 3,
+      "children": []
+    }
+  ],
+  "placeholders": [
+    {
+      "placeholder": "PLACEHOLDER_0",
+      "filename": "12345.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_1",
+      "filename": "asseticonsword_876d8d2ce3a7.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_2",
+      "filename": "asset_icon_sword.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_3",
+      "filename": "backgroundmain_f1229e728887.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_4",
+      "filename": "background_main.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_5",
+      "filename": "barhealth_90a530b86a59.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_6",
+      "filename": "bar_health.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_7",
+      "filename": "bgmenu_cec613b268e2.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_8",
+      "filename": "bg_menu.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_9",
+      "filename": "btn.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_10",
+      "filename": "btnplay_b0a47f6414f3.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_11",
+      "filename": "btnsubmit_9b15ac1f58b6.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_12",
+      "filename": "btn_8c6da0904080.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_13",
+      "filename": "btn_play.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_14",
+      "filename": "btn_submit.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_15",
+      "filename": "buttonsettings_0028f5aded82.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_16",
+      "filename": "button_settings.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_17",
+      "filename": "containerinventory_5cfe0f488a3d.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_18",
+      "filename": "container_inventory.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_19",
+      "filename": "ctastart_4b0158a44ff4.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_20",
+      "filename": "cta_start.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_21",
+      "filename": "dividervertical_fe1c520871f3.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_22",
+      "filename": "divider_vertical.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_23",
+      "filename": "effectglow_568167d67dfe.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_24",
+      "filename": "effect_glow.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_25",
+      "filename": "empty.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_26",
+      "filename": "empty_c8819084667d.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_27",
+      "filename": "framedialog_48b1f9831e54.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_28",
+      "filename": "frame_dialog.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_29",
+      "filename": "hpbarfill_3ee996a5ca24.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_30",
+      "filename": "hp_bar_fill.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_31",
+      "filename": "iconcoin_27efbe00455b.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_32",
+      "filename": "iconheart_c6a7b85208be.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_33",
+      "filename": "icon_coin.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_34",
+      "filename": "icon_heart.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_35",
+      "filename": "imagedecorative_8d26c1264232.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_36",
+      "filename": "image_decorative.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_37",
+      "filename": "imgavatar_72e2b488f576.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_38",
+      "filename": "img_avatar.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_39",
+      "filename": "label_subtitle.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_40",
+      "filename": "logo_app.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_41",
+      "filename": "mana_bar.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_42",
+      "filename": "panel_card.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_43",
+      "filename": "score_display.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_44",
+      "filename": "separator_line.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_45",
+      "filename": "telafundo_01.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_46",
+      "filename": "text_description.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_47",
+      "filename": "title_main.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_48",
+      "filename": "x.png",
+      "assetId": "rbxassetid://0"
+    },
+    {
+      "placeholder": "PLACEHOLDER_49",
+      "filename": "_b4a0f1885528.png",
+      "assetId": "rbxassetid://0"
+    }
+  ]
+}

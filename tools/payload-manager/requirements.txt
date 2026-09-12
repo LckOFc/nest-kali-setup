@@ -1,0 +1,2 @@
+# Payload Manager v1
+# No external dependencies required

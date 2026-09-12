@@ -1,0 +1,114 @@
+2026-09-09 20:13:48,107 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:13:48,161 [ERROR] re_engine: PE analysis error: 'Structure' object has no attribute 'Machine'
+2026-09-09 20:15:05,947 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:15:05,997 [ERROR] re_engine: PE analysis error: 'Structure' object has no attribute 'Machine'
+2026-09-09 20:15:06,164 [INFO] re_engine: Analyzing C:\Users\devel\Downloads\WorkClaude\Shadow\Sombra-token-hunter\background.js with JavaScriptAnalyzer
+2026-09-09 20:15:15,685 [INFO] re_engine: Analyzing C:\Users\devel\Downloads\WorkClaude\Shadow\Shadowfinal\Shadow.bat with BatchAnalyzer
+2026-09-09 20:15:48,504 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:15:48,556 [ERROR] re_engine: PE analysis error: 'PE' object has no attribute 'NUMBER_OF_SECTIONS'
+2026-09-09 20:15:49,209 [INFO] re_engine: Analyzing C:\Users\devel\Downloads\WorkClaude\Shadow\Sombra-token-hunter\background.js with JavaScriptAnalyzer
+2026-09-09 20:17:06,947 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:17:07,001 [ERROR] re_engine: PE analysis error: 'PE' object has no attribute 'NUMBER_OF_SECTIONS'
+2026-09-09 20:17:07,401 [INFO] re_engine: Analyzing C:\Windows\System32\cmd.exe with PEAnalyzer
+2026-09-09 20:17:07,524 [ERROR] re_engine: PE analysis error: 'PE' object has no attribute 'NUMBER_OF_SECTIONS'
+2026-09-09 20:18:20,723 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:18:20,863 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:18:21,985 [INFO] re_engine: Analyzing C:\Windows\System32\cmd.exe with PEAnalyzer
+2026-09-09 20:18:22,141 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:19:27,831 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:19:27,874 [INFO] re_engine: Analyzing C:\Windows\System32\kernel32.dll with PEAnalyzer
+2026-09-09 20:19:27,964 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:19:28,273 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:21:52,730 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:21:52,859 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:21:54,320 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:21:54,339 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:22:21,327 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:22:46,800 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:22:48,188 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:22:48,325 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:24:29,336 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:24:30,874 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:26:48,779 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:26:48,918 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:27:23,447 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:27:23,577 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:27:58,473 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:27:58,603 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:29:17,452 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:29:17,737 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:33:37,423 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:33:37,553 [ERROR] re_engine: PE analysis error: 'dict' object has no attribute '__dict__'
+2026-09-09 20:40:03,488 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:40:04,257 [INFO] re_engine: Analyzing C:\Windows\System32\kernel32.dll with PEAnalyzer
+2026-09-09 20:40:53,747 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:40:55,904 [INFO] re_engine: Analyzing C:/Windows/System32/kernel32.dll with PEAnalyzer
+2026-09-09 20:40:56,331 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:40:56,350 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:40:57,703 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/inject.js with JavaScriptAnalyzer
+2026-09-09 20:40:57,745 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:40:57,752 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:41:30,396 [INFO] re_engine: Analyzing C:\Windows\System32\notepad.exe with PEAnalyzer
+2026-09-09 20:42:19,209 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:42:19,358 [INFO] re_engine: Analyzing C:/Windows/System32/kernel32.dll with PEAnalyzer
+2026-09-09 20:42:19,771 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:42:19,789 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:42:19,797 [INFO] re_engine: Analyzing C:/Users/devel/tools/re-engineering/test_pe.py with PythonAnalyzer
+2026-09-09 20:42:19,838 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:42:19,993 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:42:20,129 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:42:20,145 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:45:21,443 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:45:21,629 [INFO] re_engine: Analyzing C:/Windows/System32/kernel32.dll with PEAnalyzer
+2026-09-09 20:45:22,157 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:45:22,183 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:45:22,191 [INFO] re_engine: Analyzing C:/Users/devel/tools/re-engineering/test_pe.py with PythonAnalyzer
+2026-09-09 20:45:22,242 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:45:22,420 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:45:22,582 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:45:22,599 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:45:53,649 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:48:47,450 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:48:47,596 [INFO] re_engine: Analyzing C:/Windows/System32/kernel32.dll with PEAnalyzer
+2026-09-09 20:48:47,983 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:48:48,001 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:48:48,008 [INFO] re_engine: Analyzing C:/Users/devel/tools/re-engineering/test_pe.py with PythonAnalyzer
+2026-09-09 20:48:48,099 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 20:48:48,100 [INFO] cracker:   CRACKED: 5f4dcc3b5aa765d61d83... → password
+2026-09-09 20:48:48,100 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 20:48:48,100 [INFO] cracker:   CRACKED: e99a18c428cb38d5f260... → abc123
+2026-09-09 20:49:16,553 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:49:16,697 [INFO] re_engine: Analyzing C:/Windows/System32/kernel32.dll with PEAnalyzer
+2026-09-09 20:49:17,092 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:49:17,111 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:49:17,118 [INFO] re_engine: Analyzing C:/Users/devel/tools/re-engineering/test_pe.py with PythonAnalyzer
+2026-09-09 20:49:17,188 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 20:49:17,189 [INFO] cracker:   CRACKED: 5f4dcc3b5aa765d61d83... → password
+2026-09-09 20:49:17,189 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 20:49:17,189 [INFO] cracker:   CRACKED: e99a18c428cb38d5f260... → abc123
+2026-09-09 20:49:53,355 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:49:53,495 [INFO] re_engine: Analyzing C:/Windows/System32/kernel32.dll with PEAnalyzer
+2026-09-09 20:49:53,881 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:49:53,900 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:49:53,906 [INFO] re_engine: Analyzing C:/Users/devel/tools/re-engineering/test_pe.py with PythonAnalyzer
+2026-09-09 20:49:54,011 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 20:49:54,011 [INFO] cracker:   CRACKED: 5f4dcc3b5aa765d61d83... → password
+2026-09-09 20:49:54,012 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 20:49:54,012 [INFO] cracker:   CRACKED: e99a18c428cb38d5f260... → abc123
+2026-09-09 20:49:54,668 [INFO] autoinstall: Action: install, Packages: ['flask'], Manager: pip
+2026-09-09 20:49:54,668 [INFO] autoinstall: Installing: ['flask'] via pip
+2026-09-09 20:49:54,668 [INFO] autoinstall: Command: "C:\Users\devel\AppData\Local\Programs\Python\Python311\python.exe" -m pip install  --quiet flask
+2026-09-09 20:49:54,668 [INFO] autoinstall: [DRY RUN] Would execute: "C:\Users\devel\AppData\Local\Programs\Python\Python311\python.exe" -m pip install  --quiet flask
+2026-09-09 20:50:27,300 [INFO] re_engine: Analyzing C:/Windows/System32/notepad.exe with PEAnalyzer
+2026-09-09 20:50:27,465 [INFO] re_engine: Analyzing C:/Windows/System32/kernel32.dll with PEAnalyzer
+2026-09-09 20:50:27,857 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Sombra-token-hunter/background.js with JavaScriptAnalyzer
+2026-09-09 20:50:27,876 [INFO] re_engine: Analyzing C:/Users/devel/Downloads/WorkClaude/Shadow/Shadowfinal/Shadow.bat with BatchAnalyzer
+2026-09-09 20:50:27,883 [INFO] re_engine: Analyzing C:/Users/devel/tools/re-engineering/test_pe.py with PythonAnalyzer
+2026-09-09 20:50:27,959 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 20:50:27,961 [INFO] cracker:   CRACKED: 5f4dcc3b5aa765d61d83... → password
+2026-09-09 20:50:27,961 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 20:50:27,961 [INFO] cracker:   CRACKED: e99a18c428cb38d5f260... → abc123
+2026-09-09 20:50:28,640 [INFO] autoinstall: Action: install, Packages: ['flask'], Manager: pip
+2026-09-09 20:50:28,641 [INFO] autoinstall: Installing: ['flask'] via pip
+2026-09-09 20:50:28,641 [INFO] autoinstall: Command: "C:\Users\devel\AppData\Local\Programs\Python\Python311\python.exe" -m pip install  --quiet flask
+2026-09-09 20:50:28,641 [INFO] autoinstall: [DRY RUN] Would execute: "C:\Users\devel\AppData\Local\Programs\Python\Python311\python.exe" -m pip install  --quiet flask

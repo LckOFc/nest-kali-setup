@@ -1,0 +1,860 @@
+{
+  "name": "TestMenu",
+  "canvasWidth": 1920,
+  "canvasHeight": 1080,
+  "scaleMode": "ScaleToFit",
+  "seed": "01553640",
+  "assets": [
+    {
+      "uniqueId": "6e5d7bacc5d3",
+      "filename": "_6e5d7bacc5d3.png",
+      "type": "image",
+      "assetId": "rbxassetid://0",
+      "width": 80,
+      "height": 80
+    },
+    {
+      "uniqueId": "61df0435d1e2",
+      "filename": "asseticonsword_61df0435d1e2.png",
+      "type": "icon",
+      "assetId": "rbxassetid://0",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "uniqueId": "f1229e728887",
+      "filename": "backgroundmain_f1229e728887.png",
+      "type": "background",
+      "assetId": "rbxassetid://0",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "uniqueId": "a9706fc2708b",
+      "filename": "barhealth_a9706fc2708b.png",
+      "type": "bar",
+      "assetId": "rbxassetid://0",
+      "width": 400,
+      "height": 24
+    },
+    {
+      "uniqueId": "88bb5e19943a",
+      "filename": "bgmenu_88bb5e19943a.png",
+      "type": "background",
+      "assetId": "rbxassetid://0",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "uniqueId": "813f4739e274",
+      "filename": "btn_813f4739e274.png",
+      "type": "button",
+      "assetId": "rbxassetid://0",
+      "width": 150,
+      "height": 50
+    },
+    {
+      "uniqueId": "8d74184bd409",
+      "filename": "btnplay_8d74184bd409.png",
+      "type": "button",
+      "assetId": "rbxassetid://0",
+      "width": 320,
+      "height": 80
+    },
+    {
+      "uniqueId": "9b15ac1f58b6",
+      "filename": "btnsubmit_9b15ac1f58b6.png",
+      "type": "button",
+      "assetId": "rbxassetid://0",
+      "width": 200,
+      "height": 60
+    },
+    {
+      "uniqueId": "0f1198e640a1",
+      "filename": "buttonsettings_0f1198e640a1.png",
+      "type": "button",
+      "assetId": "rbxassetid://0",
+      "width": 280,
+      "height": 70
+    },
+    {
+      "uniqueId": "79791d1ae0a5",
+      "filename": "containerinventory_79791d1ae0a5.png",
+      "type": "panel",
+      "assetId": "rbxassetid://0",
+      "width": 700,
+      "height": 450
+    },
+    {
+      "uniqueId": "4b0158a44ff4",
+      "filename": "ctastart_4b0158a44ff4.png",
+      "type": "button",
+      "assetId": "rbxassetid://0",
+      "width": 350,
+      "height": 85
+    },
+    {
+      "uniqueId": "bafd7ede78ba",
+      "filename": "dividervertical_bafd7ede78ba.png",
+      "type": "separator",
+      "assetId": "rbxassetid://0",
+      "width": 4,
+      "height": 300
+    },
+    {
+      "uniqueId": "00cd15172fdc",
+      "filename": "effectglow_00cd15172fdc.png",
+      "type": "effect",
+      "assetId": "rbxassetid://0",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "uniqueId": "c768d28a3afe",
+      "filename": "empty_c768d28a3afe.png",
+      "type": "image",
+      "assetId": "rbxassetid://0",
+      "width": 1,
+      "height": 1
+    },
+    {
+      "uniqueId": "c2d2e40a04cf",
+      "filename": "framedialog_c2d2e40a04cf.png",
+      "type": "panel",
+      "assetId": "rbxassetid://0",
+      "width": 500,
+      "height": 350
+    },
+    {
+      "uniqueId": "6a8a072ed862",
+      "filename": "hpbarfill_6a8a072ed862.png",
+      "type": "bar",
+      "assetId": "rbxassetid://0",
+      "width": 350,
+      "height": 20
+    },
+    {
+      "uniqueId": "27efbe00455b",
+      "filename": "iconcoin_27efbe00455b.png",
+      "type": "icon",
+      "assetId": "rbxassetid://0",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "uniqueId": "eb5fe9c7d394",
+      "filename": "iconheart_eb5fe9c7d394.png",
+      "type": "icon",
+      "assetId": "rbxassetid://0",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "uniqueId": "8d26c1264232",
+      "filename": "imagedecorative_8d26c1264232.png",
+      "type": "image",
+      "assetId": "rbxassetid://0",
+      "width": 200,
+      "height": 150
+    },
+    {
+      "uniqueId": "72e2b488f576",
+      "filename": "imgavatar_72e2b488f576.png",
+      "type": "icon",
+      "assetId": "rbxassetid://0",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "uniqueId": "4ec1116db8ce",
+      "filename": "labelsubtitle_4ec1116db8ce.png",
+      "type": "label",
+      "assetId": "rbxassetid://0",
+      "width": 600,
+      "height": 35
+    },
+    {
+      "uniqueId": "5099a8f66fa2",
+      "filename": "logoapp_5099a8f66fa2.png",
+      "type": "icon",
+      "assetId": "rbxassetid://0",
+      "width": 80,
+      "height": 80
+    },
+    {
+      "uniqueId": "f8e3b3a13438",
+      "filename": "manabar_f8e3b3a13438.png",
+      "type": "bar",
+      "assetId": "rbxassetid://0",
+      "width": 400,
+      "height": 20
+    },
+    {
+      "uniqueId": "9cbf357ee0fc",
+      "filename": "panelcard_9cbf357ee0fc.png",
+      "type": "panel",
+      "assetId": "rbxassetid://0",
+      "width": 600,
+      "height": 400
+    },
+    {
+      "uniqueId": "94957cbf21a0",
+      "filename": "scoredisplay_94957cbf21a0.png",
+      "type": "label",
+      "assetId": "rbxassetid://0",
+      "width": 200,
+      "height": 40
+    },
+    {
+      "uniqueId": "3982a3c1617a",
+      "filename": "separatorline_3982a3c1617a.png",
+      "type": "separator",
+      "assetId": "rbxassetid://0",
+      "width": 600,
+      "height": 4
+    },
+    {
+      "uniqueId": "a25f8a226573",
+      "filename": "telafundo_a25f8a226573.png",
+      "type": "background",
+      "assetId": "rbxassetid://0",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "uniqueId": "9832d1d62c4d",
+      "filename": "textdescription_9832d1d62c4d.png",
+      "type": "label",
+      "assetId": "rbxassetid://0",
+      "width": 500,
+      "height": 30
+    },
+    {
+      "uniqueId": "89d85e396910",
+      "filename": "titlemain_89d85e396910.png",
+      "type": "label",
+      "assetId": "rbxassetid://0",
+      "width": 800,
+      "height": 50
+    },
+    {
+      "uniqueId": "e3bd29e731ae",
+      "filename": "x_e3bd29e731ae.png",
+      "type": "image",
+      "assetId": "rbxassetid://0",
+      "width": 100,
+      "height": 100
+    }
+  ],
+  "elements": [
+    {
+      "type": "ImageLabel",
+      "name": "6e5d7bacc5d3",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 80,
+      "height": 80,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "61df0435d1e2",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 64,
+      "height": 64,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "f1229e728887",
+      "assetId": "rbxassetid://0",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "anchorX": 0,
+      "anchorY": 0,
+      "zIndex": 1,
+      "scaleType": "Fill",
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "a9706fc2708b_bg",
+      "x": 40,
+      "y": 30,
+      "width": 400,
+      "height": 24,
+      "anchorX": 0,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "borderRadius": 8,
+      "zIndex": 6,
+      "children": [
+        {
+          "type": "Frame",
+          "name": "a9706fc2708b_fill",
+          "x": 0,
+          "y": 0,
+          "width": 280,
+          "height": 24,
+          "anchorX": 0,
+          "anchorY": 0,
+          "backgroundColor": {
+            "r": 0.3,
+            "g": 0.8,
+            "b": 0.3
+          },
+          "borderRadius": 8,
+          "zIndex": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "ImageLabel",
+      "name": "88bb5e19943a",
+      "assetId": "rbxassetid://0",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "anchorX": 0,
+      "anchorY": 0,
+      "zIndex": 1,
+      "scaleType": "Fill",
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "813f4739e274",
+      "text": "btn",
+      "x": 960,
+      "y": 325,
+      "width": 150,
+      "height": 50,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "on813f4739e274Pressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "8d74184bd409",
+      "text": "btnplay",
+      "x": 960,
+      "y": 406,
+      "width": 320,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "on8d74184bd409Pressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "9b15ac1f58b6",
+      "text": "btnsubmit",
+      "x": 960,
+      "y": 492,
+      "width": 200,
+      "height": 60,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "on9b15ac1f58b6Pressed"
+      },
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "0f1198e640a1",
+      "text": "buttonsettings",
+      "x": 960,
+      "y": 577,
+      "width": 280,
+      "height": 70,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "on0f1198e640a1Pressed"
+      },
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "79791d1ae0a5",
+      "x": 610,
+      "y": 150,
+      "width": 700,
+      "height": 450,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.09,
+        "g": 0.11,
+        "b": 0.13
+      },
+      "borderRadius": 16,
+      "zIndex": 2,
+      "children": []
+    },
+    {
+      "type": "TextButton",
+      "name": "4b0158a44ff4",
+      "text": "ctastart",
+      "x": 960,
+      "y": 668,
+      "width": 350,
+      "height": 72,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "backgroundColor": {
+        "r": 0.15,
+        "g": 0.17,
+        "b": 0.2
+      },
+      "borderRadius": 12,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 22,
+      "font": "GothamBold",
+      "zIndex": 5,
+      "interactable": true,
+      "events": {
+        "Activated": "on4b0158a44ff4Pressed"
+      },
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "bafd7ede78ba",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 4,
+      "height": 200,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "00cd15172fdc",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 150,
+      "height": 150,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "c768d28a3afe",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 1,
+      "height": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "c2d2e40a04cf",
+      "x": 710,
+      "y": 630,
+      "width": 500,
+      "height": 350,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.09,
+        "g": 0.11,
+        "b": 0.13
+      },
+      "borderRadius": 16,
+      "zIndex": 2,
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "6a8a072ed862_bg",
+      "x": 40,
+      "y": 30,
+      "width": 350,
+      "height": 20,
+      "anchorX": 0,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "borderRadius": 8,
+      "zIndex": 6,
+      "children": [
+        {
+          "type": "Frame",
+          "name": "6a8a072ed862_fill",
+          "x": 0,
+          "y": 0,
+          "width": 244.99999999999997,
+          "height": 20,
+          "anchorX": 0,
+          "anchorY": 0,
+          "backgroundColor": {
+            "r": 0.3,
+            "g": 0.8,
+            "b": 0.3
+          },
+          "borderRadius": 8,
+          "zIndex": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "ImageLabel",
+      "name": "27efbe00455b",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 48,
+      "height": 48,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "eb5fe9c7d394",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 32,
+      "height": 32,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "8d26c1264232",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 200,
+      "height": 150,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "72e2b488f576",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 64,
+      "height": 64,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "TextLabel",
+      "name": "4ec1116db8ce",
+      "text": "labelsubtitle",
+      "x": 960,
+      "y": 80,
+      "width": 1820,
+      "height": 70,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 48,
+      "font": "GothamBlack",
+      "textWrapped": true,
+      "zIndex": 4,
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "5099a8f66fa2",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 80,
+      "height": 80,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "Frame",
+      "name": "f8e3b3a13438_bg",
+      "x": 40,
+      "y": 30,
+      "width": 400,
+      "height": 20,
+      "anchorX": 0,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "borderRadius": 8,
+      "zIndex": 6,
+      "children": [
+        {
+          "type": "Frame",
+          "name": "f8e3b3a13438_fill",
+          "x": 0,
+          "y": 0,
+          "width": 280,
+          "height": 20,
+          "anchorX": 0,
+          "anchorY": 0,
+          "backgroundColor": {
+            "r": 0.3,
+            "g": 0.8,
+            "b": 0.3
+          },
+          "borderRadius": 8,
+          "zIndex": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "Frame",
+      "name": "9cbf357ee0fc",
+      "x": 660,
+      "y": 1010,
+      "width": 600,
+      "height": 10,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "backgroundColor": {
+        "r": 0.09,
+        "g": 0.11,
+        "b": 0.13
+      },
+      "borderRadius": 16,
+      "zIndex": 2,
+      "children": []
+    },
+    {
+      "type": "TextLabel",
+      "name": "94957cbf21a0",
+      "text": "scoredisplay",
+      "x": 960,
+      "y": 170,
+      "width": 1820,
+      "height": 40,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 24,
+      "font": "GothamBold",
+      "textWrapped": true,
+      "zIndex": 4,
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "3982a3c1617a",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 200,
+      "height": 4,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "a25f8a226573",
+      "assetId": "rbxassetid://0",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "anchorX": 0,
+      "anchorY": 0,
+      "zIndex": 1,
+      "scaleType": "Fill",
+      "children": []
+    },
+    {
+      "type": "TextLabel",
+      "name": "9832d1d62c4d",
+      "text": "textdescription",
+      "x": 960,
+      "y": 230,
+      "width": 1820,
+      "height": 36,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 24,
+      "font": "GothamBold",
+      "textWrapped": true,
+      "zIndex": 4,
+      "children": []
+    },
+    {
+      "type": "TextLabel",
+      "name": "89d85e396910",
+      "text": "titlemain",
+      "x": 960,
+      "y": 286,
+      "width": 1820,
+      "height": 70,
+      "anchorX": 0.5,
+      "anchorY": 0,
+      "textColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "textSize": 48,
+      "font": "GothamBlack",
+      "textWrapped": true,
+      "zIndex": 4,
+      "children": []
+    },
+    {
+      "type": "ImageLabel",
+      "name": "e3bd29e731ae",
+      "assetId": "rbxassetid://0",
+      "x": 960,
+      "y": 540,
+      "width": 100,
+      "height": 100,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "zIndex": 3,
+      "scaleType": "Crop",
+      "children": []
+    }
+  ]
+}

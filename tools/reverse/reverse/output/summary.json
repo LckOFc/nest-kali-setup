@@ -1,0 +1,10 @@
+{
+  "total_time_seconds": 17.77,
+  "binary_size_mb": 180.71,
+  "strings_total": 1926893,
+  "strings_categorized": 50000,
+  "types_recovered": 2173,
+  "functions_analyzed": 50,
+  "cfgs_analyzed": 20,
+  "pe_sections": 14
+}

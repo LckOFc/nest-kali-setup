@@ -1,0 +1,6 @@
+2026-09-09 19:53:04,504 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 19:53:04,507 [INFO] cracker:   CRACKED: 5f4dcc3b5aa765d61d83... → password
+2026-09-09 19:53:47,354 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 19:53:47,355 [INFO] cracker:   CRACKED: 5f4dcc3b5aa765d61d83... → password
+2026-09-09 19:56:58,541 [INFO] cracker: Using builtin wordlist (59 words)
+2026-09-09 19:56:58,543 [INFO] cracker:   CRACKED: e99a18c428cb38d5f260... → abc123

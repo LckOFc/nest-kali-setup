@@ -1,0 +1,402 @@
+[
+  {
+    "name": "links",
+    "value": "document.querySelectorAll('link[rel~=\"icon\"]')"
+  },
+  {
+    "name": "style",
+    "value": "window.getComputedStyle(this)"
+  },
+  {
+    "name": "options",
+    "value": "Array.from(this.options)"
+  },
+  {
+    "name": "opt",
+    "value": "options.find(o => o.text === arguments[0])"
+  },
+  {
+    "name": "tag",
+    "value": "this.tagName.toLowerCase()"
+  },
+  {
+    "name": "logs",
+    "value": "[...window.__jetski_console_buffer_{{CONTEXT_ID}}]"
+  },
+  {
+    "name": "originalScrollBehavior",
+    "value": "getComputedStyle(document.documentElement).scrollBehavior"
+  },
+  {
+    "name": "cleanup",
+    "value": "() => {"
+  },
+  {
+    "name": "timeout",
+    "value": "setTimeout(() => {"
+  },
+  {
+    "name": "originalConsole",
+    "value": "{}"
+  },
+  {
+    "name": "consoleMethods",
+    "value": "["
+  },
+  {
+    "name": "ANIMATION_DURATION",
+    "value": "400"
+  },
+  {
+    "name": "TRAIL_LENGTH",
+    "value": "80"
+  },
+  {
+    "name": "CIRCLE_RADIUS",
+    "value": "6"
+  },
+  {
+    "name": "PULSE_DURATION",
+    "value": "150"
+  },
+  {
+    "name": "container",
+    "value": "document.createElement('div')"
+  },
+  {
+    "name": "svg",
+    "value": "document.createElementNS('http://www.w3.org/2000/svg', 'svg')"
+  },
+  {
+    "name": "trail",
+    "value": "document.createElementNS('http://www.w3.org/2000/svg', 'path')"
+  },
+  {
+    "name": "circle",
+    "value": "document.createElementNS('http://www.w3.org/2000/svg', 'circle')"
+  },
+  {
+    "name": "dx",
+    "value": "endX - startX"
+  },
+  {
+    "name": "dy",
+    "value": "endY - startY"
+  },
+  {
+    "name": "distance",
+    "value": "Math.sqrt(dx * dx + dy * dy)"
+  },
+  {
+    "name": "steps",
+    "value": "Math.ceil(ANIMATION_DURATION / 16)"
+  },
+  {
+    "name": "stepDelay",
+    "value": "ANIMATION_DURATION / steps"
+  },
+  {
+    "name": "startTime",
+    "value": "performance.now()"
+  },
+  {
+    "name": "elapsed",
+    "value": "currentTime - startTime"
+  },
+  {
+    "name": "linearProgress",
+    "value": "Math.min(elapsed / ANIMATION_DURATION, 1)"
+  },
+  {
+    "name": "progress",
+    "value": "1 - Math.pow(1 - linearProgress, 3)"
+  },
+  {
+    "name": "currentX",
+    "value": "startX + dx * progress"
+  },
+  {
+    "name": "currentY",
+    "value": "startY + dy * progress"
+  },
+  {
+    "name": "trailDistance",
+    "value": "Math.min(TRAIL_LENGTH, distance * progress)"
+  },
+  {
+    "name": "trailProgress",
+    "value": "Math.max(0, progress - (TRAIL_LENGTH / distance))"
+  },
+  {
+    "name": "trailStartX",
+    "value": "startX + dx * trailProgress"
+  },
+  {
+    "name": "trailStartY",
+    "value": "startY + dy * trailProgress"
+  },
+  {
+    "name": "res",
+    "value": "await fetch('/api/list-pages')"
+  },
+  {
+    "name": "data",
+    "value": "await res.json()"
+  },
+  {
+    "name": "res",
+    "value": "await fetch('/api/operator-list-pages')"
+  },
+  {
+    "name": "data",
+    "value": "await res.json()"
+  },
+  {
+    "name": "pageID",
+    "value": "document.getElementById('selectPageID').value"
+  },
+  {
+    "name": "res",
+    "value": "await fetch('/api/select-page', {"
+  },
+  {
+    "name": "data",
+    "value": "await res.json()"
+  },
+  {
+    "name": "includePreserved",
+    "value": "document.getElementById('includePreserved').checked"
+  },
+  {
+    "name": "resourceTypes",
+    "value": "document.getElementById('resourceTypes').value"
+  },
+  {
+    "name": "params",
+    "value": "new URLSearchParams({"
+  },
+  {
+    "name": "res",
+    "value": "await fetch('/api/list-network-requests?' + params)"
+  },
+  {
+    "name": "data",
+    "value": "await res.json()"
+  },
+  {
+    "name": "requestID",
+    "value": "document.getElementById('requestID').value"
+  },
+  {
+    "name": "params",
+    "value": "new URLSearchParams({reqid: requestID})"
+  },
+  {
+    "name": "res",
+    "value": "await fetch('/api/get-network-request?' + params)"
+  },
+  {
+    "name": "data",
+    "value": "await res.json()"
+  },
+  {
+    "name": "pageID",
+    "value": "document.getElementById('findPageID').value"
+  },
+  {
+    "name": "res",
+    "value": "await fetch('/api/find-page-idx', {"
+  },
+  {
+    "name": "data",
+    "value": "await res.json()"
+  },
+  {
+    "name": "SCROLL_DURATION",
+    "value": "300"
+  },
+  {
+    "name": "FADE_IN_DURATION",
+    "value": "200"
+  },
+  {
+    "name": "PULSE_DURATION",
+    "value": "150"
+  },
+  {
+    "name": "element",
+    "value": "document"
+  },
+  {
+    "name": "isInViewport",
+    "value": "(el) => {"
+  },
+  {
+    "name": "r",
+    "value": "el.getBoundingClientRect()"
+  },
+  {
+    "name": "rect",
+    "value": "element.getBoundingClientRect()"
+  },
+  {
+    "name": "flash",
+    "value": "document.createElement('div')"
+  },
+  {
+    "name": "SCROLL_CONTAINER_ID",
+    "value": "'highlight-scroll-container'"
+  },
+  {
+    "name": "SCROLL_CURSOR_ID",
+    "value": "'highlight-scroll-cursor'"
+  },
+  {
+    "name": "SCROLL_FADE_IN",
+    "value": "150"
+  },
+  {
+    "name": "SCROLL_HOLD",
+    "value": "1000"
+  },
+  {
+    "name": "SCROLL_FADE_OUT",
+    "value": "150"
+  },
+  {
+    "name": "cursor",
+    "value": "document.createElement('div')"
+  },
+  {
+    "name": "svg",
+    "value": "SCROLL_INDICATOR_SVGS[scrollType] || SCROLL_INDICATOR_SVGS['down']"
+  },
+  {
+    "name": "config",
+    "value": "(function() {"
+  },
+  {
+    "name": "params",
+    "value": "new URLSearchParams(window.location.search)"
+  },
+  {
+    "name": "token",
+    "value": "params.get('token')"
+  },
+  {
+    "name": "conversationId",
+    "value": "params.get('conversationId')"
+  },
+  {
+    "name": "vars",
+    "value": "event.data.payload.cssVariables"
+  },
+  {
+    "name": "applyBodyStyles",
+    "value": "() => {"
+  },
+  {
+    "name": "headers",
+    "value": "new Headers(options.headers || {})"
+  },
+  {
+    "name": "projectIdPromise",
+    "value": "(async () => {"
+  },
+  {
+    "name": "res",
+    "value": "await secureFetch('/_sidecar/get-conversation-metadata', {"
+  },
+  {
+    "name": "data",
+    "value": "await res.json()"
+  },
+  {
+    "name": "metaEvent",
+    "value": "data?.response?.conversationMetadata || data?.response?.conversation_metadata"
+  },
+  {
+    "name": "meta",
+    "value": "metaEvent?.metadata"
+  },
+  {
+    "name": "resolvedId",
+    "value": "meta?.projectId || meta?.project_id || ''"
+  },
+  {
+    "name": "resolvedProjectId",
+    "value": "await projectIdPromise"
+  },
+  {
+    "name": "res",
+    "value": "await secureFetch('/_sidecar/send-message', {"
+  },
+  {
+    "name": "resolvedProjectId",
+    "value": "await projectIdPromise"
+  },
+  {
+    "name": "res",
+    "value": "await secureFetch('/_sidecar/new-conversation', {"
+  },
+  {
+    "name": "res",
+    "value": "await secureFetch('/_sidecar/get-conversation-metadata', {"
+  },
+  {
+    "name": "__dirname",
+    "value": "dirname(fileURLToPath(import.meta.url))"
+  },
+  {
+    "name": "PRELOAD_JS",
+    "value": "readFileSync(join(__dirname, 'preload.js'), 'utf-8')"
+  },
+  {
+    "name": "BIND_HOST",
+    "value": "'127.0.0.1'"
+  },
+  {
+    "name": "lsAddr",
+    "value": "process.env.ANTIGRAVITY_LS_ADDRESS"
+  },
+  {
+    "name": "csrf",
+    "value": "process.env.ANTIGRAVITY_CSRF_TOKEN"
+  },
+  {
+    "name": "portStr",
+    "value": "process.env.ANTIGRAVITY_SIDECAR_WEB_PORT"
+  },
+  {
+    "name": "args",
+    "value": "['send-message']"
+  },
+  {
+    "name": "env",
+    "value": "{ ...process.env }"
+  },
+  {
+    "name": "exe",
+    "value": "process.env.ANTIGRAVITY_AGENTAPI_EXE"
+  },
+  {
+    "name": "file",
+    "value": "exe || 'agentapi'"
+  },
+  {
+    "name": "execArgs",
+    "value": "exe ? ['agentapi', ...args] : args"
+  },
+  {
+    "name": "out",
+    "value": "execFileSync(file, execArgs, {"
+  },
+  {
+    "name": "server",
+    "value": "createServer((req, res) => {"
+  },
+  {
+    "name": "url",
+    "value": "new URL(req.url, `http://localhost:${this.#port}`)"
+  }
+]

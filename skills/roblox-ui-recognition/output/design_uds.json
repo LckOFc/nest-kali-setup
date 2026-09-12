@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": "photoshop",
+  "document": {
+    "name": "Desktop",
+    "width": 1920,
+    "height": 1080,
+    "resolution": 72,
+    "colorMode": "RGB",
+    "bitDepth": 8
+  },
+  "artboards": [
+    {
+      "id": "artboard_mtngcqz3_4ukmi",
+      "name": "Main Menu",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "visible": true
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer_mtngcqz3_pan72",
+      "name": "Background",
+      "type": "layer",
+      "visible": true,
+      "opacity": 100,
+      "blendMode": "Normal",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "semantic": {
+        "probableRole": "background",
+        "confidence": 0.95
+      },
+      "fill": {
+        "hex": "#1E1E2E",
+        "r": 30,
+        "g": 30,
+        "b": 46
+      }
+    },
+    {
+      "id": "layer_mtngcqz3_cvtnt",
+      "name": "Header",
+      "type": "group",
+      "visible": true,
+      "opacity": 100,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 100
+      },
+      "children": [
+        {
+          "id": "layer_mtngcqz3_39f28",
+          "name": "Logo",
+          "type": "layer",
+          "visible": true,
+          "bounds": {
+            "x": 50,
+            "y": 20,
+            "width": 150,
+            "height": 60
+          },
+          "semantic": {
+            "probableRole": "icon",
+            "confidence": 0.85
+          }
+        },
+        {
+          "id": "layer_mtngcqz3_rbff0",
+          "name": "Title Text",
+          "type": "layer",
+          "visible": true,
+          "bounds": {
+            "x": 250,
+            "y": 30,
+            "width": 400,
+            "height": 40
+          },
+          "semantic": {
+            "probableRole": "label",
+            "confidence": 0.9
+          },
+          "text": {
+            "content": "My Game",
+            "size": 32,
+            "font": "GothamBold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer_mtngcqz3_xirwt",
+      "name": "Play Button",
+      "type": "layer",
+      "visible": true,
+      "opacity": 100,
+      "bounds": {
+        "x": 810,
+        "y": 500,
+        "width": 300,
+        "height": 80
+      },
+      "semantic": {
+        "probableRole": "button",
+        "confidence": 0.95
+      },
+      "fill": {
+        "hex": "#89B4FA",
+        "r": 137,
+        "g": 180,
+        "b": 250
+      },
+      "text": {
+        "content": "PLAY",
+        "size": 28,
+        "font": "GothamBold"
+      }
+    },
+    {
+      "id": "layer_mtngcqz3_bmrzu",
+      "name": "Settings Button",
+      "type": "layer",
+      "visible": true,
+      "bounds": {
+        "x": 860,
+        "y": 620,
+        "width": 200,
+        "height": 60
+      },
+      "semantic": {
+        "probableRole": "button",
+        "confidence": 0.9
+      },
+      "fill": {
+        "hex": "#A6E3A1",
+        "r": 166,
+        "g": 227,
+        "b": 161
+      },
+      "text": {
+        "content": "SETTINGS",
+        "size": 20,
+        "font": "Gotham"
+      }
+    }
+  ],
+  "groups": [],
+  "assets": [],
+  "colors": [
+    {
+      "hex": "#1E1E2E",
+      "usage": [
+        "background"
+      ]
+    },
+    {
+      "hex": "#89B4FA",
+      "usage": [
+        "button"
+      ]
+    },
+    {
+      "hex": "#A6E3A1",
+      "usage": [
+        "button"
+      ]
+    },
+    {
+      "hex": "#FFFFFF",
+      "usage": [
+        "text"
+      ]
+    }
+  ],
+  "fonts": [
+    "Gotham",
+    "GothamBold"
+  ],
+  "metadata": {
+    "generatedAt": "2026-09-04T21:14:48.591Z",
+    "generator": "PSD Intelligence Scanner v1.0"
+  }
+}

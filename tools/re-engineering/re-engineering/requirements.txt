@@ -1,0 +1,3 @@
+# Re-Engineering Engine v1
+pefile>=2023.2.7
+capstone>=5.0.0

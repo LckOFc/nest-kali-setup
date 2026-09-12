@@ -1,0 +1,11 @@
+{
+  "success": false,
+  "data": null,
+  "error": "HexEditor.extract_strings() got an unexpected keyword argument 'limit'",
+  "metadata": {
+    "pe_info": {
+      "error": "'Binary' object has no attribute 'exports'"
+    }
+  },
+  "timestamp": "2026-09-09T22:29:46.718060"
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shape Engine</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+      background: #1e1e2e;
+      color: #cdd6f4;
+      overflow-y: auto;
+      height: 100vh;
+    }
+    h2 { font-size: 15px; color: #89b4fa; margin-bottom: 12px; }
+    h3 { font-size: 13px; color: #f9e2af; margin: 16px 0 8px; }
+    p { font-size: 12px; color: #a6adc8; margin-bottom: 12px; }
+    .section {
+      background: #181825;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 10px;
+      border: 1px solid #313244;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 6px;
+    }
+    button {
+      background: #313244;
+      border: 1px solid #45475a;
+      border-radius: 6px;
+      color: #cdd6f4;
+      padding: 8px 10px;
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.12s;
+      text-align: center;
+      font-family: inherit;
+    }
+    button:hover {
+      background: #45475a;
+      border-color: #89b4fa;
+      color: #89b4fa;
+    }
+    button.primary {
+      background: #89b4fa;
+      color: #1e1e2e;
+      border-color: #89b4fa;
+      font-weight: 600;
+    }
+    button.primary:hover { background: #74c7ec; }
+    button.danger {
+      background: #f38ba8;
+      color: #1e1e2e;
+      border-color: #f38ba8;
+    }
+    button.success {
+      background: #a6e3a1;
+      color: #1e1e2e;
+      border-color: #a6e3a1;
+    }
+    .shape-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      padding: 10px 6px;
+      min-height: 64px;
+    }
+    .shape-btn svg {
+      width: 28px;
+      height: 28px;
+    }
+    label { font-size: 11px; color: #a6adc8; }
+    input[type="number"], input[type="text"], input[type="range"] {
+      background: #313244;
+      border: 1px solid #45475a;
+      color: #cdd6f4;
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-size: 12px;
+      font-family: inherit;
+    }
+    input[type="range"] { padding: 0; }
+    input[type="color"] {
+      width: 32px;
+      height: 24px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .row + .row { margin-top: 4px; }
+    .badge {
+      display: inline-block;
+      background: #45475a;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 10px;
+      color: #a6adc8;
+    }
+    hr { border: none; border-top: 1px solid #313244; margin: 12px 0; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="./ui.js"></script>
+</body>
+</html>

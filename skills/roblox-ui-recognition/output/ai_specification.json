@@ -1,0 +1,110 @@
+{
+  "screenName": "Desktop",
+  "canvasWidth": 1920,
+  "canvasHeight": 1080,
+  "elements": [
+    {
+      "id": "layer_bg",
+      "name": "Background",
+      "robloxClass": "ImageLabel",
+      "position": {
+        "xScale": 0,
+        "yScale": 0,
+        "xOffset": 0,
+        "yOffset": 0
+      },
+      "size": {
+        "xScale": 1,
+        "yScale": 1,
+        "xOffset": 0,
+        "yOffset": 0
+      },
+      "properties": {
+        "image": "rbxassetid://0",
+        "scaleType": "Fill",
+        "backgroundColor": "#1E1E2E"
+      },
+      "responsive": {
+        "strategy": "Fill"
+      }
+    },
+    {
+      "id": "layer_btn_play",
+      "name": "Play Button",
+      "robloxClass": "TextButton",
+      "position": {
+        "xScale": 0.42,
+        "yScale": 0.46,
+        "xOffset": 0,
+        "yOffset": 0
+      },
+      "size": {
+        "xScale": 0.156,
+        "yScale": 0.074,
+        "xOffset": 0,
+        "yOffset": 0
+      },
+      "properties": {
+        "text": "PLAY",
+        "textSize": 28,
+        "textColor": "#FFFFFF",
+        "backgroundColor": "#89B4FA",
+        "cornerRadius": 12
+      },
+      "responsive": {
+        "strategy": "ScaleToFit",
+        "mobileScale": 0.9,
+        "minWidth": 200,
+        "minHeight": 60
+      }
+    },
+    {
+      "id": "layer_btn_settings",
+      "name": "Settings Button",
+      "robloxClass": "TextButton",
+      "position": {
+        "xScale": 0.447,
+        "yScale": 0.576,
+        "xOffset": 0,
+        "yOffset": 0
+      },
+      "size": {
+        "xScale": 0.104,
+        "yScale": 0.056,
+        "xOffset": 0,
+        "yOffset": 0
+      },
+      "properties": {
+        "text": "SETTINGS",
+        "textSize": 20,
+        "textColor": "#FFFFFF",
+        "backgroundColor": "#A6E3A1",
+        "cornerRadius": 8
+      },
+      "responsive": {
+        "strategy": "ScaleToFit"
+      }
+    }
+  ],
+  "layoutHints": {
+    "verticalGroups": [
+      {
+        "parentId": "header_group",
+        "children": [
+          "layer_btn_play",
+          "layer_btn_settings"
+        ]
+      }
+    ]
+  },
+  "fonts": {
+    "primary": "GothamBold",
+    "fallback": "Gotham"
+  },
+  "colors": {
+    "primary": "#89B4FA",
+    "secondary": "#A6E3A1",
+    "background": "#1E1E2E"
+  },
+  "notes": "Menu principal com botão de jogo e configurações. Layout responsivo sugerido."
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FigmaPS2Roblox</title>
+  <style>
+    :root {
+      --bg: #0f0f14;
+      --surface: #1a1a24;
+      --border: #2a2a3a;
+      --text: #e2e2e8;
+      --muted: #6b6b80;
+      --blue: #4f8ef7;
+      --green: #34d399;
+      --red: #f87171;
+      --yellow: #fbbf24;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 12px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    /* Header */
+    .header {
+      padding: 12px 16px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo {
+      width: 24px; height: 24px;
+      background: linear-gradient(135deg, var(--blue), #818cf8);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px;
+    }
+    .title { font-size: 13px; font-weight: 600; }
+    .subtitle { font-size: 10px; color: var(--muted); }
+    .badge {
+      margin-left: auto;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 10px;
+      font-weight: 600;
+      background: var(--border);
+      color: var(--muted);
+    }
+    .badge.connected { background: rgba(52, 211, 153, 0.15); color: var(--green); }
+    
+    /* Main Content */
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 16px;
+      gap: 12px;
+      overflow: hidden;
+    }
+    
+    /* Info Card */
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+    }
+    .info-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .info-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .info-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .info-value { font-size: 14px; font-weight: 600; }
+    .info-value.muted { color: var(--muted); font-size: 12px; }
+    
+    /* Export Card */
+    .export-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    /* Layer Preview */
+    .layer-preview {
+      max-height: 120px;
+      overflow-y: auto;
+      background: var(--bg);
+      border-radius: 6px;
+      padding: 8px;
+    }
+    .layer-preview::-webkit-scrollbar { width: 4px; }
+    .layer-preview::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    
+    .layer-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 6px;
+      border-radius: 4px;
+      font-size: 11px;
+    }
+    .layer-item:hover { background: var(--surface); }
+    .layer-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+    .layer-name { flex: 1; color: var(--text); }
+    .layer-size { color: var(--muted); font-size: 10px; }
+    .layer-type {
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 9px;
+      background: var(--border);
+      color: var(--muted);
+    }
+    
+    /* Artboard Selector */
+    .artboard-selector {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .artboard-btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--muted);
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .artboard-btn:hover { border-color: var(--blue); color: var(--text); }
+    .artboard-btn.active { background: var(--blue); border-color: var(--blue); color: white; }
+    
+    /* Options */
+    .options {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .option {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      background: var(--bg);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .option:hover { background: var(--surface); }
+    .option input[type="checkbox"] { accent-color: var(--blue); }
+    .option label { cursor: pointer; color: var(--text-secondary); }
+    
+    /* Export Button */
+    .export-btn {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--blue), #6366f1);
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .export-btn:hover:not(:disabled) { transform: translateY(-1px); opacity: 0.95; }
+    .export-btn:disabled { background: var(--border); cursor: not-allowed; }
+    
+    /* Progress */
+    .progress {
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+      display: none;
+    }
+    .progress.active { display: block; }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--blue), var(--green));
+      transition: width 0.3s;
+      border-radius: 2px;
+    }
+    .progress-text {
+      font-size: 10px;
+      color: var(--muted);
+      text-align: center;
+      margin-top: 4px;
+    }
+    
+    /* Status */
+    .status-bar {
+      padding: 8px 16px;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      font-size: 10px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .status-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+    .status-dot.error { background: var(--red); }
+    .status-dot.loading { background: var(--yellow); animation: pulse 1s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">🎨</div>
+    <div>
+      <div class="title">FigmaPS2Roblox</div>
+      <div class="subtitle">Photoshop → Roblox UI</div>
+    </div>
+    <div class="badge" id="badge">Desconectado</div>
+  </div>
+  
+  <div class="content">
+    <!-- Doc Info -->
+    <div class="info-card">
+      <div class="info-row">
+        <div class="info-item">
+          <span class="info-label">📄 Documento</span>
+          <span class="info-value muted" id="docName">Nenhum aberto</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">📐 Canvas</span>
+          <span class="info-value" id="canvasSize">—</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">📊 Camadas</span>
+          <span class="info-value" id="layerCount">—</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">🎯 Artboards</span>
+          <span class="info-value" id="artboardCount">—</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Artboard Selector -->
+    <div class="info-card" id="artboardSection" style="display: none;">
+      <div class="info-label" style="margin-bottom: 8px;">🎯 Selecionar Prancheta:</div>
+      <div class="artboard-selector" id="artboardSelector">
+        <button class="artboard-btn active" data-id="all">Todas</button>
+      </div>
+    </div>
+    
+    <!-- Export Card -->
+    <div class="export-card">
+      <div class="info-label">📤 EXPORTAR PARA ROBLOX</div>
+      
+      <!-- Layer Preview -->
+      <div class="layer-preview" id="layerPreview">
+        <div style="color: var(--muted); text-align: center; padding: 20px;">
+          Nenhum documento aberto
+        </div>
+      </div>
+      
+      <!-- Options -->
+      <div class="options">
+        <div class="option">
+          <input type="checkbox" id="optBypass" checked>
+          <label for="optBypass">🛡️ Bypass</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="optHash" checked>
+          <label for="optHash">🔒 Hash único</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="optLua" checked>
+          <label for="optLua">📝 Lua</label>
+        </div>
+      </div>
+      
+      <!-- Export Button -->
+      <button class="export-btn" id="exportBtn" onclick="exportToRoblox()" disabled>
+        🚀 EXPORTAR
+      </button>
+      
+      <!-- Progress -->
+      <div class="progress" id="progress">
+        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+      </div>
+      <div class="progress-text" id="progressText"></div>
+    </div>
+  </div>
+  
+  <div class="status-bar">
+    <div class="status-dot" id="statusDot"></div>
+    <span id="statusText">Aguardando...</span>
+    <span style="margin-left: auto;">v2.2.0</span>
+  </div>
+  
+  <script src="cep.js"></script>
+</body>
+</html>

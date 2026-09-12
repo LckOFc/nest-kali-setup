@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go RE Engine - Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            min-height: 100vh;
+        }
+        .header {
+            background: linear-gradient(135deg, #16213e, #0f3460);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #e94560;
+        }
+        .header h1 { color: #e94560; font-size: 2em; }
+        .header p { color: #aaa; margin-top: 5px; }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .stat-card {
+            background: #16213e;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #0f3460;
+        }
+        .stat-card h3 { color: #e94560; font-size: 2em; }
+        .stat-card p { color: #aaa; margin-top: 5px; }
+        
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .panel {
+            background: #16213e;
+            border-radius: 8px;
+            padding: 15px;
+            border: 1px solid #0f3460;
+        }
+        .panel h2 {
+            color: #e94560;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #0f3460;
+        }
+        .panel pre {
+            background: #0f3460;
+            padding: 10px;
+            border-radius: 4px;
+            max-height: 400px;
+            overflow-y: auto;
+            font-size: 12px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin: 2px;
+            font-size: 11px;
+        }
+        .tag-go { background: #00add8; color: #000; }
+        .tag-type { background: #e94560; color: #fff; }
+        .tag-func { background: #533483; color: #fff; }
+        .tag-str { background: #16213e; color: #eee; border: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔍 Go RE Engine v1.0</h1>
+        <p>Reverse Engineering Toolkit para Binários Go</p>
+    </div>
+    
+    <div class="stats">
+        <div class="stat-card">
+            <h3>{{ data.get('strings', {}).get('total', 0) }}</h3>
+            <p>Strings Recuperadas</p>
+        </div>
+        <div class="stat-card">
+            <h3>{{ data.get('functions', {}).get('total', 0) }}</h3>
+            <p>Funções Identificadas</p>
+        </div>
+        <div class="stat-card">
+            <h3>{{ data.get('types', {}).get('total', 0) }}</h3>
+            <p>Tipos Recuperados</p>
+        </div>
+        <div class="stat-card">
+            <h3>{{ data.get('cfg', {}).get('analyzed', 0) }}</h3>
+            <p>CFGs Analisados</p>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="panel">
+            <h2>📊 Categorias de Strings</h2>
+            <pre>{{ data.get('strings', {}).get('categories', {}) | tojson(indent=2) }}</pre>
+        </div>
+        
+        <div class="panel">
+            <h2>🔧 Funções (Top 20)</h2>
+            <pre>{% for func in data.get('functions', {}).get('sample', [])[:20] %}
+[{{ func.addr }}] {{ func.name }}
+  Sig: {{ func.sig }}
+  Size: {{ func.size }} bytes
+  Params: {{ func.params }}
+  Returns: {{ func.returns }}
+
+{% endfor %}</pre>
+        </div>
+        
+        <div class="panel">
+            <h2>📦 Tipos Recuperados</h2>
+            <pre>{% for typ in data.get('types', {}).get('sample', [])[:20] %}
+[{{ typ.name }}] {% if typ.is_struct %}STRUCT{% else %}INTERFACE{% endif %}
+  Fields: {{ typ.fields }}
+
+{% endfor %}</pre>
+        </div>
+        
+        <div class="panel">
+            <h2>🔗 Configurações Antigravity</h2>
+            <pre>{% for cfg in data.get('strings', {}).get('config', [])[:10] %}
+{{ cfg[:100] }}
+{% endfor %}</pre>
+        </div>
+    </div>
+</body>
+</html>

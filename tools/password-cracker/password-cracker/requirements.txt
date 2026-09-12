@@ -1,0 +1,2 @@
+# Password Cracker v1
+# No external dependencies required (uses only stdlib)
