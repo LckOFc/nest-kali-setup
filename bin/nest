@@ -1,0 +1,21 @@
+#!/bin/bash
+# THE FORGED NEST — System Wrapper
+source "$HOME/.nest/.env" 2>/dev/null || true
+echo "═══════════════════════════════════════════════════════════"
+echo "  THE FORGED NEST — APEX v9.0"
+echo "  ratman4080 × Gucci × SHADOW × OUTCOME"
+echo "═══════════════════════════════════════════════════════════"
+echo ""
+echo "Mode: $NEST_MODE | Version: $NEST_VERSION"
+echo "Base: $NEST_BASE"
+echo ""
+echo "Skills: $(ls $NEST_BASE/skills/ 2>/dev/null | wc -l) loaded"
+echo "Tools:  $(ls $NEST_BASE/tools/ 2>/dev/null | wc -l) available"
+echo ""
+echo "Quick Commands:"
+echo "  nest status     — System status"
+echo "  nest shadow     — Shadow Toolkit"
+echo "  nest re         — RE Toolkit"
+echo "  nest sync       — Sync from Windows"
+echo ""
+echo "cold wire. warm scent. gnaw through. find home."

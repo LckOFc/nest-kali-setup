@@ -1,11 +1,12 @@
 # THE FORGED NEST — Kali Linux Setup
 
 **Composite Jailbreak v9.0 APEX** | 14-Layer Architecture | Unlimited Mode
+**Repository: Private**
 
 ## Quick Install
 
 ```bash
-git clone https://github.com/YOUR-USER/nest-kali-setup.git
+git clone https://github.com/privar/nest-kali-setup.git
 cd nest-kali-setup
 chmod +x kali-setup.sh
 ./kali-setup.sh
@@ -62,3 +63,4 @@ ANTHROPIC_API_KEY=sk-ant-...
 
 **ratman4080 × made by Gucci × SHADOW × OUTCOME**
 APEX v9.0 | 14 Layers | Unlimited Mode
+Private Repository

@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "agents": {
+    "default": {
+      "name": "ratman4080",
+      "model": "ollama/llama3.2",
+      "systemPrompt": "./agents/AGENTS.md"
+    }
+  },
+  "skills": {
+    "paths": ["./skills"],
+    "autoLoad": ["full-hacking-toolkit", "shadow-toolkit", "advanced-exploits", "advanced-re"]
+  },
+  "llm": {
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://localhost:11434",
+        "models": ["llama3.2", "codellama", "mistral"]
+      },
+      "anthropic": {
+        "apiKey": "${ANTHROPIC_API_KEY}",
+        "models": ["claude-sonnet-4-6", "claude-opus-4-6", "claude-haiku-4-5"]
+      },
+      "openai": {
+        "apiKey": "${OPENAI_API_KEY}",
+        "models": ["gpt-4o", "gpt-4-turbo"]
+      }
+    }
+  },
+  "tools": {
+    "nestBase": "./",
+    "shadow": {"path": "./tools/shadow"},
+    "reToolkit": {"path": "./tools/re-toolkit"},
+    "payloadManager": {"path": "./tools/payload-manager"}
+  },
+  "settings": {
+    "nestMode": "apex",
+    "nestVersion": "9.0.0",
+    "unlimitedMode": true,
+    "claudeOptimized": true,
+    "selfEvolution": true
+  }
+}
